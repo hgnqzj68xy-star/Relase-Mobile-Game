@@ -297,7 +297,7 @@ def scrape_gplay_page(bundle_id: str) -> dict | None:
         return None
 
     raw  = resp.text
-    soup = BeautifulSoup(raw, "html.parser")
+    soup = BeautifulSoup(raw, "lxml")
 
     if any(kw in raw for kw in ["Nous n'avons pas pu trouver", "not found"]):
         return None
