@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Games Calendar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:#0a0b0f;--surface:#111318;--surface2:#181b22;--border:#ffffff0f;
+      --border2:#ffffff1a;--text:#e8eaf0;--muted:#6b7280;
+      --ios:#3b82f6;--ios-bg:#3b82f615;--android:#22c55e;--android-bg:#22c55e15;
+      --both:#f59e0b;--both-bg:#f59e0b15;--today:#7c3aed;--accent:#7c3aed;
+      --featured:#f59e0b;--radius:12px;--radius-sm:8px;
+    }
+    html{font-size:16px;}
+    body{background:var(--bg);color:var(--text);font-family:'DM Mono',monospace;min-height:100vh;overflow-x:hidden;}
+    body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 50% at 20% -10%,#7c3aed18 0%,transparent 60%),radial-gradient(ellipse 60% 40% at 80% 110%,#3b82f612 0%,transparent 60%);pointer-events:none;z-index:0;}
+    .app{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:2rem 1.5rem 4rem;}
+    header{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:2rem;gap:1rem;flex-wrap:wrap;}
+    .header-left h1{font-family:'Syne',sans-serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:800;letter-spacing:-0.03em;line-height:1;background:linear-gradient(135deg,#e8eaf0 0%,#9ca3af 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+    .header-left h1 span{background:linear-gradient(135deg,#7c3aed,#3b82f6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+    .header-left .subtitle{margin-top:0.4rem;font-size:0.75rem;color:var(--muted);letter-spacing:0.05em;}
+    .last-updated{font-size:0.7rem;color:var(--muted);text-align:right;}
+    /* FEATURED */
+    .featured-section{margin-bottom:2.5rem;}
+    .featured-header{display:flex;align-items:center;gap:0.6rem;margin-bottom:1rem;}
+    .featured-header h2{font-family:'Syne',sans-serif;font-size:0.8rem;font-weight:700;letter-spacing:0.15em;color:var(--featured);text-transform:uppercase;}
+    .featured-header::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--featured)44,transparent);}
+    .featured-label-badge{font-size:0.6rem;padding:2px 8px;background:var(--both-bg);border:1px solid var(--featured);color:var(--featured);border-radius:99px;letter-spacing:0.08em;}
+    .featured-scroll{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.75rem;}
+    @media(max-width:700px){.featured-scroll{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:0.75rem;padding-bottom:0.5rem;-webkit-overflow-scrolling:touch;}.featured-scroll::-webkit-scrollbar{display:none;}}
+    .featured-card{flex-shrink:0;width:180px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--border2);background:var(--surface);cursor:pointer;transition:transform 0.18s,border-color 0.18s,box-shadow 0.18s;scroll-snap-align:start;position:relative;}
+    .featured-card:hover{transform:translateY(-4px);border-color:var(--featured);box-shadow:0 8px 32px #f59e0b22;}
+    .featured-card-img{width:100%;height:100px;object-fit:cover;display:block;background:var(--surface2);}
+    .featured-card-img-fallback{width:100%;height:100px;background:linear-gradient(135deg,var(--surface2),#1e2130);display:flex;align-items:center;justify-content:center;}
+    .featured-card-icon-big{width:52px;height:52px;border-radius:12px;object-fit:cover;}
+    .featured-card-body{padding:0.6rem 0.7rem 0.7rem;}
+    .featured-card-date{font-size:0.6rem;color:var(--featured);letter-spacing:0.08em;margin-bottom:3px;font-weight:500;}
+    .featured-card-title{font-family:'Syne',sans-serif;font-size:0.82rem;font-weight:700;line-height:1.2;margin-bottom:0.35rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .featured-card-meta{display:flex;gap:4px;flex-wrap:wrap;align-items:center;}
+    .featured-star-badge{position:absolute;top:6px;right:6px;background:#000000aa;backdrop-filter:blur(4px);border-radius:99px;padding:2px 7px;font-size:0.6rem;color:var(--featured);display:flex;align-items:center;gap:3px;}
+    /* CONTROLS */
+    .controls{display:flex;align-items:center;gap:1rem;margin-bottom:1.5rem;flex-wrap:wrap;}
+    .month-nav{display:flex;align-items:center;gap:0.5rem;background:var(--surface);border:1px solid var(--border2);border-radius:var(--radius);padding:0.4rem;}
+    .btn-nav{background:none;border:none;color:var(--text);cursor:pointer;width:32px;height:32px;border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;transition:background 0.15s;font-size:1rem;}
+    .btn-nav:hover{background:var(--border2);}
+    .month-label{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;min-width:160px;text-align:center;letter-spacing:-0.01em;}
+    .filters{display:flex;gap:0.5rem;flex-wrap:wrap;margin-left:auto;}
+    .filter-btn{padding:0.35rem 0.9rem;border-radius:99px;border:1px solid var(--border2);background:transparent;color:var(--muted);font-family:'DM Mono',monospace;font-size:0.7rem;cursor:pointer;transition:all 0.15s;letter-spacing:0.03em;}
+    .filter-btn:hover{border-color:var(--text);color:var(--text);}
+    .filter-btn.active-ios{background:var(--ios-bg);border-color:var(--ios);color:var(--ios);}
+    .filter-btn.active-android{background:var(--android-bg);border-color:var(--android);color:var(--android);}
+    .filter-btn.active-all{background:#ffffff12;border-color:var(--text);color:var(--text);}
+    /* LEGEND */
+    .legend{display:flex;gap:1.2rem;margin-bottom:1.5rem;font-size:0.7rem;color:var(--muted);flex-wrap:wrap;}
+    .legend-item{display:flex;align-items:center;gap:0.4rem;}
+    .dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+    .dot-ios{background:var(--ios);}.dot-android{background:var(--android);}.dot-both{background:var(--both);}.dot-featured{background:var(--featured);border-radius:2px;}
+    /* STATS */
+    .stats-bar{display:flex;gap:1.5rem;padding:0.75rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1.5rem;font-size:0.72rem;flex-wrap:wrap;}
+    .stat{display:flex;flex-direction:column;gap:2px;}
+    .stat-val{font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:800;}
+    .stat-label{color:var(--muted);}
+    /* CALENDAR */
+    .calendar-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;}
+    .day-header{text-align:center;font-size:0.65rem;color:var(--muted);letter-spacing:0.1em;padding:0.5rem 0;font-weight:500;}
+    .day-cell{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);min-height:110px;padding:0.5rem;transition:border-color 0.15s;cursor:default;position:relative;}
+    .day-cell:hover{border-color:var(--border2);}
+    .day-cell.empty{background:transparent;border-color:transparent;}
+    .day-cell.today{border-color:var(--today);background:#7c3aed08;}
+    .day-cell.has-games{cursor:pointer;}
+    .day-cell.has-games:hover{border-color:var(--border2);background:var(--surface2);}
+    .day-cell.has-featured{border-color:var(--featured)!important;background:#f59e0b08!important;box-shadow:0 0 0 1px #f59e0b33,inset 0 0 20px #f59e0b08;}
+    .day-cell.has-featured .day-number{color:var(--featured);}
+    .featured-corner{position:absolute;top:0;right:0;width:0;height:0;border-style:solid;border-width:0 18px 18px 0;border-color:transparent var(--featured) transparent transparent;border-radius:0 var(--radius-sm) 0 0;}
+    .day-number{font-family:'Syne',sans-serif;font-size:0.8rem;font-weight:700;color:var(--muted);margin-bottom:0.4rem;}
+    .day-cell.today .day-number{color:var(--accent);}
+    .game-chips{display:flex;flex-direction:column;gap:3px;}
+    .chip{display:flex;align-items:center;gap:4px;padding:3px 6px;border-radius:5px;font-size:0.62rem;line-height:1.2;transition:opacity 0.15s;cursor:pointer;overflow:hidden;}
+    .chip:hover{opacity:0.8;}
+    .chip.ios{background:var(--ios-bg);border-left:2px solid var(--ios);}
+    .chip.android{background:var(--android-bg);border-left:2px solid var(--android);}
+    .chip.both{background:var(--both-bg);border-left:2px solid var(--both);}
+    .chip.featured-chip{background:#f59e0b18!important;border-left:2px solid var(--featured)!important;font-weight:600;}
+    .chip-icon{width:14px;height:14px;border-radius:3px;object-fit:cover;flex-shrink:0;}
+    .chip-icon-placeholder{width:14px;height:14px;border-radius:3px;background:var(--border2);flex-shrink:0;}
+    .chip-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;}
+    .chip-star{font-size:0.55rem;color:var(--featured);flex-shrink:0;}
+    .more-badge{font-size:0.6rem;color:var(--muted);padding:2px 4px;background:var(--border);border-radius:4px;cursor:pointer;}
+    /* MODAL */
+    .overlay{display:none;position:fixed;inset:0;background:#00000088;backdrop-filter:blur(4px);z-index:100;align-items:center;justify-content:center;padding:1rem;}
+    .overlay.open{display:flex;}
+    .modal{background:var(--surface);border:1px solid var(--border2);border-radius:16px;width:100%;max-width:520px;max-height:88vh;overflow-y:auto;padding:1.5rem;position:relative;animation:slideUp 0.2s ease;}
+    @keyframes slideUp{from{transform:translateY(20px);opacity:0;}to{transform:translateY(0);opacity:1;}}
+    .modal-close{position:absolute;top:1rem;right:1rem;background:var(--border);border:none;color:var(--text);width:28px;height:28px;border-radius:50%;cursor:pointer;font-size:0.85rem;display:flex;align-items:center;justify-content:center;}
+    .modal-close:hover{background:var(--border2);}
+    .modal-date{font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:700;margin-bottom:1rem;color:var(--text);}
+    .modal-game{display:flex;flex-direction:column;border-radius:var(--radius-sm);background:var(--surface2);border:1px solid var(--border);margin-bottom:0.5rem;overflow:hidden;transition:border-color 0.15s;color:var(--text);}
+    .modal-game:hover{border-color:var(--border2);}
+    .modal-game.modal-featured{border-color:var(--featured);}
+    .modal-game.modal-featured:hover{box-shadow:0 4px 20px #f59e0b22;}
+    .modal-game-banner{width:100%;height:110px;object-fit:cover;display:block;}
+    .modal-game-banner-placeholder{width:100%;height:80px;background:linear-gradient(135deg,#1a1d28,#12151e);display:flex;align-items:center;justify-content:center;}
+    .modal-game-banner-icon{width:48px;height:48px;border-radius:10px;object-fit:cover;}
+    .modal-game-row{display:flex;gap:0.75rem;padding:0.65rem 0.75rem 0.75rem;align-items:flex-start;}
+    .modal-game-icon{width:40px;height:40px;border-radius:var(--radius-sm);object-fit:cover;flex-shrink:0;background:var(--border);}
+    .modal-game-info{flex:1;min-width:0;}
+    .modal-game-title{font-family:'Syne',sans-serif;font-weight:700;font-size:0.88rem;margin-bottom:0.25rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+    .modal-game-meta{font-size:0.7rem;color:var(--muted);display:flex;gap:0.4rem;flex-wrap:wrap;align-items:center;}
+    .badge{padding:1px 6px;border-radius:4px;font-size:0.6rem;}
+    .badge-ios{background:var(--ios-bg);color:var(--ios);}
+    .badge-android{background:var(--android-bg);color:var(--android);}
+    .badge-price{background:var(--border);color:var(--muted);}
+    .badge-featured{background:var(--both-bg);color:var(--featured);}
+    .stars{color:var(--featured);font-size:0.65rem;}
+    .store-btns{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap;}
+    .store-btn{display:inline-flex;align-items:center;gap:5px;padding:5px 12px;border-radius:7px;font-size:0.65rem;text-decoration:none;font-family:'DM Mono',monospace;transition:opacity 0.15s;}
+    .store-btn:hover{opacity:0.8;}
+    .store-btn-ios{background:var(--ios-bg);border:1px solid #3b82f655;color:var(--ios);}
+    .store-btn-android{background:var(--android-bg);border:1px solid #22c55e55;color:var(--android);}
+    ::-webkit-scrollbar{width:6px;height:6px;}::-webkit-scrollbar-track{background:transparent;}::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px;}
+    @media(max-width:600px){.day-cell{min-height:70px;padding:0.35rem;}.chip-title{display:none;}.chip{padding:3px;}.controls{gap:0.5rem;}.filters{margin-left:0;}.featured-card{width:155px;}.featured-card-img,.featured-card-img-fallback{height:85px;}}
+  </style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="header-left">
+      <h1>📱 Mobile<span>Games</span></h1>
+      <p class="subtitle">RELEASE CALENDAR · iOS & ANDROID</p>
+    </div>
+    <div class="last-updated" id="lastUpdated">—</div>
+  </header>
+
+  <section class="featured-section" id="featuredSection" style="display:none">
+    <div class="featured-header">
+      <h2>⭐ À ne pas manquer</h2>
+      <span class="featured-label-badge">CE MOIS</span>
+    </div>
+    <div class="featured-scroll" id="featuredScroll"></div>
+  </section>
+
+  <div class="controls">
+    <div class="month-nav">
+      <button class="btn-nav" id="btnPrev">◀</button>
+      <span class="month-label" id="monthLabel">—</span>
+      <button class="btn-nav" id="btnNext">▶</button>
+    </div>
+    <button class="btn-nav" id="btnToday" style="background:var(--surface);border:1px solid var(--border2);border-radius:var(--radius-sm);width:auto;padding:0 0.75rem;font-family:'DM Mono',monospace;font-size:0.72rem;color:var(--muted);">TODAY</button>
+    <div class="filters">
+      <button class="filter-btn active-all" data-filter="all">ALL</button>
+      <button class="filter-btn" data-filter="ios">iOS</button>
+      <button class="filter-btn" data-filter="android">ANDROID</button>
+    </div>
+  </div>
+
+  <div class="stats-bar">
+    <div class="stat"><span class="stat-val" id="statTotal">—</span><span class="stat-label">ce mois</span></div>
+    <div class="stat"><span class="stat-val" style="color:var(--ios)" id="statIos">—</span><span class="stat-label">iOS</span></div>
+    <div class="stat"><span class="stat-val" style="color:var(--android)" id="statAndroid">—</span><span class="stat-label">Android</span></div>
+    <div class="stat"><span class="stat-val" style="color:var(--featured)" id="statFeatured">—</span><span class="stat-label">à la une</span></div>
+    <div class="stat"><span class="stat-val" id="statFree">—</span><span class="stat-label">gratuits</span></div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="dot dot-ios"></div>iOS</div>
+    <div class="legend-item"><div class="dot dot-android"></div>Android</div>
+    <div class="legend-item"><div class="dot dot-both"></div>Les deux</div>
+    <div class="legend-item"><div class="dot dot-featured"></div>À la une</div>
+  </div>
+
+  <div class="calendar-grid" id="calendarGrid"></div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-date" id="modalDate"></div>
+    <div id="modalGames"></div>
+  </div>
+</div>
+
+<script>
+let allGames=[];
+let curYear=new Date().getFullYear();
+let curMonth=new Date().getMonth();
+let curFilter='all';
+const today=new Date();
+const fmt=(y,m,d)=>`${y}-${String(m+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+const MONTHS_FR=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+const MONTHS_SHORT=['Jan','Fév','Mar','Avr','Mai','Jui','Jul','Aoû','Sep','Oct','Nov','Déc'];
+const DAYS_FR=['Lun','Mar','Mer','Jeu','Ven','Sam','Dim'];
+
+function getPlatformClass(g){
+  const has=p=>g.platform.includes(p);
+  if(has('ios')&&has('android'))return 'both';
+  if(has('ios'))return 'ios';
+  if(has('android'))return 'android';
+  return 'ios';
+}
+function filterGames(g){return curFilter==='all'?g:g.filter(x=>x.platform.includes(curFilter));}
+function starsHtml(r){
+  if(!r)return '';
+  let s='';for(let i=0;i<Math.floor(r);i++)s+='★';
+  if(r%1>=0.5)s+='½';
+  return `<span class="stars">${s} ${r.toFixed(1)}</span>`;
+}
+function formatDateShort(ds){const[y,m,d]=ds.split('-').map(Number);return `${MONTHS_SHORT[m-1]} ${d}`;}
+
+function computeFeatured(games,year,month){
+  const mg=games.filter(g=>{const[y,m]=g.releaseDate.split('-').map(Number);return y===year&&m-1===month;});
+  const byTitle={};
+  mg.forEach(g=>{const k=g.title.toLowerCase();if(!byTitle[k]||g.platform.includes('ios'))byTitle[k]=g;});
+  const unique=Object.values(byTitle);
+  unique.forEach(g=>{
+    const r=g.rating||0;
+    const hasOther=games.some(o=>o.title.toLowerCase()===g.title.toLowerCase()&&o.id!==g.id);
+    g._score=r*2+(hasOther?1:0);
+  });
+  return unique.sort((a,b)=>b._score-a._score||a.releaseDate.localeCompare(b.releaseDate)).slice(0,6);
+}
+
+async function loadData(){
+  try{
+    const base='/Mobi-Me-Mensuel';
+    const res=await fetch(base+'/data/games.json?_='+Date.now());
+    const data=await res.json();
+    allGames=data.games||[];
+    const hasManual=allGames.some(g=>g.featured===true);
+    if(!hasManual){
+      const featured=computeFeatured(allGames,curYear,curMonth);
+      const ft=new Set(featured.map(g=>g.title.toLowerCase()));
+      allGames.forEach(g=>{g.featured=ft.has(g.title.toLowerCase());});
+    }
+    document.getElementById('lastUpdated').textContent=data.lastUpdated?'Mis à jour : '+new Date(data.lastUpdated).toLocaleDateString('fr-FR'):'';
+  }catch(e){console.error(e);allGames=[];}
+  renderAll();
+}
+
+function renderFeatured(){
+  const section=document.getElementById('featuredSection');
+  const scroll=document.getElementById('featuredScroll');
+  scroll.innerHTML='';
+  const featured=computeFeatured(allGames,curYear,curMonth);
+  if(!featured.length){section.style.display='none';return;}
+  section.style.display='block';
+  featured.forEach(game=>{
+    const card=document.createElement('div');
+    card.className='featured-card';
+    card.addEventListener('click',()=>{
+      const dg=allGames.filter(g=>g.releaseDate===game.releaseDate);
+      openModal(game.releaseDate,dg);
+    });
+    const hasHeader=game.headerImage&&!game.headerImage.includes('picsum');
+    const imgHtml=hasHeader
+      ?`<img class="featured-card-img" src="${game.headerImage}" alt="${game.title}" onerror="this.parentElement.innerHTML='<div class=featured-card-img-fallback><img class=featured-card-icon-big src=\\'${game.icon}\\' onerror=\\'this.style.display=none\\'></div>'" />`
+      :`<div class="featured-card-img-fallback"><img class="featured-card-icon-big" src="${game.icon||''}" alt="" onerror="this.style.display='none'" /></div>`;
+    card.innerHTML=`
+      ${imgHtml}
+      ${game.rating?`<div class="featured-star-badge">★ ${game.rating.toFixed(1)}</div>`:''}
+      <div class="featured-card-body">
+        <div class="featured-card-date">${formatDateShort(game.releaseDate)}</div>
+        <div class="featured-card-title">${game.title}</div>
+        <div class="featured-card-meta">
+          ${game.platform.includes('ios')?'<span class="badge badge-ios">iOS</span>':''}
+          ${game.platform.includes('android')?'<span class="badge badge-android">Android</span>':''}
+          <span class="badge badge-price">${game.price}</span>
+        </div>
+      </div>`;
+    scroll.appendChild(card);
+  });
+}
+
+function renderCalendar(){
+  const grid=document.getElementById('calendarGrid');
+  grid.innerHTML='';
+  DAYS_FR.forEach(d=>{const el=document.createElement('div');el.className='day-header';el.textContent=d;grid.appendChild(el);});
+  const filtered=filterGames(allGames);
+  const gamesByDate={};
+  filtered.forEach(g=>{
+    const[y,m]=g.releaseDate.split('-').map(Number);
+    if(y===curYear&&m-1===curMonth){
+      if(!gamesByDate[g.releaseDate])gamesByDate[g.releaseDate]=[];
+      gamesByDate[g.releaseDate].push(g);
+    }
+  });
+  const monthGames=filtered.filter(g=>{const[y,m]=g.releaseDate.split('-').map(Number);return y===curYear&&m-1===curMonth;});
+  const featuredMonth=allGames.filter(g=>{const[y,m]=g.releaseDate.split('-').map(Number);return g.featured&&y===curYear&&m-1===curMonth;});
+  const featuredTitles=new Set(featuredMonth.map(g=>g.title.toLowerCase()));
+  document.getElementById('statTotal').textContent=monthGames.length;
+  document.getElementById('statIos').textContent=monthGames.filter(g=>g.platform.includes('ios')).length;
+  document.getElementById('statAndroid').textContent=monthGames.filter(g=>g.platform.includes('android')).length;
+  document.getElementById('statFeatured').textContent=featuredTitles.size;
+  document.getElementById('statFree').textContent=monthGames.filter(g=>g.price==='Free').length;
+  document.getElementById('monthLabel').textContent=`${MONTHS_FR[curMonth]} ${curYear}`;
+  const firstDay=new Date(curYear,curMonth,1).getDay();
+  const offset=(firstDay+6)%7;
+  const dim=new Date(curYear,curMonth+1,0).getDate();
+  for(let i=0;i<offset;i++){const el=document.createElement('div');el.className='day-cell empty';grid.appendChild(el);}
+  for(let d=1;d<=dim;d++){
+    const dateStr=fmt(curYear,curMonth,d);
+    const isToday=today.getFullYear()===curYear&&today.getMonth()===curMonth&&today.getDate()===d;
+    const games=gamesByDate[dateStr]||[];
+    const hasFeat=games.some(g=>g.featured);
+    const cell=document.createElement('div');
+    cell.className='day-cell'+(isToday?' today':'')+(games.length?' has-games':'')+(hasFeat?' has-featured':'');
+    if(hasFeat){const corner=document.createElement('div');corner.className='featured-corner';cell.appendChild(corner);}
+    const num=document.createElement('div');num.className='day-number';num.textContent=d;cell.appendChild(num);
+    if(games.length){
+      const chipsEl=document.createElement('div');chipsEl.className='game-chips';
+      const sorted=[...games].sort((a,b)=>(b.featured?1:0)-(a.featured?1:0));
+      sorted.slice(0,3).forEach(g=>{
+        const chip=buildChip(g);
+        chip.addEventListener('click',e=>{e.stopPropagation();openModal(dateStr,sorted);});
+        chipsEl.appendChild(chip);
+      });
+      if(sorted.length>3){const more=document.createElement('div');more.className='more-badge';more.textContent=`+${sorted.length-3} more`;chipsEl.appendChild(more);}
+      cell.appendChild(chipsEl);
+      cell.addEventListener('click',()=>openModal(dateStr,sorted));
+    }
+    grid.appendChild(cell);
+  }
+}
+
+function buildChip(game){
+  const cls=getPlatformClass(game);
+  const chip=document.createElement('div');
+  chip.className=`chip ${cls}${game.featured?' featured-chip':''}`;
+  if(game.icon){const img=document.createElement('img');img.className='chip-icon';img.src=game.icon;img.alt='';img.onerror=()=>{img.style.display='none';};chip.appendChild(img);}
+  else{const ph=document.createElement('div');ph.className='chip-icon-placeholder';chip.appendChild(ph);}
+  const title=document.createElement('span');title.className='chip-title';title.textContent=game.title;chip.appendChild(title);
+  if(game.featured){const star=document.createElement('span');star.className='chip-star';star.textContent='★';chip.appendChild(star);}
+  return chip;
+}
+
+function openModal(dateStr,games){
+  const[y,m,d]=dateStr.split('-').map(Number);
+  document.getElementById('modalDate').textContent=`${d} ${MONTHS_FR[m-1]} ${y} — ${games.length} jeu${games.length>1?'x':''}`;
+  const container=document.getElementById('modalGames');container.innerHTML='';
+
+  // Regrouper iOS + Android du même titre en une seule carte
+  const grouped={};
+  games.forEach(g=>{
+    const key=g.title.toLowerCase();
+    if(!grouped[key]){grouped[key]={...g,_ios:null,_android:null,platform:[...g.platform]};}
+    if(g.platform.includes('ios')){grouped[key]._ios=g.storeUrl;grouped[key].featured=grouped[key].featured||g.featured;}
+    if(g.platform.includes('android')){grouped[key]._android=g.storeUrl;grouped[key].featured=grouped[key].featured||g.featured;}
+    g.platform.forEach(p=>{if(!grouped[key].platform.includes(p))grouped[key].platform.push(p);});
+    if(!grouped[key].headerImage&&g.headerImage)grouped[key].headerImage=g.headerImage;
+    if(!grouped[key].icon&&g.icon)grouped[key].icon=g.icon;
+    if(!grouped[key].rating&&g.rating)grouped[key].rating=g.rating;
+  });
+
+  const sorted=Object.values(grouped).sort((a,b)=>(b.featured?1:0)-(a.featured?1:0));
+
+  sorted.forEach(game=>{
+    const isFeat=game.featured;
+    const card=document.createElement('div');
+    card.className=`modal-game${isFeat?' modal-featured':''}`;
+
+    let bannerHtml='';
+    if(isFeat){
+      const hasHeader=game.headerImage&&!game.headerImage.includes('picsum');
+      bannerHtml=hasHeader
+        ?`<img class="modal-game-banner" src="${game.headerImage}" alt="" onerror="this.style.display='none'" />`
+        :`<div class="modal-game-banner-placeholder"><img class="modal-game-banner-icon" src="${game.icon||''}" alt="" onerror="this.style.display='none'" /></div>`;
+    }
+
+    const iosBtn=game._ios
+      ?`<a href="${game._ios}" target="_blank" rel="noopener" class="store-btn store-btn-ios">🍎 App Store</a>`
+      :'';
+    const androidBtn=game._android
+      ?`<a href="${game._android}" target="_blank" rel="noopener" class="store-btn store-btn-android">🤖 Google Play</a>`
+      :'';
+
+    card.innerHTML=`
+      ${bannerHtml}
+      <div class="modal-game-row">
+        <img class="modal-game-icon" src="${game.icon||''}" alt="" onerror="this.style.display='none'" />
+        <div class="modal-game-info">
+          <div class="modal-game-title">${game.title}</div>
+          <div class="modal-game-meta">
+            ${isFeat?'<span class="badge badge-featured">★ À la une</span>':''}
+            ${game.platform.includes('ios')?'<span class="badge badge-ios">iOS</span>':''}
+            ${game.platform.includes('android')?'<span class="badge badge-android">Android</span>':''}
+            <span class="badge badge-price">${game.price}</span>
+            <span>${game.genre}</span>
+            ${starsHtml(game.rating)}
+          </div>
+          ${game.developer?`<div style="font-size:0.62rem;color:var(--muted);margin-top:4px">${game.developer}</div>`:''}
+          <div class="store-btns">${iosBtn}${androidBtn}</div>
+        </div>
+      </div>`;
+    container.appendChild(card);
+  });
+
+  document.getElementById('overlay').classList.add('open');
+}
+
+function closeModal(){document.getElementById('overlay').classList.remove('open');}
+function renderAll(){renderFeatured();renderCalendar();}
+
+document.getElementById('btnPrev').addEventListener('click',()=>{curMonth--;if(curMonth<0){curMonth=11;curYear--;}renderAll();});
+document.getElementById('btnNext').addEventListener('click',()=>{curMonth++;if(curMonth>11){curMonth=0;curYear++;}renderAll();});
+document.getElementById('btnToday').addEventListener('click',()=>{curYear=today.getFullYear();curMonth=today.getMonth();renderAll();});
+document.querySelectorAll('.filter-btn').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    curFilter=btn.dataset.filter;
+    document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active-all','active-ios','active-android'));
+    btn.classList.add(`active-${curFilter}`);
+    renderCalendar();
+  });
+});
+document.getElementById('modalClose').addEventListener('click',closeModal);
+document.getElementById('overlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+loadData();
+</script>
+</body>
+</html>
