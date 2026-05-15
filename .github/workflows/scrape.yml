@@ -1,0 +1,130 @@
+name: 🎮 Scrape Mobile Game Releases
+
+on:
+  schedule:
+    # Tous les lundis à 06h00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      force_full_refresh:
+        description: "Vider le cache et tout re-scraper"
+        required: false
+        default: "false"
+        type: boolean
+      lookback_days:
+        description: "Nombre de jours en arrière (défaut: 60)"
+        required: false
+        default: "60"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    name: Fetch & Update Games Data
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 🔄 Full refresh (optionnel)
+        if: ${{ inputs.force_full_refresh == 'true' }}
+        run: |
+          echo '{"lastUpdated":"","games":[]}' > data/games.json
+          echo "Cache vidé pour full refresh"
+
+      - name: 🎮 Run scraper
+        run: python scripts/scrape.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: ✅ Valider le JSON produit
+        run: |
+          python3 -c "
+          import json, sys
+          with open('data/games.json') as f:
+              d = json.load(f)
+          games = d.get('games', [])
+          if not games:
+              print('WARN: Aucun jeu dans le JSON')
+              sys.exit(0)
+          required = {'id','title','platform','releaseDate'}
+          invalid = [g['id'] for g in games if not required.issubset(g.keys())]
+          if invalid:
+              print(f'ERROR: {len(invalid)} entrées invalides : {invalid[:5]}')
+              sys.exit(1)
+          print(f'JSON valide : {len(games)} jeux')
+          "
+
+      - name: 📊 Résumé dans le job summary
+        run: |
+          python3 -c "
+          import json
+          from datetime import datetime
+          with open('data/games.json') as f:
+              d = json.load(f)
+          games    = d.get('games', [])
+          ios      = sum(1 for g in games if 'ios'     in g.get('platform',[]))
+          android  = sum(1 for g in games if 'android' in g.get('platform',[]))
+          upcoming = sum(1 for g in games if g.get('status') == 'upcoming')
+          free     = sum(1 for g in games if g.get('price') == 'Free')
+          rated    = sum(1 for g in games if g.get('rating'))
+          headers  = sum(1 for g in games if g.get('headerImage'))
+          months   = sorted(set(g['releaseDate'][:7] for g in games))
+
+          print('### 🎮 Résultat du scraping')
+          print('')
+          print('| Métrique | Valeur |')
+          print('|----------|--------|')
+          print(f'| Total jeux | **{len(games)}** |')
+          print(f'| iOS | {ios} |')
+          print(f'| Android | {android} |')
+          print(f'| Multi-plateforme | {sum(1 for g in games if len(g.get(\"platform\",[])) > 1)} |')
+          print(f'| 🔔 Upcoming | {upcoming} |')
+          print(f'| Gratuits | {free} |')
+          print(f'| Avec note | {rated} |')
+          print(f'| Avec image | {headers} |')
+          print(f'| Mois couverts | {\" · \".join(months)} |')
+          print(f'| Mis à jour | {d.get(\"lastUpdated\",\"\")} |')
+          " >> $GITHUB_STEP_SUMMARY
+
+      - name: 💾 Commit & Push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/games.json data/games.backup.json || true
+          if git diff --staged --quiet; then
+            echo "Aucun changement à commiter"
+          else
+            COUNT=$(python3 -c "import json; print(len(json.load(open('data/games.json'))['games']))")
+            DATE=$(date +'%Y-%m-%d')
+            git commit -m "🎮 Update games — ${COUNT} jeux [${DATE}]"
+            git push
+            echo "Push effectué : ${COUNT} jeux"
+          fi
+
+      - name: 🚨 Notifier en cas d'échec
+        if: failure()
+        run: |
+          echo "### ❌ Scraping échoué" >> $GITHUB_STEP_SUMMARY
+          echo "Consulte les logs ci-dessus pour le détail." >> $GITHUB_STEP_SUMMARY
+          # Restaurer le backup si le JSON est corrompu
+          if [ -f data/games.backup.json ]; then
+            cp data/games.backup.json data/games.json
+            echo "Backup restauré"
+          fi
