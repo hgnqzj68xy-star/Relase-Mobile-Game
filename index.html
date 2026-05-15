@@ -225,7 +225,7 @@ function computeFeatured(games,year,month){
 
 async function loadData(){
   try{
-    const base='/Mobi-Me-Mensuel';
+    const base = '/Relase-Mobile-Game';
     const res=await fetch(base+'/data/games.json?_='+Date.now());
     const data=await res.json();
     allGames=data.games||[];
