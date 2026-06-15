@@ -5445,8 +5445,7 @@
       "id": "ios_6757920251",
       "title": "Scrolled: Who Liked this Video",
       "platform": [
-        "ios",
-        "android"
+        "ios"
       ],
       "releaseDate": "2026-05-16",
       "genre": "Trivia",
@@ -5459,8 +5458,7 @@
       "bundleId": "com.rmb.liked",
       "status": "released",
       "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.rmb.liked"
+      "country": "fr"
     },
     {
       "id": "ios_6761620416",
@@ -10293,6 +10291,6 @@
       "source": "itunes"
     }
   ],
-  "lastUpdated": "2026-06-15T11:38:56.164930Z",
+  "lastUpdated": "2026-06-15T20:00:02.360367Z",
   "totalGames": 522
 }
