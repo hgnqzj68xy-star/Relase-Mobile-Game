@@ -36,8 +36,8 @@ log = logging.getLogger(__name__)
 # ── Config ────────────────────────────────────────────────────────────────────
 DATA_FILE        = Path(__file__).parent.parent / "data" / "games.json"
 BACKUP_FILE      = Path(__file__).parent.parent / "data" / "games.backup.json"
-LOOKBACK_DAYS    = 60
-LOOKAHEAD_DAYS   = 90
+LOOKBACK_DAYS    = 60   # 60j passes
+LOOKAHEAD_DAYS   = 30   # 30j futur uniquement
 ANDROID_WORKERS  = 5
 CHECK_FR         = os.environ.get("CHECK_FR", "false").lower() == "true"
 
