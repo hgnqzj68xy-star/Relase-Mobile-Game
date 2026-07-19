@@ -16203,7 +16203,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/ca/44/35ca4400-309e-8622-4b13-344670af90f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/pixel-honey-color-cube-puzzle/id6786112313?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4,
       "bundleId": "com.abi.honey.cube.color.pixel",
       "status": "released",
       "source": "itunes",
@@ -16321,7 +16321,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b1/25/64/b12564db-6002-27a0-72e5-0fb0a166d0e5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/jeux-hors-ligne-2-joueurs/id6760128613?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.rvappstudios.offline.games.and.two.player.games.kids.lucas.and.friends",
       "status": "released",
       "source": "itunes",
@@ -17055,7 +17055,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/79/24/4c792435-8fd4-87fc-63d5-27da1ee8e59b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/digimon-up/id6756247787?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 2.5,
       "bundleId": "jp.co.bandainamcoent.BNEI0442",
       "status": "released",
       "source": "itunes",
@@ -17144,6 +17144,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.fortisgames.twilighttower"
     }
   ],
-  "lastUpdated": "2026-07-15T10:01:02.977336Z",
+  "lastUpdated": "2026-07-17T09:55:08.132845Z",
   "totalGames": 871
 }
