@@ -17875,7 +17875,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/af/6f/7a/af6f7aa0-4b03-c64e-b877-9b79150aea31/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/space-base-idle-tower-defense/id6768559296?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.idle.space.base.tower.defense",
       "status": "released",
       "source": "itunes",
@@ -18071,7 +18071,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/0c/70/f90c7039-ed24-12b1-52ca-8a2054ff7fc0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/leaked-mobile-detective/id6785890577?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4,
       "bundleId": "com.awesome.detective",
       "status": "released",
       "source": "itunes",
@@ -18461,7 +18461,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9d/72/a9/9d72a921-97c8-aad8-2d36-90bc35d2780e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/live-cycling-manager-2026/id6788347442?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 3,
       "bundleId": "com.xagustudios.LCM2026",
       "status": "released",
       "source": "itunes",
@@ -18812,7 +18812,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c7/99/42/c7994241-440d-44fc-ebb7-d3ccce93acbe/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/personae/id6790012593?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "fr.personagame.app",
       "status": "released",
       "source": "itunes",
@@ -18873,7 +18873,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/06/f9/bd/06f9bdc3-f629-3dbc-780f-b92f82a7557e/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/imposteur-jeu-bluffy/id6782073509?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.imposter.albert.app.com",
       "status": "released",
       "source": "itunes",
@@ -19719,6 +19719,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.fortisgames.twilighttower"
     }
   ],
-  "lastUpdated": "2026-07-22T10:24:01.939202Z",
+  "lastUpdated": "2026-07-24T10:14:36.957152Z",
   "totalGames": 1002
 }
