@@ -18792,7 +18792,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/b8/8b/a9b88b2e-991f-3914-1fa3-13eec88e5fde/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/meowtrail/id6780401631?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.oakever.akari",
       "status": "released",
       "source": "itunes",
@@ -18933,7 +18933,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5a/41/57/5a4157da-7f40-238f-006a-6b7942b9b445/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/paint-hide-and-seek-camo-guys/id6789789711?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4,
       "bundleId": "com.paint.hidenseek.camoguys",
       "status": "released",
       "source": "itunes",
@@ -18954,7 +18954,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/6f/5c/cb6f5c96-2da2-8dc5-4690-c776255057b0/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/chameleon-hide-online/id6789756267?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 2,
       "bundleId": "com.mismargames.ChameleonHide",
       "status": "released",
       "source": "itunes",
@@ -19611,7 +19611,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/49/f9/4349f923-fdb1-6ed7-7ab8-7fa53891994b/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/townsmen-a-kingdom-rebuilt/id6761844920?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 3,
       "bundleId": "com.hg.townsmenkingdomrebuilt.trial",
       "status": "released",
       "source": "itunes",
@@ -19719,6 +19719,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.fortisgames.twilighttower"
     }
   ],
-  "lastUpdated": "2026-07-24T10:14:36.957152Z",
+  "lastUpdated": "2026-07-26T09:57:04.265533Z",
   "totalGames": 1002
 }
