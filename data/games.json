@@ -19452,7 +19452,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/82/73/9d/82739dc5-4a62-cc26-6353-f1ed9febe1f1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/basketlife-deviens-pro/id6790107782?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.lnso.basketlife",
       "status": "released",
       "source": "itunes",
@@ -20196,7 +20196,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/72/3a/6d/723a6d23-1167-8885-fbcc-4928d44f5078/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/stranger-school-prank-monster/id6785540784?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.psvios.schoolboyandgranny",
       "status": "released",
       "source": "itunes",
@@ -21025,7 +21025,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/69/e2/fe/69e2fee2-4f7b-2baa-afaf-134e775b706b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/cookierun-crumble-idle-rpg/id6749251466?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.2,
       "bundleId": "com.devsisters.cc",
       "status": "released",
       "source": "itunes",
@@ -21113,6 +21113,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.f5game.sseu"
     }
   ],
-  "lastUpdated": "2026-07-29T10:36:54.141252Z",
+  "lastUpdated": "2026-07-31T10:36:31.210213Z",
   "totalGames": 1072
 }
