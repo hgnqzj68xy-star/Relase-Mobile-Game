@@ -20511,7 +20511,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/7b/5a/fc7b5a32-f571-5c32-a620-fa14a4a4637e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/chessigma/id6791621546?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.chessigma.app",
       "status": "released",
       "source": "itunes",
@@ -21113,6 +21113,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.f5game.sseu"
     }
   ],
-  "lastUpdated": "2026-07-31T10:36:31.210213Z",
+  "lastUpdated": "2026-08-02T09:54:13.234024Z",
   "totalGames": 1072
 }
