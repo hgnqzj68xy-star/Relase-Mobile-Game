@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-check_releases.py
-Vérifie tous les 2 jours les jeux "upcoming" dont la date est passée
-et met à jour leur statut vers "released" si confirmé sur les stores.
+check_releases.py v2
+- Vérifie les jeux "upcoming" dont la date est passée
+- Force la mise à jour du statut via iTunes + Google Play
+- Purge les jeux trop anciens (> 90j) ou en doublon
 """
 
 import json, os, time, re, logging, shutil
@@ -21,7 +22,6 @@ except ImportError:
     os.system("pip install beautifulsoup4 --break-system-packages -q")
     from bs4 import BeautifulSoup
 
-# ── Logging ───────────────────────────────────────────────────────────────────
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -29,9 +29,10 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ── Config ────────────────────────────────────────────────────────────────────
 DATA_FILE   = Path(__file__).parent.parent / "data" / "games.json"
 BACKUP_FILE = Path(__file__).parent.parent / "data" / "games.backup.json"
+MAX_GAMES   = 300   # seuil d'alerte si trop de jeux en base
+KEEP_DAYS   = 90    # purger les jeux sortis depuis plus de 90j
 
 HEADERS_MOBILE = {
     "User-Agent": (
@@ -64,69 +65,142 @@ def backup_data():
 
 def save_data(data):
     data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
+    data["totalGames"]  = len(data.get("games", []))
     tmp = DATA_FILE.with_suffix(".tmp")
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     tmp.replace(DATA_FILE)
     log.info(f"Sauvegarde : {len(data['games'])} jeux")
 
+# ── Purge des doublons et anciens jeux ───────────────────────────────────────
+def purge_games(games: list[dict]) -> list[dict]:
+    """
+    1. Supprime les jeux released depuis plus de KEEP_DAYS jours
+    2. Déduplique par titre normalisé (garde le plus récent)
+    3. Alerte si trop de jeux en base
+    """
+    now    = datetime.utcnow()
+    cutoff = now - timedelta(days=KEEP_DAYS)
+    today  = now.date()
+
+    # Purge temporelle : on garde les upcoming et les released récents
+    kept = []
+    purged_count = 0
+    for g in games:
+        try:
+            dt = datetime.strptime(g["releaseDate"], "%Y-%m-%d")
+        except Exception:
+            kept.append(g)
+            continue
+
+        status = g.get("status", "released")
+
+        # Toujours garder les upcoming
+        if status == "upcoming":
+            # Sauf si la date est passée de plus de 30j sans être confirmée
+            if dt.date() < (today - timedelta(days=30)):
+                log.warning(f"  Upcoming trop ancien purgé : {g['title']} ({g['releaseDate']})")
+                purged_count += 1
+                continue
+            kept.append(g)
+        else:
+            # Released : purger si trop ancien
+            if dt < cutoff:
+                purged_count += 1
+                continue
+            kept.append(g)
+
+    log.info(f"Purge temporelle : {purged_count} jeux supprimés")
+
+    # Déduplication par titre normalisé
+    by_title = {}
+    for g in kept:
+        key = re.sub(r'\s+', ' ', g.get("title", "").strip().lower())
+        if key not in by_title:
+            by_title[key] = g
+        else:
+            # Garder celui avec le plus d'infos
+            existing = by_title[key]
+            if len(g.get("platform", [])) > len(existing.get("platform", [])):
+                by_title[key] = g
+            elif g.get("rating") and not existing.get("rating"):
+                by_title[key] = g
+
+    deduped = list(by_title.values())
+    dedup_removed = len(kept) - len(deduped)
+    if dedup_removed > 0:
+        log.info(f"Déduplication : {dedup_removed} doublons supprimés")
+
+    if len(deduped) > MAX_GAMES:
+        log.warning(f"ALERTE : {len(deduped)} jeux en base (seuil={MAX_GAMES})")
+
+    return deduped
+
 # ── Vérification iOS via iTunes Lookup ───────────────────────────────────────
-def check_ios_released(bundle_id: str, app_id: str) -> dict | None:
+def check_ios_released(game: dict) -> dict | None:
     """
-    Vérifie sur iTunes si le jeu est sorti.
-    Retourne les données mises à jour ou None si pas encore sorti.
+    Vérifie sur le store iTunes FR si le jeu est sorti.
+    Supporte les IDs numériques et les bundleIds.
     """
-    # Extraire le vrai app_id depuis l'id du jeu (ios_XXXXXXX)
-    itunes_id = app_id.replace("ios_", "")
-    if not itunes_id.isdigit():
+    # Extraire l'ID numérique iTunes
+    game_id   = game.get("id", "")
+    bundle_id = game.get("bundleId", "")
+
+    # L'id est de la forme "ios_1234567890"
+    itunes_id = re.sub(r'^ios_', '', game_id)
+
+    # Si l'id n'est pas numérique, essayer via bundleId
+    lookup_param = {}
+    if itunes_id.isdigit():
+        lookup_param = {"id": itunes_id}
+    elif bundle_id:
+        lookup_param = {"bundleId": bundle_id}
+    else:
+        log.warning(f"  Impossible de vérifier iOS : pas d'ID valide pour {game.get('title')}")
         return None
 
     try:
         resp = requests.get(
             "https://itunes.apple.com/lookup",
-            params={
-                "id":      itunes_id,
-                "country": "fr",
-                "entity":  "software",
-            },
+            params={**lookup_param, "country": "fr", "entity": "software"},
             timeout=15,
         )
         resp.raise_for_status()
         results = resp.json().get("results", [])
+
         if not results:
+            log.info(f"  iTunes : aucun résultat pour {game.get('title')}")
             return None
 
-        item = results[0]
-
-        # Vérifier la date de sortie réelle
+        item       = results[0]
         release_raw = item.get("releaseDate", "")
+
         try:
             release_dt = datetime.fromisoformat(release_raw.replace("Z", ""))
         except Exception:
             return None
 
-        now = datetime.utcnow()
-
-        # Le jeu est sorti si la date est dans le passé
-        if release_dt <= now:
+        # Sorti si date dans le passé
+        if release_dt.date() <= datetime.utcnow().date():
+            rating = item.get("averageUserRating", 0)
             return {
                 "status":      "released",
                 "releaseDate": release_dt.strftime("%Y-%m-%d"),
-                "rating":      round(item.get("averageUserRating", 0), 1) or None,
-                "price":       item.get("formattedPrice", "Free"),
+                "rating":      round(rating, 1) if rating else None,
+                "price":       "Free" if item.get("price", 0) == 0 else f"{item.get('price', 0):.2f}€",
             }
 
         return None  # Pas encore sorti
 
     except Exception as e:
-        log.warning(f"  iTunes lookup error pour {itunes_id}: {e}")
+        log.warning(f"  iTunes lookup error pour {game.get('title')}: {e}")
         return None
 
 # ── Vérification Android via Google Play ─────────────────────────────────────
-def check_android_released(bundle_id: str) -> dict | None:
+def check_android_released(bundle_id: str, title: str) -> dict | None:
     """
     Vérifie sur Google Play FR si le jeu est sorti
-    (plus de mention pre-register).
+    (absence de mention pre-register).
     """
     if not bundle_id:
         return None
@@ -137,6 +211,7 @@ def check_android_released(bundle_id: str) -> dict | None:
         resp = requests.get(url, headers=HEADERS_MOBILE, timeout=20)
 
         if resp.status_code == 404:
+            log.info(f"  Google Play : app introuvable {bundle_id}")
             return None
         if resp.status_code == 429:
             log.warning("  429 Rate limit — attente 15s")
@@ -146,21 +221,20 @@ def check_android_released(bundle_id: str) -> dict | None:
         resp.raise_for_status()
         raw = resp.text
 
-        # App inexistante
         if any(kw in raw for kw in ["Nous n'avons pas pu trouver", "not found"]):
             return None
 
-        # Vérifier si le jeu est toujours en pre-registration
+        # Toujours en pre-registration ?
         still_upcoming = any(kw in raw.lower() for kw in [
             "pre-register", "preregister", "pre_register",
             "preregistration", "préinscription",
         ])
 
         if still_upcoming:
-            log.info(f"  -> Toujours en pre-register : {bundle_id}")
+            log.info(f"  -> Toujours pre-register : {title}")
             return None
 
-        # Le jeu est sorti : extraire la note si disponible
+        # Sorti ! Extraire note et prix
         rating = None
         for pat in (r'"starRating"\s*:\s*"?([\d.]+)"?', r'(\d\.\d)\s*sur\s*5'):
             m = re.search(pat, raw)
@@ -171,30 +245,27 @@ def check_android_released(bundle_id: str) -> dict | None:
                 except Exception:
                     pass
 
-        # Extraire le prix
         price = "Free"
         pm = re.search(r'"price"\s*:\s*"([^"]*)"', raw)
         if pm:
             p = pm.group(1).strip()
             price = "Free" if p in ("0", "", "Free", "Gratuit") else p
 
-        return {
-            "status": "released",
-            "rating": rating,
-            "price":  price,
-        }
+        return {"status": "released", "rating": rating, "price": price}
 
     except Exception as e:
-        log.warning(f"  Google Play check error pour {bundle_id}: {e}")
+        log.warning(f"  Google Play check error pour {title}: {e}")
         return None
 
-# ── Vérification des titres à surveiller ─────────────────────────────────────
-def check_new_releases_today(games: list[dict]) -> tuple[list[dict], int]:
+# ── Vérification et mise à jour des statuts ───────────────────────────────────
+def check_and_update(games: list[dict]) -> tuple[list[dict], int]:
     """
-    Parcourt tous les jeux :
-    1. Les "upcoming" dont la date est passée → vérifie si sorti
-    2. Les "released" récents → vérifie la note si elle manque
-    Retourne la liste mise à jour et le nombre de changements.
+    Pour chaque jeu upcoming dont la date est passée :
+    - Vérifie sur iOS et/ou Android si sorti
+    - Met à jour le statut
+
+    Pour les released récents sans note :
+    - Tente de récupérer la note
     """
     now     = datetime.utcnow()
     today   = now.date()
@@ -210,54 +281,52 @@ def check_new_releases_today(games: list[dict]) -> tuple[list[dict], int]:
 
         release_date = release_dt.date()
         status       = game.get("status", "released")
+        platforms    = game.get("platform", [])
+        bundle_id    = game.get("bundleId", "")
+        title        = game.get("title", "")
 
-        # ── Cas 1 : Jeu upcoming dont la date est passée ──────────────────
+        # ── Cas 1 : Upcoming dont la date est passée ──────────────────────
         if status == "upcoming" and release_date <= today:
-            log.info(f"[CHECK] {game['title']} — date passée, vérification...")
-
+            log.info(f"[CHECK] {title} — sortie prévue le {release_date}")
             new_data = None
 
-            # Vérifier selon la source
-            if game.get("source") == "itunes" or "ios" in game.get("platform", []):
-                new_data = check_ios_released(
-                    game.get("bundleId", ""), game.get("id", "")
-                )
+            # Vérifier iOS en priorité
+            if "ios" in platforms:
+                new_data = check_ios_released(game)
                 time.sleep(0.3)
 
-            if new_data is None and game.get("source") == "gplay" or "android" in game.get("platform", []):
-                new_data = check_android_released(game.get("bundleId", ""))
+            # Si pas confirmé iOS, tenter Android
+            if new_data is None and "android" in platforms and bundle_id:
+                new_data = check_android_released(bundle_id, title)
                 time.sleep(0.5)
 
             if new_data:
-                log.info(f"  -> SORTI ! Mise a jour : {game['title']}")
-                game["status"]      = "released"
-                game["releaseDate"] = new_data.get("releaseDate", game["releaseDate"])
+                log.info(f"  -> ✅ SORTI : {title}")
+                game["status"] = "released"
+                if new_data.get("releaseDate"):
+                    game["releaseDate"] = new_data["releaseDate"]
                 if new_data.get("rating"):
-                    game["rating"]  = new_data["rating"]
+                    game["rating"] = new_data["rating"]
                 if new_data.get("price"):
-                    game["price"]   = new_data["price"]
+                    game["price"] = new_data["price"]
                 changes += 1
             else:
-                # Toujours pas sorti — on garde upcoming mais on log
-                log.info(f"  -> Pas encore confirme sorti : {game['title']}")
+                log.info(f"  -> ⏳ Pas encore confirmé sorti : {title}")
 
-        # ── Cas 2 : Jeu released récent sans note → tenter de récupérer ──
+        # ── Cas 2 : Released récent sans note ─────────────────────────────
         elif (
             status == "released"
             and game.get("rating") is None
             and release_date >= (today - timedelta(days=14))
+            and "ios" in platforms
         ):
-            log.info(f"[NOTE] {game['title']} — récupération note...")
-
-            if "ios" in game.get("platform", []):
-                note_data = check_ios_released(
-                    game.get("bundleId", ""), game.get("id", "")
-                )
-                if note_data and note_data.get("rating"):
-                    game["rating"] = note_data["rating"]
-                    log.info(f"  -> Note récupérée : {game['rating']}")
-                    changes += 1
-                time.sleep(0.3)
+            log.info(f"[NOTE] {title} — récupération note...")
+            note_data = check_ios_released(game)
+            if note_data and note_data.get("rating"):
+                game["rating"] = note_data["rating"]
+                log.info(f"  -> Note récupérée : {game['rating']}")
+                changes += 1
+            time.sleep(0.3)
 
         updated.append(game)
 
@@ -266,46 +335,53 @@ def check_new_releases_today(games: list[dict]) -> tuple[list[dict], int]:
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     start = time.time()
-    log.info("=== Check Releases ===")
+    log.info("=== Check Releases v2 ===")
     log.info(f"Date : {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}")
 
     data  = load_data()
     games = data.get("games", [])
 
     if not games:
-        log.warning("Aucun jeu en base — rien a verifier")
+        log.warning("Aucun jeu en base")
         return
 
-    # Stats initiales
-    upcoming_before = sum(1 for g in games if g.get("status") == "upcoming")
-    log.info(f"Jeux en base       : {len(games)}")
-    log.info(f"Upcoming a checker : {upcoming_before}")
+    log.info(f"Jeux en base avant purge : {len(games)}")
 
     backup_data()
 
-    # Vérification
-    updated_games, changes = check_new_releases_today(games)
+    # Purge des anciens et doublons en premier
+    games = purge_games(games)
+    log.info(f"Jeux après purge : {len(games)}")
+
+    # Stats avant vérification
+    upcoming_before = sum(1 for g in games if g.get("status") == "upcoming")
+    log.info(f"Upcoming à vérifier : {upcoming_before}")
+
+    # Vérification des statuts
+    updated_games, changes = check_and_update(games)
 
     # Stats finales
-    upcoming_after  = sum(1 for g in updated_games if g.get("status") == "upcoming")
-    released_after  = sum(1 for g in updated_games if g.get("status") == "released")
+    upcoming_after = sum(1 for g in updated_games if g.get("status") == "upcoming")
+    released_after = sum(1 for g in updated_games if g.get("status") == "released")
+    newly_released = upcoming_before - upcoming_after
 
     log.info("=" * 40)
-    log.info(f"Changements        : {changes}")
-    log.info(f"Upcoming -> Released : {upcoming_before - upcoming_after}")
-    log.info(f"Total upcoming     : {upcoming_after}")
-    log.info(f"Total released     : {released_after}")
+    log.info(f"Nouveaux released    : {newly_released}")
+    log.info(f"Changements total    : {changes}")
+    log.info(f"Upcoming restants    : {upcoming_after}")
+    log.info(f"Released total       : {released_after}")
+    log.info(f"Total jeux en base   : {len(updated_games)}")
     log.info("=" * 40)
 
-    if changes > 0:
+    # Sauvegarder si changements ou si purge a réduit le nombre
+    if changes > 0 or len(updated_games) != len(data.get("games", [])):
         data["games"] = updated_games
         save_data(data)
-        log.info(f"JSON mis a jour avec {changes} changements")
     else:
-        log.info("Aucun changement — JSON non modifie")
+        log.info("Aucun changement — JSON non modifié")
 
     elapsed = time.time() - start
-    log.info(f"Termine en {elapsed:.1f}s")
+    log.info(f"Terminé en {elapsed:.1f}s")
 
 if __name__ == "__main__":
     main()
