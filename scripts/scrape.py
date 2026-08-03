@@ -36,9 +36,10 @@ log = logging.getLogger(__name__)
 # ── Config ────────────────────────────────────────────────────────────────────
 DATA_FILE        = Path(__file__).parent.parent / "data" / "games.json"
 BACKUP_FILE      = Path(__file__).parent.parent / "data" / "games.backup.json"
-LOOKBACK_DAYS    = 60   # 60j passes
+LOOKBACK_DAYS    = 30   # 30j passes seulement
 LOOKAHEAD_DAYS   = 30   # 30j futur uniquement
 ANDROID_WORKERS  = 5
+MAX_GAMES        = 300  # seuil alerte si trop de jeux
 CHECK_FR         = os.environ.get("CHECK_FR", "false").lower() == "true"
 
 IOS_SEARCH_TERMS = [
