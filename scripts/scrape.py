@@ -52,6 +52,8 @@ IOS_SEARCH_TERMS = [
     # Termes français (jeux localisés FR)
     "nouveau jeu", "jeu de role", "jeu de strategie", "jeu de cartes",
     "jeu de puzzle", "jeu d'aventure", "simulation mobile",
+    # Sorties du jour
+    "new release 2026", "just released game", "latest game release",
 ]
 
 GENRES = {
@@ -260,7 +262,12 @@ def fetch_ios_games() -> list[dict]:
         log.info("  Mode CHECK_FR actif : vérification store France activée")
 
     games_by_bundle: dict[str, dict] = {}
-    cutoff  = datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)
+    # Inclure les jeux sortis aujourd'hui (minuit UTC) + LOOKBACK_DAYS passes
+    today_midnight = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+    cutoff  = min(
+        today_midnight,
+        datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)
+    )
     skipped_geo = 0
 
     for term in IOS_SEARCH_TERMS:
@@ -496,7 +503,9 @@ def fetch_android_from_ios(
 ) -> list[dict]:
     log.info("=== Scraping Android (Google Play FR) ===")
 
-    cutoff   = datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)
+    # Inclure les jeux sortis aujourd'hui
+    today_midnight = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
+    cutoff   = min(today_midnight, datetime.utcnow() - timedelta(days=LOOKBACK_DAYS))
     to_fetch = []
 
     for g in ios_games:
