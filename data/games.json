@@ -3258,27 +3258,6 @@
       "country": "fr"
     },
     {
-      "id": "ios_1010",
-      "title": "Mech Warriors Online",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-17",
-      "genre": "Action",
-      "developer": "Iron Code Studio",
-      "icon": "https://picsum.photos/seed/mw1010/100/100",
-      "headerImage": "https://picsum.photos/seed/mw1010/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1010",
-      "storeUrlIos": "https://apps.apple.com/app/id1010",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.ironcode.mechwars",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ironcode.mechwars",
-      "status": "upcoming",
-      "source": "itunes"
-    },
-    {
       "id": "ios_6767651424",
       "title": "Idle Ball Defense",
       "platform": [
@@ -3987,25 +3966,6 @@
       "country": "fr"
     },
     {
-      "id": "ios_1011",
-      "title": "Flora & Fauna: Wild",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Simulation",
-      "developer": "Green Pixel",
-      "icon": "https://picsum.photos/seed/ff1011/100/100",
-      "headerImage": "https://picsum.photos/seed/ff1011/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1011",
-      "storeUrlIos": "https://apps.apple.com/app/id1011",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.greenpixel.florafauna",
-      "status": "upcoming",
-      "source": "itunes"
-    },
-    {
       "id": "ios_6741567125",
       "title": "Clash of Critters",
       "platform": [
@@ -4630,27 +4590,6 @@
       "country": "fr"
     },
     {
-      "id": "ios_1012",
-      "title": "Crimson Blade: Reforged",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-22",
-      "genre": "Action",
-      "developer": "Scarlet Dev",
-      "icon": "https://picsum.photos/seed/cb1012/100/100",
-      "headerImage": "https://picsum.photos/seed/cb1012/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1012",
-      "storeUrlIos": "https://apps.apple.com/app/id1012",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.scarlet.crimsonblade",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.scarlet.crimsonblade",
-      "status": "upcoming",
-      "source": "itunes"
-    },
-    {
       "id": "ios_6751308171",
       "title": "Dragon Raja: ReRise - RPG",
       "platform": [
@@ -5075,25 +5014,6 @@
       "status": "released",
       "source": "itunes",
       "country": "fr"
-    },
-    {
-      "id": "ios_1013",
-      "title": "Sky Pirates: Armada",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-25",
-      "genre": "Adventure",
-      "developer": "Zephyr Games",
-      "icon": "https://picsum.photos/seed/sp1013/100/100",
-      "headerImage": "https://picsum.photos/seed/sp1013/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1013",
-      "storeUrlIos": "https://apps.apple.com/app/id1013",
-      "price": "3.99EUR",
-      "rating": null,
-      "bundleId": "com.zephyr.skypirates",
-      "status": "upcoming",
-      "source": "itunes"
     },
     {
       "id": "ios_6738041648",
@@ -5532,27 +5452,6 @@
       "status": "released",
       "source": "itunes",
       "country": "fr"
-    },
-    {
-      "id": "ios_1014",
-      "title": "Tower Defense: Infinity",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Strategy",
-      "developer": "Fortress Labs",
-      "icon": "https://picsum.photos/seed/td1014/100/100",
-      "headerImage": "https://picsum.photos/seed/td1014/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1014",
-      "storeUrlIos": "https://apps.apple.com/app/id1014",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.fortress.towerdefense",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.fortress.towerdefense",
-      "status": "upcoming",
-      "source": "itunes"
     },
     {
       "id": "ios_6761410877",
@@ -6948,27 +6847,6 @@
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.ggv.rogames.global"
-    },
-    {
-      "id": "ios_1015",
-      "title": "Dragon Quest Champions",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-03",
-      "genre": "Role Playing",
-      "developer": "Square Enix",
-      "icon": "https://picsum.photos/seed/dq1015/100/100",
-      "headerImage": "https://picsum.photos/seed/dq1015/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1015",
-      "storeUrlIos": "https://apps.apple.com/app/id1015",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.square.dragonquest",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.square.dragonquest",
-      "status": "upcoming",
-      "source": "itunes"
     },
     {
       "id": "ios_6757609398",
@@ -8572,27 +8450,6 @@
       "country": "fr"
     },
     {
-      "id": "ios_1016",
-      "title": "Legends of Runeterra: Go",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-10",
-      "genre": "Card",
-      "developer": "Riot Games",
-      "icon": "https://picsum.photos/seed/lr1016/100/100",
-      "headerImage": "https://picsum.photos/seed/lr1016/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1016",
-      "storeUrlIos": "https://apps.apple.com/app/id1016",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.riotgames.lor",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.riotgames.lor",
-      "status": "upcoming",
-      "source": "itunes"
-    },
-    {
       "id": "ios_6758334085",
       "title": "Quack Quack Attack",
       "platform": [
@@ -9603,25 +9460,6 @@
       "status": "released",
       "source": "itunes",
       "country": "fr"
-    },
-    {
-      "id": "ios_1017",
-      "title": "Subnautica Mobile",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-15",
-      "genre": "Adventure",
-      "developer": "Unknown Worlds",
-      "icon": "https://picsum.photos/seed/sn1017/100/100",
-      "headerImage": "https://picsum.photos/seed/sn1017/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1017",
-      "storeUrlIos": "https://apps.apple.com/app/id1017",
-      "price": "6.99EUR",
-      "rating": null,
-      "bundleId": "com.unknownworlds.subnautica",
-      "status": "upcoming",
-      "source": "itunes"
     },
     {
       "id": "ios_6759662874",
@@ -11078,27 +10916,6 @@
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bovasoft.pathlock"
-    },
-    {
-      "id": "ios_1018",
-      "title": "Hades: Pocket Edition",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-20",
-      "genre": "Action",
-      "developer": "Supergiant Games",
-      "icon": "https://picsum.photos/seed/hp1018/100/100",
-      "headerImage": "https://picsum.photos/seed/hp1018/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1018",
-      "storeUrlIos": "https://apps.apple.com/app/id1018",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.supergiant.hades",
-      "price": "4.99EUR",
-      "rating": null,
-      "bundleId": "com.supergiant.hades",
-      "status": "upcoming",
-      "source": "itunes"
     },
     {
       "id": "ios_6758066307",
@@ -13173,25 +12990,6 @@
       "status": "released",
       "source": "itunes",
       "country": "fr"
-    },
-    {
-      "id": "ios_1019",
-      "title": "Final Fantasy XVI: Reborn",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-01",
-      "genre": "Role Playing",
-      "developer": "Square Enix",
-      "icon": "https://picsum.photos/seed/ff1019/100/100",
-      "headerImage": "https://picsum.photos/seed/ff1019/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1019",
-      "storeUrlIos": "https://apps.apple.com/app/id1019",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.square.ff16reborn",
-      "status": "upcoming",
-      "source": "itunes"
     },
     {
       "id": "ios_6782911179",
@@ -20780,7 +20578,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/c9/9a/e2c99a2a-44ec-18be-6614-93e7bad64005/AppIcon-1x_U007epad-0-11-0-85-220-0.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/realm-of-spirits/id6772035345?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.xmrg.tw.ios",
       "status": "released",
       "source": "itunes",
@@ -22124,7 +21922,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5f/63/1b/5f631b05-3f48-dbbc-3134-44f0b3778463/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/petitpuzzle-puzzle-enfant/id6756628239?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "waikuu.MyFirstPuzzle",
       "status": "released",
       "source": "itunes",
@@ -22283,7 +22081,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/2d/56/e82d5683-2711-d787-1e99-7b9de1dce4e3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/track-jeu-de-soir%C3%A9e-musical/id6789021131?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.armandpasgrand.track",
       "status": "released",
       "source": "itunes",
@@ -22303,7 +22101,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5e/f0/f9/5ef0f927-d452-994c-d3cd-01e2fa1e7b1b/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/ascent-test-de-qi-jeux/id6794273368?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.bbayel.iq-trainer",
       "status": "released",
       "source": "itunes",
@@ -22906,6 +22704,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.Nanali.ArrowsAndCats"
     }
   ],
-  "lastUpdated": "2026-08-05T05:59:48.895667Z",
-  "totalGames": 1163
+  "lastUpdated": "2026-08-05T10:32:30.391095Z",
+  "totalGames": 1153
 }
