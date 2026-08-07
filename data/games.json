@@ -1,202 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_1004",
-      "title": "Shadow Tactics: Reborn",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-08",
-      "genre": "Strategy",
-      "developer": "MimicStudio",
-      "icon": "https://picsum.photos/seed/st1004/100/100",
-      "headerImage": "https://picsum.photos/seed/st1004/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1004",
-      "storeUrlIos": "https://apps.apple.com/app/id1004",
-      "price": "2.99EUR",
-      "rating": 4.7,
-      "bundleId": "com.mimicstudio.shadowtactics",
-      "status": "released",
-      "source": "itunes"
-    },
-    {
-      "id": "ios_6762749965",
-      "title": "Jeu d'Évasion: Héritage maudit",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-08",
-      "genre": "Trivia",
-      "developer": "Shenzhen Zhonglian Hudong Technology Co.,Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/b9/1d/96b91dc0-3412-b43f-8d73-2f94d8225677/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/b9/1d/96b91dc0-3412-b43f-8d73-2f94d8225677/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/jeu-d%C3%A9vasion-h%C3%A9ritage-maudit/id6762749965?uo=4",
-      "price": "Free",
-      "rating": 3,
-      "bundleId": "com.zhonglian.cursedlegacy",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757750250",
-      "title": "Cuisine En Folie: Jeux Cuisine",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-08",
-      "genre": "Role Playing",
-      "developer": "Sabahat Tallat",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/a0/7b/e3a07bd4-1bbd-a23a-40af-5991816df271/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/a0/7b/e3a07bd4-1bbd-a23a-40af-5991816df271/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cuisine-en-folie-jeux-cuisine/id6757750250?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ftg.cooking.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.ftg.cooking.game"
-    },
-    {
-      "id": "ios_6751826000",
-      "title": "Tiny Seekers - Hidden Objects",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-08",
-      "genre": "Arcade",
-      "developer": "T7 GAMES",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/12/96/1f129685-e547-fc3e-bcec-3c9457b799f6/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/12/96/1f129685-e547-fc3e-bcec-3c9457b799f6/AppIcon-1x_U007epad-0-11-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/tiny-seekers-hidden-objects/id6751826000?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "tiny.seekers.hidden.objects.find.out.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6758991105",
-      "title": "Numeric Blast",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-08",
-      "genre": "Puzzle",
-      "developer": "Melvyn Bailey",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/01/54/250154c5-0255-93db-42ab-7692ac9df4b4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/01/54/250154c5-0255-93db-42ab-7692ac9df4b4/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/numeric-blast/id6758991105?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ciphercode.numericblast",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6762239960",
-      "title": "Logic Match: Visual Puzzle",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-08",
-      "genre": "Arcade",
-      "developer": "HORUS ENTERTAINMENT LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/f9/4a/c3f94ad4-4099-0ec3-8631-56a022e77685/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c3/f9/4a/c3f94ad4-4099-0ec3-8631-56a022e77685/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/logic-match-visual-puzzle/id6762239960?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.horusent.trait.match.visual.puzzle",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761631996",
-      "title": "Ram Fury",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-08",
-      "genre": "Games",
-      "developer": "CLOUDPOP",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/00/d4/aa00d440-3c65-fdb3-400e-5b9e75a92cb2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/aa/00/d4/aa00d440-3c65-fdb3-400e-5b9e75a92cb2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ram-fury/id6761631996?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "com.arkhe.ramfury",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.arkhe.ramfury"
-    },
-    {
-      "id": "ios_6764313008",
-      "title": "Harvest Arrow Maze",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-09",
-      "genre": "Games",
-      "developer": "Kuldeep Singh",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/ea/88/5fea88b0-c621-6f3f-7b9d-cff94549d35b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/ea/88/5fea88b0-c621-6f3f-7b9d-cff94549d35b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/harvest-arrow-maze/id6764313008?uo=4",
-      "price": "Free",
-      "rating": 4.4,
-      "bundleId": "com.normally.ring.continued",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6760998152",
-      "title": "Family Farm Merge",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-09",
-      "genre": "Arcade",
-      "developer": "Century Games Innovation Pte. Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/03/4d/b8034d39-b976-dd61-f91b-dbd364cbf8ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b8/03/4d/b8034d39-b976-dd61-f91b-dbd364cbf8ca/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/family-farm-merge/id6760998152?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.roomperfect.global",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.roomperfect.global"
-    },
-    {
-      "id": "ios_6756649282",
-      "title": "OnetiX - Tile Puzzle",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-09",
-      "genre": "Puzzle",
-      "developer": "T7 GAMES",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/1b/88/1a1b8822-978a-f787-e996-ac6284993728/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/1b/88/1a1b8822-978a-f787-e996-ac6284993728/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/onetix-tile-puzzle/id6756649282?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "onetix.match.tile.free.puzzle.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_1005",
       "title": "Neon Runner 2",
       "platform": [
@@ -21229,7 +21033,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/1d/01/751d01fa-1573-87a5-d2b9-fca4df30274d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/beast-duel-ascension/id6784590353?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.ncuwe.cnwj",
       "status": "released",
       "source": "itunes",
@@ -21445,7 +21249,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/81/bb/3f81bb34-5f9b-c33b-ee06-df96ccffc307/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/rummy-500-classic/id6791648034?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.gaaaames.rummy500",
       "status": "released",
       "source": "itunes",
@@ -22039,7 +21843,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/44/50/22/445022c8-f64a-3cae-2bd2-95e7ac3417a9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/blindtest-onesecond/id6795820091?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.krisvanhulst.onesecond",
       "status": "released",
       "source": "itunes",
@@ -22219,7 +22023,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/9a/1c/cf9a1cd1-4d1b-155f-a420-b9c6395f19a8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/curiosaurus/id6766030764?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "fr.antalniark.curio",
       "status": "released",
       "source": "itunes",
@@ -22276,7 +22080,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7a/3a/5c/7a3a5c06-c244-65af-ddf1-531693d22d2f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/yamsheet/id6795290287?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "jsdevperso.YamSheet",
       "status": "released",
       "source": "itunes",
@@ -22334,7 +22138,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/78/b0/f3/78b0f30e-2f6f-7eae-c3a7-d3a6f9ef51fc/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/chillquarium/id6748637348?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.7,
       "bundleId": "com.snapbreak.chillquarium",
       "status": "released",
       "source": "itunes",
@@ -22704,6 +22508,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.Nanali.ArrowsAndCats"
     }
   ],
-  "lastUpdated": "2026-08-05T10:32:30.391095Z",
-  "totalGames": 1153
+  "lastUpdated": "2026-08-07T08:57:04.738625Z",
+  "totalGames": 1143
 }
