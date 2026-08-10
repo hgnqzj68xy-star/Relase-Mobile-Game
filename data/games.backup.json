@@ -1,421 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_1005",
-      "title": "Neon Runner 2",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-10",
-      "genre": "Arcade",
-      "developer": "ByteRush Dev",
-      "icon": "https://picsum.photos/seed/nr1005/100/100",
-      "headerImage": "https://picsum.photos/seed/nr1005/1024/500",
-      "storeUrl": "https://apps.apple.com/app/id1005",
-      "storeUrlIos": "https://apps.apple.com/app/id1005",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.byterush.neonrunner2",
-      "price": "Free",
-      "rating": 4.3,
-      "bundleId": "com.byterush.neonrunner2",
-      "status": "released",
-      "source": "itunes"
-    },
-    {
-      "id": "ios_6761512191",
-      "title": "Mythos of Star Knights",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-10",
-      "genre": "Games",
-      "developer": "YUN.YNT.GAME",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/8a/e8/e78ae8c3-e26f-6553-b483-57d22eef29cf/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e7/8a/e8/e78ae8c3-e26f-6553-b483-57d22eef29cf/AppIcon-0-1x_U007epad-0-1-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/mythos-of-star-knights/id6761512191?uo=4",
-      "price": "Free",
-      "rating": 4,
-      "bundleId": "com.terre.estrellas.st",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6766262214",
-      "title": "Loky",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-10",
-      "genre": "Games",
-      "developer": "Mathis Romanet",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/27/39/7727398e-9933-61e1-c4f7-9fa9427fc957/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/77/27/39/7727398e-9933-61e1-c4f7-9fa9427fc957/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/loky/id6766262214?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "education.looks.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=education.looks.app"
-    },
-    {
-      "id": "ios_6762326906",
-      "title": "Jewel Sort: Pixel Art Puzzle",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-10",
-      "genre": "Board",
-      "developer": "YUANTU INTERACTIVE TECHNOLOGY PTE. LTD.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/40/1e/88401e5c-927b-a288-0f1f-858925249cec/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/40/1e/88401e5c-927b-a288-0f1f-858925249cec/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/jewel-sort-pixel-art-puzzle/id6762326906?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.jewel.sort.pixel.art.puzzle.free.games",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.jewel.sort.pixel.art.puzzle.free.games"
-    },
-    {
-      "id": "ios_6766799173",
-      "title": "Epic Mahjong World Card Games",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-10",
-      "genre": "Board",
-      "developer": "Epic Bit Game",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/5c/30/515c302d-eac2-67f7-40cf-00a480ab209a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/5c/30/515c302d-eac2-67f7-40cf-00a480ab209a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/epic-mahjong-world-card-games/id6766799173?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.epic.mahjong.world.card.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.epic.mahjong.world.card.game"
-    },
-    {
-      "id": "ios_6742388718",
-      "title": "Geometry Cannon : Idle Defense",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-10",
-      "genre": "Strategy",
-      "developer": "SUPERBOX. Inc",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/64/19/cd6419d5-dd02-9ba5-4f22-3d45d59314a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/64/19/cd6419d5-dd02-9ba5-4f22-3d45d59314a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/geometry-cannon-idle-defense/id6742388718?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.superbox.ios.idledefense",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6768003529",
-      "title": "Bow wow Battle",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Action",
-      "developer": "Anh Trinh Tuan",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/75/a6/c675a684-3d31-c7f5-6499-9b4ee6f635bb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/75/a6/c675a684-3d31-c7f5-6499-9b4ee6f635bb/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bow-wow-battle/id6768003529?uo=4",
-      "price": "Free",
-      "rating": 3,
-      "bundleId": "com.dog.bow.wow.battle",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6767550501",
-      "title": "SpyDiva - phone detective",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Puzzle",
-      "developer": "Evgeniy Bujanivskiy",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/af/7b/9caf7b97-a495-c8bd-1adb-a07a114532d1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/af/7b/9caf7b97-a495-c8bd-1adb-a07a114532d1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/spydiva-phone-detective/id6767550501?uo=4",
-      "price": "Free",
-      "rating": 3.8,
-      "bundleId": "com.appstoreapps.spydiva",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761363556",
-      "title": "Sekigahara Shadow",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Games",
-      "developer": "RongPai Game",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/2e/be/e32ebe67-f5cf-96ce-d5ca-865c05ac8cf9/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e3/2e/be/e32ebe67-f5cf-96ce-d5ca-865c05ac8cf9/AppIcon-1x_U007epad-0-1-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/sekigahara-shadow/id6761363556?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.sekig.sha",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6760958747",
-      "title": "Kaaz",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Trivia",
-      "developer": "Kaaz",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/57/b3/de57b3ad-f376-4fe4-1171-a0b56e1c7e0a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/de/57/b3/de57b3ad-f376-4fe4-1171-a0b56e1c7e0a/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/kaaz/id6760958747?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.steven.kaazV2",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6759711743",
-      "title": "Knights - Medieval PvP Game",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Strategy",
-      "developer": "Laser Focus s.r.o.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/a2/32/d6a2323b-227b-877e-c7e1-4d43bcc77009/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d6/a2/32/d6a2323b-227b-877e-c7e1-4d43bcc77009/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/knights-medieval-pvp-game/id6759711743?uo=4",
-      "price": "Free",
-      "rating": 4.2,
-      "bundleId": "knights.medieval.pvp.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=knights.medieval.pvp.game"
-    },
-    {
-      "id": "ios_6765922620",
-      "title": "Branchés Biodiv",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "COHELIO",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/8d/ba/3c8dba2f-fe6e-34ea-da01-ef4b9e8b3307/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/8d/ba/3c8dba2f-fe6e-34ea-da01-ef4b9e8b3307/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/branch%C3%A9s-biodiv/id6765922620?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "branchesbiodiv.fr.branchesbiodiv",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6765897849",
-      "title": "BOOX - Jeu",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Puzzle",
-      "developer": "Ruhrmann & Cie",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/cb/fd/d0cbfdb4-6d45-772d-0bba-78c9347972c1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/cb/fd/d0cbfdb4-6d45-772d-0bba-78c9347972c1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/boox-jeu/id6765897849?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ruhrmann.boox",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6766553905",
-      "title": "Joly Blocks Blast",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "Igor Tokach",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/4b/f1/284bf146-6188-f172-e4b9-f5e4dcbf0331/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/4b/f1/284bf146-6188-f172-e4b9-f5e4dcbf0331/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/joly-blocks-blast/id6766553905?uo=4",
-      "price": "Free",
-      "rating": 4.3,
-      "bundleId": "link.igor.jolyblocks.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6766531140",
-      "title": "Apex Drop",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "LEIGH COUNIHAN",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/9a/b6/5b9ab6a2-9f69-3043-51d4-cae8311758f8/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5b/9a/b6/5b9ab6a2-9f69-3043-51d4-cae8311758f8/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/apex-drop/id6766531140?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.leigh.apex",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6760284271",
-      "title": "Gnome Dwarf Burglar",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "Lupo Games LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/c6/d2/2cc6d2c4-d289-2c75-636a-cfe20de6c636/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/c6/d2/2cc6d2c4-d289-2c75-636a-cfe20de6c636/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/gnome-dwarf-burglar/id6760284271?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.heist.loot.rush.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761472533",
-      "title": "Find Em All! - Hidden Objects",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "Agave Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/a3/4a/65a34ab4-6836-30cc-8bf7-214c4913d63c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/65/a3/4a/65a34ab4-6836-30cc-8bf7-214c4913d63c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/find-em-all-hidden-objects/id6761472533?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.agavegames.findemall",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.agavegames.findemall"
-    },
-    {
-      "id": "ios_6767162251",
-      "title": "Cube Jam: Arrow Out",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "PIXEL KING PTE. LTD.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/54/04/285404e8-6177-ebe2-425a-e268601e24e4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/54/04/285404e8-6177-ebe2-425a-e268601e24e4/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cube-jam-arrow-out/id6767162251?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.sg.cubejam.arrowout.arrow3d.escape",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.sg.cubejam.arrowout.arrow3d.escape"
-    },
-    {
-      "id": "ios_6767091927",
-      "title": "Jigsaw Drop : Puzzle Solitaire",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Puzzle",
-      "developer": "Runyou Game",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/c5/2b/fdc52b02-6275-d096-084b-666211b33afd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/c5/2b/fdc52b02-6275-d096-084b-666211b33afd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/jigsaw-drop-puzzle-solitaire/id6767091927?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "jigsaw.solitaire.match.games.free",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=jigsaw.solitaire.match.games.free"
-    },
-    {
-      "id": "ios_6767180267",
-      "title": "Satisfying Clean ASMR",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "DongZ Game",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/2b/3c/a32b3c47-32bd-9f4d-8ea3-fce330b8f917/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a3/2b/3c/a32b3c47-32bd-9f4d-8ea3-fce330b8f917/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/satisfying-clean-asmr/id6767180267?uo=4",
-      "price": "Free",
-      "rating": 4.4,
-      "bundleId": "com.dongz.satisclean",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6766134823",
-      "title": "Standard Freight Corp",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-11",
-      "genre": "Arcade",
-      "developer": "Matthew Ryan",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/d2/2e/49d22e1b-edfc-9a9d-78d0-68dca0d76110/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/d2/2e/49d22e1b-edfc-9a9d-78d0-68dca0d76110/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/standard-freight-corp/id6766134823?uo=4",
-      "price": "Free",
-      "rating": 4,
-      "bundleId": "com.boxfort.Void",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_1006",
       "title": "Arcane Legends: Origins",
       "platform": [
@@ -21131,7 +20716,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/96/4d/20/964d2099-db3a-f148-2a75-63cbff98cab9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/angry-smash/id6785384304?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.tripledot.angrysmash",
       "status": "released",
       "source": "itunes",
@@ -22177,7 +21762,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/f7/99/c1f79950-f746-ae3c-b6ca-d6de3f4c52ea/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/madden-nfl-27-%C3%A9dition-arcade/id6755553408?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.6,
       "bundleId": "com.ea.arcade.madden",
       "status": "released",
       "source": "itunes",
@@ -22196,7 +21781,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/51/cd/e7/51cde79a-3475-a23b-f44c-3d8479d8afa7/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/everyday-puzzles-mini-games/id6758154787?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.7,
       "bundleId": "com.fanatee.epp",
       "status": "released",
       "source": "itunes",
@@ -22215,7 +21800,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/64/8a/a8/648aa8a4-7686-1383-a3fb-3803c1b1d418/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/water-sort-puzzle-get-color/id6754882272?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.5,
       "bundleId": "com.zm.watersort.arcade",
       "status": "released",
       "source": "itunes",
@@ -22234,7 +21819,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/da/c2/b5dac283-a591-4e32-360c-43c7fcd82e84/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/abyssal-soul/id6466164178?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 1.8,
       "bundleId": "com.chillyroom.containerofsoul",
       "status": "released",
       "source": "itunes",
@@ -22508,6 +22093,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.Nanali.ArrowsAndCats"
     }
   ],
-  "lastUpdated": "2026-08-07T08:57:04.738625Z",
-  "totalGames": 1143
+  "lastUpdated": "2026-08-09T08:39:14.954134Z",
+  "totalGames": 1122
 }
