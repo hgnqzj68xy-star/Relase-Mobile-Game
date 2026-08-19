@@ -1,611 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6741567125",
-      "title": "Clash of Critters",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Arcade",
-      "developer": "Farlight Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/00/b1/b900b149-106d-5a55-2bad-50804e3f735f/AppIcon-Global-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b9/00/b1/b900b149-106d-5a55-2bad-50804e3f735f/AppIcon-Global-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/clash-of-critters/id6741567125?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "com.farlightgames.pgame.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6770975458",
-      "title": "Scouter Break: Combat",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Games",
-      "developer": "Tianjin Kailong Technology Co., Ltd",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/59/c3/8b59c31e-44eb-4b56-d0a5-d74dcaa6c5d2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/59/c3/8b59c31e-44eb-4b56-d0a5-d74dcaa6c5d2/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/scouter-break-combat/id6770975458?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.orzlbnbepz.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6771058453",
-      "title": "Barricade Kings",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Board",
-      "developer": "Besi Mirzo",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/1e/71/df1e711e-c582-9125-0d8e-1617aa37b559/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/1e/71/df1e711e-c582-9125-0d8e-1617aa37b559/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/barricade-kings/id6771058453?uo=4",
-      "price": "Free",
-      "rating": 3,
-      "bundleId": "com.besimirzo.barricadekings",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761525338",
-      "title": "Monster Heroes: Dark Arena",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Adventure",
-      "developer": "Bozhou Tongyou Network Technology Co., Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/ad/ce/f4adce3c-856a-987e-a43f-b9601cebb965/AppIcon-1-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f4/ad/ce/f4adce3c-856a-987e-a43f-b9601cebb965/AppIcon-1-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/monster-heroes-dark-arena/id6761525338?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.creatures.iosbeast",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6769633070",
-      "title": "1001 questions sur le Maroc",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Trivia",
-      "developer": "Othman HASSANI BENMANSOUR",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/2e/59/8b2e59bc-89ef-8dec-b335-039f97f93a22/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8b/2e/59/8b2e59bc-89ef-8dec-b335-039f97f93a22/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/1001-questions-sur-le-maroc/id6769633070?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.NadiaLARGUET.1001questionssurlemaroc",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6770773110",
-      "title": "AuraPantry: rotat",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Games",
-      "developer": "Huseyin Arslan",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/39/8a/da398a6a-cbeb-6f6d-0cb5-1da1b1df4ad4/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/da/39/8a/da398a6a-cbeb-6f6d-0cb5-1da1b1df4ad4/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/aurapantry-rotat/id6770773110?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ratate.circlua",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6760998791",
-      "title": "Tile Wars TD",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Arcade",
-      "developer": "Neptune Company",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/25/ff/dc25ffb3-f64b-7b4b-a025-af40994070ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/25/ff/dc25ffb3-f64b-7b4b-a025-af40994070ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/tile-wars-td/id6760998791?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.tree.hybrid.routedefense",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.tree.hybrid.routedefense"
-    },
-    {
-      "id": "ios_6761259169",
-      "title": "Mystery Phantoms : Secrets F2P",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Adventure",
-      "developer": "DO GAMES LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/a9/e7/12a9e750-2a17-9be2-060c-98a2605ad437/Icon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/12/a9/e7/12a9e750-2a17-9be2-060c-98a2605ad437/Icon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/mystery-phantoms-secrets-f2p/id6761259169?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.dominigames.mp1.ios.free2play",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6755390066",
-      "title": "Snail Bob: Fix and Relax",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Puzzle",
-      "developer": "HC GLOBAL DISTRIBUTION LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/a1/b0/80a1b074-d81f-3df6-0122-5ebea11c2064/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/a1/b0/80a1b074-d81f-3df6-0122-5ebea11c2064/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/snail-bob-fix-and-relax/id6755390066?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.hunterhamster.snailbobrelax.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6769015383",
-      "title": "Fortune Wheel - Win Real Cash",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Action",
-      "developer": "Frostfield Gaming Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/0b/bd/250bbd49-2758-f30f-2118-d2f2ad4ad98c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/0b/bd/250bbd49-2758-f30f-2118-d2f2ad4ad98c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/fortune-wheel-win-real-cash/id6769015383?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.frostfieldgaming.fortune-wheel",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6768221921",
-      "title": "Weathero Cozora",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Games",
-      "developer": "雨菲 王",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/32/f7/2f32f7c6-09aa-adfc-e8f5-05017ab048af/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2f/32/f7/2f32f7c6-09aa-adfc-e8f5-05017ab048af/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/weathero-cozora/id6768221921?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.softmeadowcalmgames.weathero.cozora",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6771056441",
-      "title": "Cloister Curator",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Games",
-      "developer": "Sully Ramsbottom",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/ca/a1/decaa196-4394-3de2-ce2c-bd6f42ffb46b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/de/ca/a1/decaa196-4394-3de2-ce2c-bd6f42ffb46b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cloister-curator/id6771056441?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.cloister.curator",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6767494089",
-      "title": "Miriia Pinata Bloomo",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Games",
-      "developer": "明喜 文",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/33/4d/40334db9-35db-44fe-9715-968b3e1b70f5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/33/4d/40334db9-35db-44fe-9715-968b3e1b70f5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/miriia-pinata-bloomo/id6767494089?uo=4",
-      "price": "Free",
-      "rating": 4.5,
-      "bundleId": "com.hollyhollowsoftlabs.miriia.pinata.bloomo",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6769628082",
-      "title": "Cat Train Tycoon",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Simulation",
-      "developer": "Solid Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/5b/10/825b1013-1724-ad66-f1ad-b3081c052eae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/5b/10/825b1013-1724-ad66-f1ad-b3081c052eae/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cat-train-tycoon/id6769628082?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.cat.train.tycoon",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.cat.train.tycoon"
-    },
-    {
-      "id": "ios_6770287792",
-      "title": "Anime TCG Battle Game",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-20",
-      "genre": "Arcade",
-      "developer": "Pogame Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/bf/1a/bfbf1ad4-d8e3-beb9-6403-51721a364346/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bf/bf/1a/bfbf1ad4-d8e3-beb9-6403-51721a364346/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/anime-tcg-battle-game/id6770287792?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.anime.tcg.battle.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6767472192",
-      "title": "Mega Bounty:Rookie Fleet",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Role Playing",
-      "developer": "RF MEDIA LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/f4/76/d5f476fc-2d8c-eb0d-4bc9-f91b63670eca/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/f4/76/d5f476fc-2d8c-eb0d-4bc9-f91b63670eca/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/mega-bounty-rookie-fleet/id6767472192?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.qhzy.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6755534047",
-      "title": "Pond Pals",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Trivia",
-      "developer": "HyperBeard Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/38/23/ba3823aa-2f58-8895-d85b-6bbf82581ca5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ba/38/23/ba3823aa-2f58-8895-d85b-6bbf82581ca5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/pond-pals/id6755534047?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "com.hyperbeard.pondpals",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.hyperbeard.pondpals"
-    },
-    {
-      "id": "ios_6755629873",
-      "title": "UFL - Jeu de Foot Mobile 2026",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Simulation",
-      "developer": "XTEN Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/32/25/fd322556-5f6d-ea90-c33a-436ed8a64846/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/32/25/fd322556-5f6d-ea90-c33a-436ed8a64846/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ufl-jeu-de-foot-mobile-2026/id6755629873?uo=4",
-      "price": "Free",
-      "rating": 4.4,
-      "bundleId": "com.xten.ufl",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.xten.ufl"
-    },
-    {
-      "id": "ios_6476611896",
-      "title": "Supremacy: Warhammer 40,000",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Simulation",
-      "developer": "Stillfront Supremacy GmbH",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/d4/3d/14d43d23-cdb4-9698-1dd9-484c7a18390e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/14/d4/3d/14d43d23-cdb4-9698-1dd9-484c7a18390e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/supremacy-warhammer-40-000/id6476611896?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "com.bytro.warhammer40ksupremacy",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bytro.warhammer40ksupremacy"
-    },
-    {
-      "id": "ios_6754444931",
-      "title": "Spirits of Aetheria",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Role Playing",
-      "developer": "NEOCRAFT LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/c0/06/a2c006ce-f3ad-436e-3ed1-e0cfd96f769c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a2/c0/06/a2c006ce-f3ad-436e-3ed1-e0cfd96f769c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/spirits-of-aetheria/id6754444931?uo=4",
-      "price": "Free",
-      "rating": 2,
-      "bundleId": "com.emagroups.wl",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.emagroups.wl"
-    },
-    {
-      "id": "ios_6771319495",
-      "title": "Tiny Chick Pip: Farm Escape",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Games",
-      "developer": "Amir Hany",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/eb/f1/acebf110-ca90-5f5d-efdf-1ab4499c7f71/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ac/eb/f1/acebf110-ca90-5f5d-efdf-1ab4499c7f71/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/tiny-chick-pip-farm-escape/id6771319495?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.chickpipfarm.amirhany",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6763148788",
-      "title": "Forest Whispers: Idle TD RPG",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Role Playing",
-      "developer": "Martin Mairhofer",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/ce/76/97ce764b-b6b7-9958-a6f2-a370b51474fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/ce/76/97ce764b-b6b7-9958-a6f2-a370b51474fb/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/forest-whispers-idle-td-rpg/id6763148788?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.draw5.Whispers-of-the-Forest",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6742404565",
-      "title": "Minishoot' Adventures",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Arcade",
-      "developer": "Yaozuo Games Ltd",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/ac/29/f9ac29f9-e6e9-f7d4-8b3f-510c98c63f7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/ac/29/f9ac29f9-e6e9-f7d4-8b3f-510c98c63f7e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/minishoot-adventures/id6742404565?uo=4",
-      "price": "6.99€",
-      "rating": 4.4,
-      "bundleId": "com.soulgame.minishoot.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6765465123",
-      "title": "Barber Chop 3",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Arcade",
-      "developer": "Lajeune and Associates, LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/37/11/8f371151-a258-3f7d-60d0-c7cdf3d6bb83/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8f/37/11/8f371151-a258-3f7d-60d0-c7cdf3d6bb83/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/barber-chop-3/id6765465123?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.lajeuneandassociatesllc.barberchop3",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6770387435",
-      "title": "MTGRip - Card Pack Simulator",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Simulation",
-      "developer": "Lavai Labs LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/35/88/d73588f8-8dae-beaf-ff79-3430b20a0729/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/35/88/d73588f8-8dae-beaf-ff79-3430b20a0729/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/mtgrip-card-pack-simulator/id6770387435?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.lavailabs.mtgrip",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6759365127",
-      "title": "Bad Dog From Hell",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Simulation",
-      "developer": "Signature Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/2c/72/e92c72e0-6cf7-c6bb-3e49-cbada4dfb045/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e9/2c/72/e92c72e0-6cf7-c6bb-3e49-cbada4dfb045/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bad-dog-from-hell/id6759365127?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.sgames.bad.dog.from.hell",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.sgames.bad.dog.from.hell"
-    },
-    {
-      "id": "ios_6757924854",
-      "title": "Silk Dynasty Slots",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Casino",
-      "developer": "RC Web Design LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/f0/87/1af087f8-8413-a32a-8467-97acb5948ea5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1a/f0/87/1af087f8-8413-a32a-8467-97acb5948ea5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/silk-dynasty-slots/id6757924854?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.SilkDynasty.sldn6578",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6771269832",
-      "title": "Ride Bike & Grab Monsters",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Adventure",
-      "developer": "Trang Do",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/b2/f4/8bb2f456-5984-db58-fc0d-8d42bd5a1226/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8b/b2/f4/8bb2f456-5984-db58-fc0d-8d42bd5a1226/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ride-bike-grab-monsters/id6771269832?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.ride.bike.me2026",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6771365328",
-      "title": "TheVanishedPig",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Games",
-      "developer": "Gavin Chabbra",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/79/05/cf790536-7f90-2585-fc96-98a5ec565383/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/79/05/cf790536-7f90-2585-fc96-98a5ec565383/AppIcon-1x_U007epad-0-1-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/thevanishedpig/id6771365328?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.theVanishedPig.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6759253387",
-      "title": "Worm Hole: Color Puzzle",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Arcade",
-      "developer": "Fiogonia Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/85/3b/24853bcc-8132-9da0-122d-9a99c958d8b9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/24/85/3b/24853bcc-8132-9da0-122d-9a99c958d8b9/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/worm-hole-color-puzzle/id6759253387?uo=4",
-      "price": "Free",
-      "rating": 4.5,
-      "bundleId": "com.fiogonia.targetescape",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.fiogonia.targetescape"
-    },
-    {
-      "id": "ios_6768593244",
-      "title": "Animal Climb Up: Tower Jump",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-21",
-      "genre": "Role Playing",
-      "developer": "Tran ngoc Cuong",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/20/1f/3f201f9e-53dc-330f-8549-ec9c7bcb141a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3f/20/1f/3f201f9e-53dc-330f-8549-ec9c7bcb141a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/animal-climb-up-tower-jump/id6768593244?uo=4",
-      "price": "Free",
-      "rating": 3.8,
-      "bundleId": "com.evo.tower.jump2026",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6751308171",
       "title": "Dragon Raja: ReRise - RPG",
       "platform": [
@@ -19157,7 +18552,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/16/e6/4e/16e64ef9-f902-e110-f3ef-c8bda131e518/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/human-rise-idle-evolution/id6766188646?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.3,
       "bundleId": "com.human.rise",
       "status": "released",
       "source": "itunes",
@@ -19649,7 +19044,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8f/0b/c7/8f0bc751-d828-e49d-46d9-2db90098bf53/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/color-rush-puzzle/id6795396087?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.arrowrushup.ios",
       "status": "released",
       "source": "itunes",
@@ -20433,7 +19828,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/42/a9/7542a9c5-b670-a969-6a24-67ee8106b927/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/chameleon-paint-hide-seek/id6798317623?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 1,
       "bundleId": "com.joanne.chameleompaint",
       "status": "released",
       "source": "itunes",
@@ -21377,7 +20772,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/01/12/f0011209-720f-9732-1bed-669c7bf84026/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/bluffle-jeu-de-limposteur/id6790061752?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.hypecent.bluffle",
       "status": "released",
       "source": "itunes",
@@ -21902,7 +21297,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ee/44/b1/ee44b114-9dc0-bb4e-5573-95ba18a910e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/nitelore/id6790147739?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.crabware.nitelore",
       "status": "released",
       "source": "itunes",
@@ -21922,7 +21317,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/79/1e/27/791e2781-5159-6e22-6a61-22735c391a39/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/iron-caravan/id6783594650?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.deltaquest.ironcaravan",
       "status": "released",
       "source": "itunes",
@@ -22147,7 +21542,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/62/68/7462689a-1aaf-32a4-0ec1-3825b85613d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/slots-daggers/id6762803589?uo=4",
       "price": "3.99€",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.Friedemann.SlotsAndDaggers",
       "status": "released",
       "source": "itunes",
@@ -22168,7 +21563,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b3/0b/77/b30b7785-b373-e360-d9c2-d9f361a78f80/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/stories-life-habillage-mode/id6504112516?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 3.7,
       "bundleId": "com.subara.storieslife",
       "status": "released",
       "source": "itunes",
@@ -22323,6 +21718,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.Nanali.ArrowsAndCats"
     }
   ],
-  "lastUpdated": "2026-08-17T07:06:13.008285Z",
-  "totalGames": 1134
+  "lastUpdated": "2026-08-19T08:34:28.587050Z",
+  "totalGames": 1103
 }
