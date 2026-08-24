@@ -1,200 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6772209007",
-      "title": "CR:Color Hit Keeper",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-24",
-      "genre": "Games",
-      "developer": "Arturs Lejnieks",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/e6/a2/00e6a224-468a-90a0-0f37-7c240b3d891d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/e6/a2/00e6a224-468a-90a0-0f37-7c240b3d891d/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cr-color-hit-keeper/id6772209007?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.neonfocus.colorhitkeeper",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6766115167",
-      "title": "CyberBunker",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-24",
-      "genre": "Arcade",
-      "developer": "Justin Znaidi",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/e8/13/5de813e5-7183-0f11-b8f5-0b2efc40806c/AppIcon-1x_U007ephone-0-1-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/e8/13/5de813e5-7183-0f11-b8f5-0b2efc40806c/AppIcon-1x_U007ephone-0-1-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cyberbunker/id6766115167?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "V2Knax.CyberBunker",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6770717359",
-      "title": "Keytris",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-24",
-      "genre": "Games",
-      "developer": "Francois Fouqueau",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/17/ba/6717ba8a-5d3b-fab2-56b8-5e89d836a1fe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/67/17/ba/6717ba8a-5d3b-fab2-56b8-5e89d836a1fe/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/keytris/id6770717359?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.francois.keytris",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761525559",
-      "title": "Lords War: Survival",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-24",
-      "genre": "Arcade",
-      "developer": "Genesis Network",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/31/c8/a931c89c-98da-3cff-5c67-386b8f2dd9d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a9/31/c8/a931c89c-98da-3cff-5c67-386b8f2dd9d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/lords-war-survival/id6761525559?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.lordswar.ios.eu",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6772160964",
-      "title": "Legend Football+",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-24",
-      "genre": "Games",
-      "developer": "Sindha Kishankumar",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/e0/01/a3e00182-057b-cf55-f50d-de9543d8ce86/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a3/e0/01/a3e00182-057b-cf55-f50d-de9543d8ce86/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/legend-football/id6772160964?uo=4",
-      "price": "Free",
-      "rating": 1,
-      "bundleId": "com.Legend.Football",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6738041648",
-      "title": "OTR 2 - Off The Road",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-25",
-      "genre": "Racing",
-      "developer": "Dogbyte Games Kft.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/2d/5a/f12d5a7f-e6b4-5c0f-a5f3-0596f5102bd7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/2d/5a/f12d5a7f-e6b4-5c0f-a5f3-0596f5102bd7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/otr-2-off-the-road/id6738041648?uo=4",
-      "price": "Free",
-      "rating": 4,
-      "bundleId": "com.dogbytegames.OtrNext",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761672810",
-      "title": "Onsen and Girls",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-25",
-      "genre": "Role Playing",
-      "developer": "FantorVale Games Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/c2/5f/ffc25f9c-9403-38ac-e440-4227b62b4ce1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/c2/5f/ffc25f9c-9403-38ac-e440-4227b62b4ce1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/onsen-and-girls/id6761672810?uo=4",
-      "price": "Free",
-      "rating": 3.7,
-      "bundleId": "com.fantorvale.os.gb.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6755585789",
-      "title": "Overgeared Hero: Merge RPG",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-25",
-      "genre": "Strategy",
-      "developer": "5minlab Co., Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/46/a8/cd46a8eb-7081-caba-c6dd-81000044761a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cd/46/a8/cd46a8eb-7081-caba-c6dd-81000044761a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/overgeared-hero-merge-rpg/id6755585789?uo=4",
-      "price": "Free",
-      "rating": 4.9,
-      "bundleId": "com.fiveminlab.overgeared.hero.backpack.merge",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.fiveminlab.overgeared.hero.backpack.merge"
-    },
-    {
-      "id": "ios_6760993860",
-      "title": "SortMaster - Journey",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-25",
-      "genre": "Arcade",
-      "developer": "Never Old PTE. LTD.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/8b/92/868b926d-d53c-b712-4af4-09cc15eeefa7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/86/8b/92/868b926d-d53c-b712-4af4-09cc15eeefa7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/sortmaster-journey/id6760993860?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.neverold.watersort.master.puzzle.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.neverold.watersort.master.puzzle.game"
-    },
-    {
-      "id": "ios_6760000104",
-      "title": "Ninja Training: Assemble",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-25",
-      "genre": "Role Playing",
-      "developer": "Jiangsu Ganghao Network Technology Co., Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ae/33/81ae33b5-bb74-c8de-09f1-be6f28c351e7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/81/ae/33/81ae33b5-bb74-c8de-09f1-be6f28c351e7/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ninja-training-assemble/id6760000104?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.assemble.iosninhree",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6758201392",
       "title": "Slime Rancher",
       "platform": [
@@ -19915,7 +19721,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/ab/3e/10ab3e6d-3735-b2ca-68c6-7a57b4524c5a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/jewelscapes-color-by-number/id6795568181?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.jewel.scapes.color.by.number.free.games",
       "status": "released",
       "source": "itunes",
@@ -20596,7 +20402,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/13/27/3f1327e3-2887-a423-869f-648d73e55cee/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/4-in-a-row-arena/id6792371682?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.felfel.fourinarowarena",
       "status": "released",
       "source": "itunes",
@@ -21387,6 +21193,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.Nanali.ArrowsAndCats"
     }
   ],
-  "lastUpdated": "2026-08-21T08:37:32.110471Z",
-  "totalGames": 1086
+  "lastUpdated": "2026-08-23T08:26:02.665028Z",
+  "totalGames": 1076
 }
