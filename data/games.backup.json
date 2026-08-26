@@ -18920,7 +18920,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/ac/24/59ac24c4-1a02-32b9-233e-59b577ca8e9c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/master-the-road-driving-sim/id6793407539?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 3,
       "bundleId": "com.tarchouna.games.mastertheroad",
       "status": "released",
       "source": "itunes",
@@ -22864,6 +22864,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.superpixel.undyinghero"
     }
   ],
-  "lastUpdated": "2026-08-24T07:09:13.910006Z",
+  "lastUpdated": "2026-08-24T08:45:27.660822Z",
   "totalGames": 1161
 }
