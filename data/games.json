@@ -1,343 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6759091785",
-      "title": "Jeux de Coloriage et dessin 2+",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Arcade",
-      "developer": "KidloLand Kids & Toddler Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/8d/9d/758d9d80-8f1c-28f8-39ac-bea781c4e8f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/75/8d/9d/758d9d80-8f1c-28f8-39ac-bea781c4e8f8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/jeux-de-coloriage-et-dessin-2/id6759091785?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.kl.toddler.coloring.drawing.games",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6762590340",
-      "title": "Bingo FC: Football Game",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Trivia",
-      "developer": "Variko Inc",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/92/93/ea9293cc-2d46-3c3a-b150-2ce738fdee42/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ea/92/93/ea9293cc-2d46-3c3a-b150-2ce738fdee42/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bingo-fc-football-game/id6762590340?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.shobu11.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.shobu11.app"
-    },
-    {
-      "id": "ios_6768990123",
-      "title": "Tchin!",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Arcade",
-      "developer": "lucas chaffanjon",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/1e/7a/731e7ad8-cb30-e3b4-39c7-5b49b8337379/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/1e/7a/731e7ad8-cb30-e3b4-39c7-5b49b8337379/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/tchin/id6768990123?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.elchapo0070.tchin",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6773084366",
-      "title": "Lis ta Bible",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Games",
-      "developer": "Gabriel CHAO",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/dc/0d/94dc0ddd-4dda-5b61-0edb-97343a5010f1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/dc/0d/94dc0ddd-4dda-5b61-0edb-97343a5010f1/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/lis-ta-bible/id6773084366?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.gcapps.readyourbible",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.gcapps.readyourbible"
-    },
-    {
-      "id": "ios_6755374105",
-      "title": "Merge Cat Town",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Arcade",
-      "developer": "MOBIRIX",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/e8/e1/1fe8e10f-b928-b1a0-9a8d-dfaa651012d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1f/e8/e1/1fe8e10f-b928-b1a0-9a8d-dfaa651012d7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/merge-cat-town/id6755374105?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.mobirix.mgct",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.mobirix.mgct"
-    },
-    {
-      "id": "ios_6755949524",
-      "title": "Battle Waves: Mobile",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Card",
-      "developer": "Gabriel's Games LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/86/e2/8286e2d1-7318-519d-392a-4fa65d161889/AppIcon-0-0-1x_U007emarketing-0-8-85-220.jpeg/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/82/86/e2/8286e2d1-7318-519d-392a-4fa65d161889/AppIcon-0-0-1x_U007emarketing-0-8-85-220.jpeg/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/battle-waves-mobile/id6755949524?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.GabrielsGames.BattleWaves",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.GabrielsGames.BattleWaves"
-    },
-    {
-      "id": "ios_6766812401",
-      "title": "Word Solitaire: Associations",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Card",
-      "developer": "Chardonnay Partners LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/84/2a/bf842a52-a60c-3359-a6f2-0ff1391af8fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bf/84/2a/bf842a52-a60c-3359-a6f2-0ff1391af8fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/word-solitaire-associations/id6766812401?uo=4",
-      "price": "Free",
-      "rating": 3,
-      "bundleId": "com.chpgames.wordsolitaire",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761531281",
-      "title": "Just Desserts: Merge & Story",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Arcade",
-      "developer": "Century Games Innovation Pte. Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/2f/b3/ce2fb37a-1855-54e7-01c1-3d56cb67dfe2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ce/2f/b3/ce2fb37a-1855-54e7-01c1-3d56cb67dfe2/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/just-desserts-merge-story/id6761531281?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.justdesserts.global",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.justdesserts.global"
-    },
-    {
-      "id": "ios_6774085996",
-      "title": "Bunnydoku",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Arcade",
-      "developer": "Meta Innovation",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5e/e0/9b5ee074-9ab9-c720-72d3-2d7c31f805d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/5e/e0/9b5ee074-9ab9-c720-72d3-2d7c31f805d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bunnydoku/id6774085996?uo=4",
-      "price": "Free",
-      "rating": 4.2,
-      "bundleId": "com.mi.bunnydoku",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.mi.bunnydoku"
-    },
-    {
-      "id": "ios_6772926827",
-      "title": "Penalydge",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-29",
-      "genre": "Games",
-      "developer": "Daria Panasenko",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/70/75/ac7075d0-ef28-b762-0602-b616773bee0c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/70/75/ac7075d0-ef28-b762-0602-b616773bee0c/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/penalydge/id6772926827?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "cop.penalth.judalidge",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6755174804",
-      "title": "Cozy Bookshop Selling Game",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-30",
-      "genre": "Role Playing",
-      "developer": "Nazish Munawar",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/a4/38/04a4387b-ed79-5ec2-09aa-3998a12dd7cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/04/a4/38/04a4387b-ed79-5ec2-09aa-3998a12dd7cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cozy-bookshop-selling-game/id6755174804?uo=4",
-      "price": "Free",
-      "rating": 1,
-      "bundleId": "com.99.nights.forest.survival.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6762040999",
-      "title": "FootIQ",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-30",
-      "genre": "Word",
-      "developer": "Sualc Lab",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/b9/3b/c0b93b3d-b0aa-29b7-d8c4-eb21833b723f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/b9/3b/c0b93b3d-b0aa-29b7-d8c4-eb21833b723f/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/footiq/id6762040999?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.sualclab.footiq",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6755089069",
-      "title": "Rope Hero Fight Gang War 3D",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-30",
-      "genre": "Action",
-      "developer": "Hamid Nasir Khan",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/c5/f1/66c5f19a-f26d-0212-bef4-74c92d3e1825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/66/c5/f1/66c5f19a-f26d-0212-bef4-74c92d3e1825/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/rope-hero-fight-gang-war-3d/id6755089069?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.fas.rope.hero.fight",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757787314",
-      "title": "Block Blast - Puzzle Games Pop",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-30",
-      "genre": "Arcade",
-      "developer": "岳 邱",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/d4/af/97d4af72-c99e-6fec-a5b2-b076eb2f5b78/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/97/d4/af/97d4af72-c99e-6fec-a5b2-b076eb2f5b78/AppIcon-0-1x_U007epad-0-1-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/block-blast-puzzle-games-pop/id6757787314?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.DongWuXiaoChu",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761775014",
-      "title": "Void Poker 1992",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-30",
-      "genre": "Arcade",
-      "developer": "Oleksandr Ronzhyn",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/2b/d7/b92bd7b1-c85c-7021-7c7d-77983f768b7b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/2b/d7/b92bd7b1-c85c-7021-7c7d-77983f768b7b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/void-poker-1992/id6761775014?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.haibude.voidpoker1992",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6774717737",
-      "title": "Paralives: Paraguide",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-30",
-      "genre": "Role Playing",
-      "developer": "Elena Ionescu",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/db/18/80db182b-d9b8-0e03-e062-60b9e43bf301/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/80/db/18/80db182b-d9b8-0e03-e062-60b9e43bf301/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/paralives-paraguide/id6774717737?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.invoparaguide.appg",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6762254103",
-      "title": "Idle Fishlandia - Tycoon Game",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-30",
-      "genre": "Simulation",
-      "developer": "肖见 陈",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/1c/d8/eb1cd865-3de6-2560-0f28-0d1076d5ed40/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/1c/d8/eb1cd865-3de6-2560-0f28-0d1076d5ed40/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/idle-fishlandia-tycoon-game/id6762254103?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.idle.fishing.club.hooking.resort.tycoon",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.idle.fishing.club.hooking.resort.tycoon"
-    },
-    {
       "id": "ios_6741676290",
       "title": "Lawgivers II LITE",
       "platform": [
@@ -21528,7 +21191,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/53/f5/be53f5a0-d730-67dd-8068-eddbddc6f224/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/ch-r2-math-glisten/id6801041958?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.robinbufkin.mathglisten",
       "status": "released",
       "source": "itunes",
@@ -21665,7 +21328,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/dc/6b/ef/dc6befeb-75ce-5ba0-8a81-3a4d8bccde9b/Icon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/objets-cach%C3%A9s-expedition-f2p/id6770901861?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.dominigames.hemerged.ios.free2play",
       "status": "released",
       "source": "itunes",
@@ -22158,7 +21821,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/a2/54/a1a25479-07fd-5c76-45a0-82f015693f79/AppIconNEW-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/sudoku-scan-solve-learn/id6795164486?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "Fun.Pietro.Sudoku",
       "status": "released",
       "source": "itunes",
@@ -22336,7 +21999,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d5/3c/a5/d53ca5ab-bc6e-0a1a-3645-5da648ef1e7a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/tiny-room-stories-eclipse/id6502894306?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.kiarygames.eclipse",
       "status": "released",
       "source": "itunes",
@@ -22378,7 +22041,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0d/99/23/0d99235c-2abb-f573-aa29-70d1487022fd/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/plants-on-fire-attack-defend/id6757785541?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.9,
       "bundleId": "com.nvsgames.pt",
       "status": "released",
       "source": "itunes",
@@ -22420,7 +22083,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/8e/d9/948ed911-3eec-96a1-f6a9-fc4090eae594/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/arrows-cats-rescue-puzzle/id6761253603?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.Nanali.ArrowsAndCats",
       "status": "released",
       "source": "itunes",
@@ -22449,6 +22112,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.superpixel.undyinghero"
     }
   ],
-  "lastUpdated": "2026-08-26T08:40:06.344878Z",
-  "totalGames": 1140
+  "lastUpdated": "2026-08-28T19:53:13.744561Z",
+  "totalGames": 1123
 }

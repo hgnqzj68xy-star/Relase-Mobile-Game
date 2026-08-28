@@ -1,421 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6747110230",
-      "title": "Red Bull Padel: Court Legends",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Sports",
-      "developer": "Red Bull",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/4d/ce/344dce9a-d7ce-4279-f182-2a907915bd2b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/34/4d/ce/344dce9a-d7ce-4279-f182-2a907915bd2b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/red-bull-padel-court-legends/id6747110230?uo=4",
-      "price": "Free",
-      "rating": 4.5,
-      "bundleId": "com.redbull.padel",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.redbull.padel"
-    },
-    {
-      "id": "ios_6754666867",
-      "title": "Pictonico!",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Arcade",
-      "developer": "Nintendo Co., Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/58/f1/9958f13b-6252-db4d-0098-c132d624eac6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/99/58/f1/9958f13b-6252-db4d-0098-c132d624eac6/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/pictonico/id6754666867?uo=4",
-      "price": "Free",
-      "rating": 4.3,
-      "bundleId": "com.nintendo.zana",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.nintendo.zana"
-    },
-    {
-      "id": "ios_6499562253",
-      "title": "Village du Dragon 3",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Role Playing",
-      "developer": "Highbrow",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/13/cc/0c13cce0-37bc-f922-a9c3-588c1469ff2e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0c/13/cc/0c13cce0-37bc-f922-a9c3-588c1469ff2e/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/village-du-dragon-3/id6499562253?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "com.highbrow.games.dvo",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.highbrow.games.dvo"
-    },
-    {
-      "id": "ios_6770531164",
-      "title": "Velvet Fortune Arcade",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Arcade",
-      "developer": "OLIVIA LEE O'ROURKE",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/79/11/397911fd-a64b-a047-61c8-b4d19dee3c42/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/39/79/11/397911fd-a64b-a047-61c8-b4d19dee3c42/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/velvet-fortune-arcade/id6770531164?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.app.VelvetFortuneArcade",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6760277702",
-      "title": "MonMon Masters",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Arcade",
-      "developer": "PLAYHARD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/bc/4b/cbbc4beb-1133-78f0-0654-2b43dde652fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cb/bc/4b/cbbc4beb-1133-78f0-0654-2b43dde652fa/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/monmon-masters/id6760277702?uo=4",
-      "price": "Free",
-      "rating": 4,
-      "bundleId": "com.playhardlab.monmonmasters.rpg.battle.monster.pvp.raid",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.playhardlab.monmonmasters.rpg.battle.monster.pvp.raid"
-    },
-    {
-      "id": "ios_6772230782",
-      "title": "HER TREES : THE PUZZLE HOUSE",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Music",
-      "developer": "Razvan Urcan",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/e0/46/f8e046a2-3367-3f9c-bb66-651fc8ea4df3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/e0/46/f8e046a2-3367-3f9c-bb66-651fc8ea4df3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/her-trees-the-puzzle-house/id6772230782?uo=4",
-      "price": "Free",
-      "rating": 4.3,
-      "bundleId": "com.her.trees.puzzlehouse",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6760806695",
-      "title": "Picture Sort Quest-Lien Mental",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Puzzle",
-      "developer": "子豪 刘",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/ba/c9/7dbac96e-8168-5b2e-e7b3-1113ec790df3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7d/ba/c9/7dbac96e-8168-5b2e-e7b3-1113ec790df3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/picture-sort-quest-lien-mental/id6760806695?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.flash.world.card.solitaire",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6771681639",
-      "title": "Fish Sort Puzzle: Jeux Poisson",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Puzzle",
-      "developer": "Shycheese",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/03/e6/1803e622-3f0b-cb8f-dda3-371be53e0e30/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/18/03/e6/1803e622-3f0b-cb8f-dda3-371be53e0e30/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/fish-sort-puzzle-jeux-poisson/id6771681639?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.little.fish.swim",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761963686",
-      "title": "Queendoku Now!",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-27",
-      "genre": "Puzzle",
-      "developer": "Arrowise Studio",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/10/04/bc100426-d880-4ca8-2c93-24d46c945661/Queen-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/10/04/bc100426-d880-4ca8-2c93-24d46c945661/Queen-0-0-1x_U007epad-0-1-sRGB-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/queendoku-now/id6761963686?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.arrowise.queendoku",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761410877",
-      "title": "Duck Survival",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Role Playing",
-      "developer": "Joy Net Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/83/5f/4c835f04-cc6d-affe-5805-29e5f87f577b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4c/83/5f/4c835f04-cc6d-affe-5805-29e5f87f577b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/duck-survival/id6761410877?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.us.ducksurvival.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761366202",
-      "title": "Barcelone: Aventure (F2P)",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Puzzle",
-      "developer": "Friendly Fox Games Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/74/d1/ae74d121-0355-2bbe-5dd3-b293dfec0b49/AppIconPrimary-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/74/d1/ae74d121-0355-2bbe-5dd3-b293dfec0b49/AppIconPrimary-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/barcelone-aventure-f2p/id6761366202?uo=4",
-      "price": "Free",
-      "rating": 4.9,
-      "bundleId": "com.friendlyfoxgames.dc10f2p",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.friendlyfoxgames.dc10f2p"
-    },
-    {
-      "id": "ios_6771969453",
-      "title": "Pétanque Pro+",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Family",
-      "developer": "Tom Rascalou",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/72/c1/f572c134-0224-2088-f206-bf7812bf0c21/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/72/c1/f572c134-0224-2088-f206-bf7812bf0c21/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/p%C3%A9tanque-pro/id6771969453?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.tom.petanquepro",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6755253187",
-      "title": "Five Crowns: Kingdom Quest",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Card",
-      "developer": "Bonfit America Inc",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/4a/11/f14a11fb-0145-21af-0cb0-369768ea566f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f1/4a/11/f14a11fb-0145-21af-0cb0-369768ea566f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/five-crowns-kingdom-quest/id6755253187?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.bonfit.fivecrowns",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bonfit.fivecrowns"
-    },
-    {
-      "id": "ios_6772981415",
-      "title": "RoadStabilix",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Games",
-      "developer": "JOSEPH KALCAN",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/6d/18/f86d18ad-f9bc-48db-b611-44484f6b603a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f8/6d/18/f86d18ad-f9bc-48db-b611-44484f6b603a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/roadstabilix/id6772981415?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "cor.staroad.stabilcken",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6763040663",
-      "title": "Royaume de l'élevage de chevau",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Games",
-      "developer": "Game Boy Studio",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/ec/7c/0dec7c4c-8c63-7ec9-a689-89e4e8ba0007/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/0d/ec/7c/0dec7c4c-8c63-7ec9-a689-89e4e8ba0007/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/royaume-de-l%C3%A9levage-de-chevau/id6763040663?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.gbs.fantasy.horse.unicron.breed.care.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6772885029",
-      "title": "Magnet Man - Clean 'em all!",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Simulation",
-      "developer": "Ciagram",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/12/f6/a812f69a-99fa-b8a6-21d0-b57622d99c28/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/12/f6/a812f69a-99fa-b8a6-21d0-b57622d99c28/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/magnet-man-clean-em-all/id6772885029?uo=4",
-      "price": "Free",
-      "rating": 3,
-      "bundleId": "com.DonutsHC.MagnetMan",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.DonutsHC.MagnetMan"
-    },
-    {
-      "id": "ios_6769121279",
-      "title": "Dwarfs Diggers: Idle Master",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Strategy",
-      "developer": "Black Box Digital",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/21/40/16214050-e572-5247-545d-aa9ff685485b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/16/21/40/16214050-e572-5247-545d-aa9ff685485b/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/dwarfs-diggers-idle-master/id6769121279?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.bbdigital.idle.dwarfs.master",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bbdigital.idle.dwarfs.master"
-    },
-    {
-      "id": "ios_6773235231",
-      "title": "Roadix Flowix",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Games",
-      "developer": "Kevin Brooks",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/61/d7/2b61d788-bf37-d90a-862c-6e5325eaa4cb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/61/d7/2b61d788-bf37-d90a-862c-6e5325eaa4cb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/roadix-flowix/id6773235231?uo=4",
-      "price": "Free",
-      "rating": 2.8,
-      "bundleId": "cof.roadwix.flowadix",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6773994281",
-      "title": "Blast Flow: Pixel Break",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Games",
-      "developer": "十胜 荣",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/38/a7/ca38a703-e759-3b2d-cbcf-e6e5a4fa06ba/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ca/38/a7/ca38a703-e759-3b2d-cbcf-e6e5a4fa06ba/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/blast-flow-pixel-break/id6773994281?uo=4",
-      "price": "Free",
-      "rating": 4.9,
-      "bundleId": "com.blast.pixel.break",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6773201447",
-      "title": "Fast Tap Typeboard Escape",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Action",
-      "developer": "Cong Khanh La",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/b4/6b/93b46b2d-d354-d53e-c178-6154194f2213/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/b4/6b/93b46b2d-d354-d53e-c178-6154194f2213/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/fast-tap-typeboard-escape/id6773201447?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.fast.tap.keyboard2026",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761916559",
-      "title": "Cart Ride Obby",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-05-28",
-      "genre": "Role Playing",
-      "developer": "Liudmyla Petryshyn",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/57/87/6357870a-7fca-c598-d658-2a4576dc4367/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/57/87/6357870a-7fca-c598-d658-2a4576dc4367/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cart-ride-obby/id6761916559?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ios.maxdigitart.obby.cart.ride.sandbox",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6759091785",
       "title": "Jeux de Coloriage et dessin 2+",
       "platform": [
@@ -19886,7 +19471,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dd/04/f9/dd04f9f1-e807-df81-6ce7-a17ff8ba7443/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/super-heavy-iron-tank/id6757405833?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "net.gameduo.vg",
       "status": "released",
       "source": "itunes",
@@ -20107,7 +19692,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/63/20/88/632088f2-eb45-de80-6df7-df1cd322758d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/spekter-agency-survivor/id6741952304?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.spektergames.spekteragency",
       "status": "released",
       "source": "itunes",
@@ -20357,7 +19942,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bc/25/25/bc252552-41e6-d483-c001-6d37137ebecc/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/novapocket-game-emulator/id6793832418?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.nova.pocket",
       "status": "released",
       "source": "itunes",
@@ -21053,7 +20638,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/7f/16/637f16a9-37f5-8941-eddf-bc2ac84abbe0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/pixel-ants-swarm-hunt/id6799836370?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.infiniteplus.pixelants",
       "status": "released",
       "source": "itunes",
@@ -21171,7 +20756,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/0a/0c/e30a0c38-ea7b-0504-1c4f-5ce6f6583d5d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/diva-sherlock-jeu-denqu%C3%AAte/id6799503049?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 1,
       "bundleId": "com.appnox.divasherlock",
       "status": "released",
       "source": "itunes",
@@ -21517,7 +21102,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a2/58/72/a2587268-9d58-80a0-4e45-ed8d983c513f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/magilotl-idle-wizard-tycoon/id6781992767?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.5,
       "bundleId": "com.unimob.idle.axolotl",
       "status": "released",
       "source": "itunes",
@@ -21718,7 +21303,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3d/9a/81/3d9a81a3-573e-888f-0a58-f486b4bde087/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/new-world-sea-quest/id6796953637?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.5,
       "bundleId": "com.duihios.cklolun",
       "status": "released",
       "source": "itunes",
@@ -22002,7 +21587,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/d5/0f/89d50f86-3188-bfd5-446b-136e236794b6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/one-more-merge-puzzle/id6800340205?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.teddy.onemore",
       "status": "released",
       "source": "itunes",
@@ -22652,7 +22237,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/c3/15/3dc31507-ff0f-748d-426d-eaaeaa61856a/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/globetile/id6790850757?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "app.globetile.game",
       "status": "released",
       "source": "itunes",
@@ -22691,7 +22276,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/02/85/26028501-03bd-1077-1c1c-1b902b5b25fb/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/strikr-app/id6796810833?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.sebastiencaira.strikr",
       "status": "released",
       "source": "itunes",
@@ -22864,6 +22449,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.superpixel.undyinghero"
     }
   ],
-  "lastUpdated": "2026-08-24T08:45:27.660822Z",
-  "totalGames": 1161
+  "lastUpdated": "2026-08-26T08:40:06.344878Z",
+  "totalGames": 1140
 }
