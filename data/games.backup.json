@@ -20376,7 +20376,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/d2/d4/8dd2d48a-d53a-aa9b-5543-403f4f0aedd1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/rather-be-cute-tower/id6800943417?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.cute.tower.be2026",
       "status": "released",
       "source": "itunes",
@@ -20952,7 +20952,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/46/71/94467152-90f6-cdf7-7c09-c43718cd249b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/deep-corp-mining-strategy/id6791939384?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4,
       "bundleId": "world.Deep.corp",
       "status": "released",
       "source": "itunes",
@@ -21290,7 +21290,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/be/fc/43befcd0-12c5-c618-53be-59ba520c9820/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/crazy-story-plot-twist/id6801039859?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 2,
       "bundleId": "com.story.plot.joygame.ios",
       "status": "released",
       "source": "itunes",
@@ -22685,6 +22685,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.superpixel.undyinghero"
     }
   ],
-  "lastUpdated": "2026-08-31T13:15:45.133481Z",
+  "lastUpdated": "2026-08-31T15:49:53.843222Z",
   "totalGames": 1152
 }
