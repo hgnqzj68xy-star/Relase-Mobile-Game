@@ -1,286 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6759942065",
-      "title": "Ever Night: Reawakening",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Role Playing",
-      "developer": "LONGSIN GAME",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/f1/e6/2ff1e63b-e0a5-8061-3c9a-2e0a18146814/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2f/f1/e6/2ff1e63b-e0a5-8061-3c9a-2e0a18146814/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ever-night-reawakening/id6759942065?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.yongyesea.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757215900",
-      "title": "Jeu de Supermarket Magasin 2-5",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Family",
-      "developer": "KidloLand Kids & Toddler Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/a9/5a/eda95a61-e471-6687-2437-1473b1de9e6e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/a9/5a/eda95a61-e471-6687-2437-1473b1de9e6e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/jeu-de-supermarket-magasin-2-5/id6757215900?uo=4",
-      "price": "Free",
-      "rating": 3.8,
-      "bundleId": "com.idzdigital.supermarket.kids.shopping.baby.games",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6776009279",
-      "title": "Exhibit of Sorrows Game",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Adventure",
-      "developer": "OPTOELECTRONICS FUTURE LTD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/8d/57/658d57b4-3a24-90a3-bbf8-639d567a0b9f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/8d/57/658d57b4-3a24-90a3-bbf8-639d567a0b9f/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/exhibit-of-sorrows-game/id6776009279?uo=4",
-      "price": "Free",
-      "rating": 3.6,
-      "bundleId": "com.Exhibitof.SorrowsGame",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6769383461",
-      "title": "V-Score",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Games",
-      "developer": "castelStudio",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/76/32/287632c6-28c8-6d4d-a4a9-0f76a82c4ff6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/28/76/32/287632c6-28c8-6d4d-a4a9-0f76a82c4ff6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/v-score/id6769383461?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.jdecesco.vscore",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6449786107",
-      "title": "Guess The Rank",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Action",
-      "developer": "Pixel Perfect UG",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/8a/cd/588acd1b-8fb4-644b-73fd-399755211c14/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/8a/cd/588acd1b-8fb4-644b-73fd-399755211c14/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/guess-the-rank/id6449786107?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "io.guesstherank.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=io.guesstherank.app"
-    },
-    {
-      "id": "ios_6771261737",
-      "title": "Jeux De Police",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Simulation",
-      "developer": "Ovidiu Adrian Samoila",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/33/65/0e3365a3-ab19-551d-ea3f-2c8f1fb3a7bc/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/33/65/0e3365a3-ab19-551d-ea3f-2c8f1fb3a7bc/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/jeux-de-police/id6771261737?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "com.ovidiusamoila.policesimulator2026",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.ovidiusamoila.policesimulator2026"
-    },
-    {
-      "id": "ios_6761116576",
-      "title": "Bitcoin Farm Satoshi Empire",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Arcade",
-      "developer": "MoonDrip FZ-LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/8f/e4/1f8fe458-d5e1-b193-e661-6ff89cd82f12/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/8f/e4/1f8fe458-d5e1-b193-e661-6ff89cd82f12/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bitcoin-farm-satoshi-empire/id6761116576?uo=4",
-      "price": "Free",
-      "rating": 4.7,
-      "bundleId": "com.bitcoin.farm2",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bitcoin.farm2"
-    },
-    {
-      "id": "ios_6775713208",
-      "title": "Mammoth Hunters: Tribe",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Games",
-      "developer": "KAYAC Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/e9/ae/ade9aeef-6515-7176-6ce5-c9058b14ff11/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ad/e9/ae/ade9aeef-6515-7176-6ce5-c9058b14ff11/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/mammoth-hunters-tribe/id6775713208?uo=4",
-      "price": "Free",
-      "rating": 3.7,
-      "bundleId": "com.kayac.MammothHunters",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.kayac.MammothHunters"
-    },
-    {
-      "id": "ios_6763764205",
-      "title": "Ordna — Puzzle de tri",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-05",
-      "genre": "Puzzle",
-      "developer": "Great Scott AB",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/9a/24/9b9a2472-0019-e01c-a154-221f7aca7c84/ordna-0-1x_U007epad-0-1-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9b/9a/24/9b9a2472-0019-e01c-a154-221f7aca7c84/ordna-0-1x_U007epad-0-1-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ordna-puzzle-de-tri/id6763764205?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.greatscott.ordna",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6767118612",
-      "title": "Bus Rush Fever - Puzzle Games",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-06",
-      "genre": "Puzzle",
-      "developer": "Rosie Andrew",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/56/30/df563009-ba82-2f24-ba95-afaa66a95a88/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/df/56/30/df563009-ba82-2f24-ba95-afaa66a95a88/AppIcon-0-1x_U007epad-0-1-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bus-rush-fever-puzzle-games/id6767118612?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.feraygame.busstop",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6773207921",
-      "title": "Emoji Snake Vs Blocks - Snekka",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-06",
-      "genre": "Action",
-      "developer": "Ebenezer Oteng",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/d7/7a/00d77a41-8834-15c4-d84f-c9015b8d3425/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/d7/7a/00d77a41-8834-15c4-d84f-c9015b8d3425/AppIcon-0-0-1x_U007epad-0-1-85-220.jpeg/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/emoji-snake-vs-blocks-snekka/id6773207921?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.redizeuz.Snake-Breaker",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6770854315",
-      "title": "Solitaire Match - Emoji Pop",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-06",
-      "genre": "Board",
-      "developer": "Never Old PTE. LTD.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/59/a1/2b59a1d2-43f2-4f8d-ea9b-9e7630d3cdaa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/59/a1/2b59a1d2-43f2-4f8d-ea9b-9e7630d3cdaa/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/solitaire-match-emoji-pop/id6770854315?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.neverold.solitairematch",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.neverold.solitairematch"
-    },
-    {
-      "id": "ios_6776071000",
-      "title": "Crazy Zoo Sounds",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-06",
-      "genre": "Arcade",
-      "developer": "Nguyen Thi Dieu Linh",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/98/a6/9198a6da-fe71-1d25-2e38-cb9248dd9fe9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/91/98/a6/9198a6da-fe71-1d25-2e38-cb9248dd9fe9/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/crazy-zoo-sounds/id6776071000?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.crazy.zoo.sounds",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.crazy.zoo.sounds"
-    },
-    {
-      "id": "ios_6772101369",
-      "title": "Racing Square",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-06",
-      "genre": "Arcade",
-      "developer": "HASEED AHSAN TRANDERS",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/b5/32/64b53266-124b-daaf-16be-e7c5d95846d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/64/b5/32/64b53266-124b-daaf-16be-e7c5d95846d1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/racing-square/id6772101369?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.racing.square.run",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.racing.square.run"
-    },
-    {
       "id": "ios_6763055205",
       "title": "SunCity Online: RolePlay",
       "platform": [
@@ -20597,7 +20317,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/95/ab/2a/95ab2acf-7c75-9acc-bc15-1bbcb7b1456a/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/steam-steel/id6799894474?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 1,
       "bundleId": "com.alexisneal.steamsteel",
       "status": "released",
       "source": "itunes",
@@ -21030,7 +20750,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/e4/dc/c9e4dcaa-55dc-8a7e-33e7-76a53a0d4d17/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/fight-star-team-manager-idle/id6795540432?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 3,
       "bundleId": "com.coolcatsgames.fightstaridle",
       "status": "released",
       "source": "itunes",
@@ -21849,7 +21569,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/72/f1/fc72f1bd-2e1d-8670-3271-94c1bf158757/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/super-tile-puzzle-triple-match/id6759933424?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "questar.games.tile.match",
       "status": "released",
       "source": "itunes",
@@ -21954,6 +21674,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.superpixel.undyinghero"
     }
   ],
-  "lastUpdated": "2026-09-02T12:32:01.468474Z",
-  "totalGames": 1115
+  "lastUpdated": "2026-09-04T12:29:22.095882Z",
+  "totalGames": 1101
 }
