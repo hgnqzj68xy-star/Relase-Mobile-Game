@@ -21205,7 +21205,7 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3d/2e/ab/3d2eabed-b90d-38fb-9fac-f523f52dab1e/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/monkey-speed-banana/id6800667735?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.monkey.escape2026",
       "status": "released",
       "source": "itunes",
@@ -23013,6 +23013,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-09-06T06:36:46.234721Z",
+  "lastUpdated": "2026-09-06T11:57:09.696873Z",
   "totalGames": 1161
 }
