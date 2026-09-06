@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
-Mobile Games Release Scraper v3
-- iOS     : iTunes Search API + vérification disponibilité France
-- Android : corrélation bundleId iOS -> Google Play + vérification géo France
-- Cache   : évite de re-scraper les jeux déjà connus
-- Logging : structuré avec horodatage
-- Safety  : backup JSON avant écrasement, validation avant save
+Mobile Games Release Scraper v4
+- iOS     : iTunes Search API (FR + EN, store France)
+- Android : corrélation bundleId iOS -> Google Play FR
+- Statut  : upcoming si date future, released si date passée ou aujourd'hui
+- Purge   : déduplication stricte, max 300 jeux en base
 """
 
 import json, os, time, re, logging, shutil
@@ -36,24 +35,23 @@ log = logging.getLogger(__name__)
 # ── Config ────────────────────────────────────────────────────────────────────
 DATA_FILE        = Path(__file__).parent.parent / "data" / "games.json"
 BACKUP_FILE      = Path(__file__).parent.parent / "data" / "games.backup.json"
-LOOKBACK_DAYS    = 30   # 30j passes seulement
-LOOKAHEAD_DAYS   = 30   # 30j futur uniquement
+LOOKBACK_DAYS    = 30    # jours passés
+LOOKAHEAD_DAYS   = 30    # jours futurs
+MAX_GAMES        = 300   # seuil alerte
 ANDROID_WORKERS  = 5
-MAX_GAMES        = 300  # seuil alerte si trop de jeux
 CHECK_FR         = os.environ.get("CHECK_FR", "false").lower() == "true"
 
 IOS_SEARCH_TERMS = [
-    # Termes anglais (majorité des jeux mobiles)
+    # Anglais — majorité des jeux mobiles
     "new game", "rpg", "action game", "puzzle", "strategy",
     "adventure", "simulation", "card game", "casual game", "platformer",
     "new ios game", "mobile rpg", "mobile action", "new release game",
-    "new mobile game 2026", "game release 2026", "open world mobile",
-    "battle royale mobile", "tower defense", "idle game", "gacha game",
-    # Termes français (jeux localisés FR)
-    "nouveau jeu", "jeu de role", "jeu de strategie", "jeu de cartes",
-    "jeu de puzzle", "jeu d'aventure", "simulation mobile",
-    # Sorties du jour
+    "new mobile game 2026", "open world mobile", "battle royale mobile",
+    "tower defense", "idle game", "gacha game",
     "new release 2026", "just released game", "latest game release",
+    # Français — jeux localisés
+    "nouveau jeu", "jeu de role", "jeu de strategie", "jeu de cartes",
+    "jeu de puzzle", "simulation mobile",
 ]
 
 GENRES = {
@@ -83,16 +81,12 @@ HEADERS_MOBILE = {
     "Cache-Control":             "max-age=0",
 }
 
-# Mots-clés indiquant une restriction géographique France
 GEO_BLOCK_KEYWORDS = [
     "not available in your country",
     "pas disponible dans votre pays",
-    "not available for your device",
     "cette application n'est pas compatible",
     "isn't available in your country",
     "not available in france",
-    "unavailable in your country",
-    "cette appli n'est pas disponible",
 ]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -101,24 +95,21 @@ def load_existing():
         try:
             with open(DATA_FILE, encoding="utf-8") as f:
                 data = json.load(f)
-            log.info(f"JSON charge : {len(data.get('games', []))} jeux existants")
+            log.info(f"JSON charge : {len(data.get('games', []))} jeux")
             return data
         except json.JSONDecodeError as e:
-            log.error(f"JSON corrompu : {e} — on repart de zero")
+            log.error(f"JSON corrompu : {e}")
     return {"lastUpdated": "", "games": []}
 
 def backup_existing():
     if DATA_FILE.exists():
         shutil.copy2(DATA_FILE, BACKUP_FILE)
-        log.info(f"Backup cree : {BACKUP_FILE}")
+        log.info(f"Backup cree")
 
 def save_data(data):
     games = data.get("games", [])
-    required_fields = {"id", "title", "platform", "releaseDate"}
-    invalid = [g for g in games if not required_fields.issubset(g.keys())]
-    if invalid:
-        log.warning(f"{len(invalid)} entrees invalides ignorees")
-        games = [g for g in games if required_fields.issubset(g.keys())]
+    required = {"id", "title", "platform", "releaseDate"}
+    games = [g for g in games if required.issubset(g.keys())]
 
     data["games"]       = games
     data["lastUpdated"] = datetime.utcnow().isoformat() + "Z"
@@ -129,7 +120,7 @@ def save_data(data):
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     tmp.replace(DATA_FILE)
-    log.info(f"Sauvegarde : {len(games)} jeux -> {DATA_FILE}")
+    log.info(f"Sauvegarde : {len(games)} jeux")
 
 def ios_artwork_hd(url, size=512):
     if not url:
@@ -152,7 +143,6 @@ def parse_date_flexible(raw):
         return None
     raw_str = str(raw).strip()
 
-    # Timestamp Unix
     try:
         ts = int(raw_str)
         if ts > 1_000_000_000:
@@ -160,28 +150,23 @@ def parse_date_flexible(raw):
     except (ValueError, TypeError):
         pass
 
-    # Format francais : "15 mai 2026"
     mois_fr = {
-        "janvier":1,  "fevrier":2,   "mars":3,     "avril":4,
-        "mai":5,      "juin":6,      "juillet":7,  "aout":8,
-        "septembre":9,"octobre":10,  "novembre":11,"decembre":12,
+        "janvier":1, "fevrier":2, "mars":3, "avril":4,
+        "mai":5, "juin":6, "juillet":7, "aout":8,
+        "septembre":9, "octobre":10, "novembre":11, "decembre":12,
     }
     raw_lower = raw_str.lower()
     m = re.match(r'(\d{1,2})\s+(\w+)\s+(\d{4})', raw_lower)
     if m:
         day_s, month_s, year_s = m.group(1), m.group(2), m.group(3)
-        month_s = (month_s
-            .replace('\u00e9','e').replace('\u00fb','u')
-            .replace('\u00e8','e').replace('\u00fb','u'))
+        month_s = month_s.replace('é','e').replace('û','u').replace('è','e')
         if month_s in mois_fr:
             try:
                 return datetime(int(year_s), mois_fr[month_s], int(day_s))
             except Exception:
                 pass
 
-    # Suffixes ordinaux anglais
     raw_str = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', raw_str)
-
     for fmt in (
         "%B %d, %Y", "%b %d, %Y",
         "%d %B %Y",  "%d %b %Y",
@@ -193,12 +178,10 @@ def parse_date_flexible(raw):
         except ValueError:
             pass
 
-    # Trimestre Q1/Q2/Q3/Q4
     q = re.match(r'Q([1-4])\s+(\d{4})', raw_str.strip())
     if q:
         return datetime(int(q.group(2)), (int(q.group(1)) - 1) * 3 + 1, 1)
 
-    # Fallback annee + mois texte anglais
     yr = re.search(r'(\d{4})', raw_str)
     if yr:
         year = int(yr.group(1))
@@ -218,7 +201,20 @@ def parse_date_flexible(raw):
         return datetime(year, 1, 1)
     return None
 
-def in_window(date_str):
+def compute_status(release_dt: datetime) -> str:
+    """
+    Calcule le statut en fonction de la date :
+    - upcoming : date strictement future (après aujourd'hui minuit UTC)
+    - released : date = aujourd'hui ou passée
+    """
+    today_midnight = datetime.utcnow().replace(
+        hour=0, minute=0, second=0, microsecond=0
+    )
+    if release_dt > today_midnight:
+        return "upcoming"
+    return "released"
+
+def in_window(date_str: str) -> bool:
     try:
         dt  = datetime.strptime(date_str, "%Y-%m-%d")
         now = datetime.utcnow()
@@ -226,12 +222,8 @@ def in_window(date_str):
     except Exception:
         return False
 
-# ── Vérification disponibilité France iOS ────────────────────────────────────
+# ── Vérification dispo France iOS ─────────────────────────────────────────────
 def is_available_france_ios(app_id: str) -> bool:
-    """
-    Vérifie via iTunes Lookup API que l'app est disponible sur le store FR.
-    Retourne True par défaut en cas d'erreur pour ne pas bloquer le scraping.
-    """
     try:
         resp = requests.get(
             "https://itunes.apple.com/lookup",
@@ -239,36 +231,20 @@ def is_available_france_ios(app_id: str) -> bool:
             timeout=10,
         )
         resp.raise_for_status()
-        data = resp.json()
-        available = data.get("resultCount", 0) > 0
-        if not available:
-            log.info(f"  -> Non dispo store FR : {app_id}")
-        return available
+        return resp.json().get("resultCount", 0) > 0
     except Exception:
-        return True  # En cas d'erreur réseau, on ne bloque pas
-
-# ── Vérification disponibilité France Android ────────────────────────────────
-def is_geo_blocked_france(raw_html: str) -> bool:
-    """
-    Détecte si une fiche Google Play est géo-restreinte pour la France.
-    """
-    raw_lower = raw_html.lower()
-    return any(kw in raw_lower for kw in GEO_BLOCK_KEYWORDS)
+        return True
 
 # ── iOS ───────────────────────────────────────────────────────────────────────
 def fetch_ios_games() -> list[dict]:
-    log.info("=== Scraping iOS (iTunes) ===")
-    if CHECK_FR:
-        log.info("  Mode CHECK_FR actif : vérification store France activée")
+    log.info("=== Scraping iOS (iTunes FR + EN) ===")
 
     games_by_bundle: dict[str, dict] = {}
-    # Inclure les jeux sortis aujourd'hui (minuit UTC) + LOOKBACK_DAYS passes
-    today_midnight = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
-    cutoff  = min(
-        today_midnight,
-        datetime.utcnow() - timedelta(days=LOOKBACK_DAYS)
-    )
-    skipped_geo = 0
+    now             = datetime.utcnow()
+    today_midnight  = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    cutoff          = today_midnight - timedelta(days=LOOKBACK_DAYS)
+    future_limit    = today_midnight + timedelta(days=LOOKAHEAD_DAYS)
+    skipped_geo     = 0
 
     for term in IOS_SEARCH_TERMS:
         try:
@@ -276,28 +252,30 @@ def fetch_ios_games() -> list[dict]:
                 "https://itunes.apple.com/search",
                 params={
                     "term":    term,
-                    "country": "fr",        # store France
+                    "country": "fr",       # store France
                     "media":   "software",
                     "entity":  "software",
                     "genreId": "6014",
                     "limit":   200,
-                    # lang retire : inclure jeux FR et EN disponibles en France
+                    # Pas de filtre lang : inclut FR et EN dispo en France
                 },
                 timeout=15,
             )
             resp.raise_for_status()
             results = resp.json().get("results", [])
-            log.info(f"  '{term}' -> {len(results)} resultats iTunes")
+            log.info(f"  '{term}' -> {len(results)} résultats")
 
             for item in results:
-                # Date
+                # Date de sortie
                 try:
                     release_dt = datetime.fromisoformat(
                         item.get("releaseDate", "").replace("Z", "")
                     )
                 except Exception:
                     continue
-                if release_dt < cutoff:
+
+                # Fenêtre temporelle : passé LOOKBACK + futur LOOKAHEAD
+                if release_dt < cutoff or release_dt > future_limit:
                     continue
 
                 app_id    = str(item.get("trackId", ""))
@@ -307,14 +285,10 @@ def fetch_ios_games() -> list[dict]:
                 # Vérification URL store France
                 store_url = item.get("trackViewUrl", "")
                 if store_url:
-                    country_match = re.search(
-                        r'apps\.apple\.com/([a-z]{2})/', store_url
-                    )
-                    if country_match:
-                        country_in_url = country_match.group(1)
-                        if country_in_url not in ("fr", ""):
-                            skipped_geo += 1
-                            continue
+                    cm = re.search(r'apps\.apple\.com/([a-z]{2})/', store_url)
+                    if cm and cm.group(1) not in ("fr", ""):
+                        skipped_geo += 1
+                        continue
 
                 # Déduplication : garder le plus récent
                 existing = games_by_bundle.get(key)
@@ -326,7 +300,7 @@ def fetch_ios_games() -> list[dict]:
                     except Exception:
                         pass
 
-                # Vérification iTunes Lookup (optionnelle, activée par CHECK_FR)
+                # Vérification lookup FR (optionnelle)
                 if CHECK_FR:
                     if not is_available_france_ios(app_id):
                         skipped_geo += 1
@@ -342,6 +316,9 @@ def fetch_ios_games() -> list[dict]:
                 artwork = item.get("artworkUrl100", "")
                 rating  = item.get("averageUserRating", 0)
 
+                # ── Statut basé sur la date réelle ──
+                status = compute_status(release_dt)
+
                 games_by_bundle[key] = {
                     "id":          f"ios_{app_id}",
                     "title":       item.get("trackName", "").strip(),
@@ -352,10 +329,11 @@ def fetch_ios_games() -> list[dict]:
                     "icon":        ios_artwork_hd(artwork, 100),
                     "headerImage": ios_artwork_hd(artwork, 1024),
                     "storeUrl":    store_url,
+                    "storeUrlIos": store_url,
                     "price":       format_price(item.get("price", 0)),
                     "rating":      round(rating, 1) if rating else None,
                     "bundleId":    bundle_id,
-                    "status":      "released",
+                    "status":      status,
                     "source":      "itunes",
                     "country":     "fr",
                 }
@@ -366,18 +344,18 @@ def fetch_ios_games() -> list[dict]:
             log.error(f"  iOS error '{term}': {e}")
 
     games = list(games_by_bundle.values())
-    log.info(f"iOS total (deduplique) : {len(games)} jeux ({skipped_geo} non dispo FR ignores)")
+    upcoming_count = sum(1 for g in games if g["status"] == "upcoming")
+    released_count = sum(1 for g in games if g["status"] == "released")
+    log.info(f"iOS total : {len(games)} jeux "
+             f"({released_count} released / {upcoming_count} upcoming / "
+             f"{skipped_geo} non-FR ignorés)")
     return games
 
 # ── Android via bundleId ──────────────────────────────────────────────────────
-def scrape_gplay_page(bundle_id: str) -> dict | None:
-    """
-    Scrape une fiche Google Play depuis le store France (gl=FR).
-    Retourne None si introuvable ou géo-restreinte.
-    """
+def scrape_gplay_page(bundle_id: str, ios_status: str) -> dict | None:
     url  = (
         f"https://play.google.com/store/apps/details"
-        f"?id={bundle_id}&hl=fr&gl=FR"   # gl=FR = store France
+        f"?id={bundle_id}&hl=fr&gl=FR"
     )
     resp = None
 
@@ -388,20 +366,19 @@ def scrape_gplay_page(bundle_id: str) -> dict | None:
                 return None
             if resp.status_code == 429:
                 wait = 15 * (attempt + 1)
-                log.warning(f"    429 Rate limit — attente {wait}s")
+                log.warning(f"    429 — attente {wait}s")
                 time.sleep(wait)
                 continue
             if resp.status_code >= 500:
-                log.warning(f"    {resp.status_code} erreur serveur — retry")
                 time.sleep(5)
                 continue
             resp.raise_for_status()
             break
         except requests.exceptions.Timeout:
-            log.warning(f"    Timeout {bundle_id} (tentative {attempt+1})")
+            log.warning(f"    Timeout (tentative {attempt+1})")
             time.sleep(3)
         except Exception as e:
-            log.warning(f"    Erreur {bundle_id} (tentative {attempt+1}): {e}")
+            log.warning(f"    Erreur (tentative {attempt+1}): {e}")
             time.sleep(3)
 
     if resp is None or not resp.ok:
@@ -410,13 +387,12 @@ def scrape_gplay_page(bundle_id: str) -> dict | None:
     raw  = resp.text
     soup = BeautifulSoup(raw, "lxml")
 
-    # App introuvable
     if any(kw in raw for kw in ["Nous n'avons pas pu trouver", "not found"]):
         return None
 
-    # Vérification géo-restriction France
-    if is_geo_blocked_france(raw):
-        log.info(f"    -> Geo-restreint France : {bundle_id}")
+    # Géo-restriction France
+    if any(kw in raw.lower() for kw in GEO_BLOCK_KEYWORDS):
+        log.info(f"    -> Geo-restreint France")
         return None
 
     # Titre
@@ -431,12 +407,14 @@ def scrape_gplay_page(bundle_id: str) -> dict | None:
     if not title:
         return None
 
-    # Statut pre-registration
-    status = "upcoming" if any(
-        kw in raw.lower() for kw in
-        ["pre-register", "preregister", "pre_register",
-         "preregistration", "preinscription", "préinscription"]
-    ) else "released"
+    # Statut Google Play : pre-register = upcoming, sinon hériter iOS
+    gplay_upcoming = any(kw in raw.lower() for kw in [
+        "pre-register", "preregister", "pre_register",
+        "preregistration", "préinscription",
+    ])
+    # On utilise le statut iOS comme référence principale
+    # Google Play peut confirmer "upcoming" via pre-register
+    status = "upcoming" if (gplay_upcoming or ios_status == "upcoming") else "released"
 
     # Images
     icon = ""
@@ -470,7 +448,7 @@ def scrape_gplay_page(bundle_id: str) -> dict | None:
     developer = ""
     for pat in (
         r'"developerName"\s*:\s*"([^"]+)"',
-        r'"author"[^}]*"name"\s*:\s*"([^"]+)"'
+        r'"author"[^}]*"name"\s*:\s*"([^"]+)"',
     ):
         m = re.search(pat, raw)
         if m:
@@ -493,7 +471,7 @@ def scrape_gplay_page(bundle_id: str) -> dict | None:
         "status":      status,
         "bundleId":    bundle_id,
         "source":      "gplay",
-        "storeUrl":    f"https://play.google.com/store/apps/details?id={bundle_id}",
+        "storeUrlAndroid": f"https://play.google.com/store/apps/details?id={bundle_id}",
         "country":     "fr",
     }
 
@@ -503,10 +481,10 @@ def fetch_android_from_ios(
 ) -> list[dict]:
     log.info("=== Scraping Android (Google Play FR) ===")
 
-    # Inclure les jeux sortis aujourd'hui
-    today_midnight = datetime.utcnow().replace(hour=0, minute=0, second=0, microsecond=0)
-    cutoff   = min(today_midnight, datetime.utcnow() - timedelta(days=LOOKBACK_DAYS))
-    to_fetch = []
+    now            = datetime.utcnow()
+    today_midnight = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    cutoff         = today_midnight - timedelta(days=LOOKBACK_DAYS)
+    to_fetch       = []
 
     for g in ios_games:
         bid = g.get("bundleId", "")
@@ -518,17 +496,15 @@ def fetch_android_from_ios(
             continue
         to_fetch.append(g)
 
-    log.info(
-        f"  {len(to_fetch)} jeux a verifier "
-        f"({len(ios_games) - len(to_fetch)} en cache)"
-    )
+    log.info(f"  {len(to_fetch)} à vérifier ({len(ios_games) - len(to_fetch)} en cache)")
 
     android_games = []
     seen_ids      = set()
 
     def worker(ios_game):
-        bundle_id = ios_game.get("bundleId", "")
-        result    = scrape_gplay_page(bundle_id)
+        bundle_id  = ios_game.get("bundleId", "")
+        ios_status = ios_game.get("status", "released")
+        result     = scrape_gplay_page(bundle_id, ios_status)
         return ios_game, result
 
     with ThreadPoolExecutor(max_workers=ANDROID_WORKERS) as executor:
@@ -550,37 +526,45 @@ def fetch_android_from_ios(
                 continue
             seen_ids.add(android_id)
 
-            # ── Date iOS comme référence (plus fiable que Google Play) ──
+            # Construire l'entrée Android
+            # Date = date iOS (référence fiable)
+            # Statut = compute_status sur la date iOS
+            ios_release = ios_game.get("releaseDate", "")
+            try:
+                ios_dt = datetime.strptime(ios_release, "%Y-%m-%d")
+                status = compute_status(ios_dt)
+            except Exception:
+                status = gplay_data.get("status", "released")
+
             android = {
-                "id":          android_id,
-                "title":       ios_game["title"],
-                "platform":    ["android"],
-                "releaseDate": ios_game["releaseDate"],
-                "genre":       gplay_data.get("genre") or ios_game.get("genre", "Games"),
-                "developer":   gplay_data.get("developer") or ios_game.get("developer", ""),
-                "icon":        gplay_data.get("icon") or ios_game.get("icon", ""),
-                "headerImage": gplay_data.get("headerImage") or ios_game.get("headerImage", ""),
-                "storeUrl":    gplay_data["storeUrl"],
-                "price":       gplay_data.get("price", "Free"),
-                "rating":      gplay_data.get("rating") or ios_game.get("rating"),
-                "bundleId":    bundle_id,
-                "status":      gplay_data.get("status", ios_game.get("status", "released")),
-                "source":      "gplay",
-                "country":     "fr",
+                "id":            android_id,
+                "title":         title,
+                "platform":      ["android"],
+                "releaseDate":   ios_release,
+                "genre":         gplay_data.get("genre") or ios_game.get("genre", "Games"),
+                "developer":     gplay_data.get("developer") or ios_game.get("developer", ""),
+                "icon":          gplay_data.get("icon") or ios_game.get("icon", ""),
+                "headerImage":   gplay_data.get("headerImage") or ios_game.get("headerImage", ""),
+                "storeUrl":      gplay_data["storeUrlAndroid"],
+                "storeUrlAndroid": gplay_data["storeUrlAndroid"],
+                "price":         gplay_data.get("price", "Free"),
+                "rating":        gplay_data.get("rating") or ios_game.get("rating"),
+                "bundleId":      bundle_id,
+                "status":        status,
+                "source":        "gplay",
+                "country":       "fr",
             }
 
-            # Fallback icon/header depuis iOS si manquant
             if not android["icon"]:
                 android["icon"] = ios_game.get("icon", "")
             if not android["headerImage"] or android["headerImage"] == android["icon"]:
                 android["headerImage"] = ios_game.get("headerImage", "")
 
-            status_label = "upcoming" if android["status"] == "upcoming" else "released"
-            log.info(f"    -> {status_label} FR ({android['releaseDate']}) {android['price']}")
+            log.info(f"    -> {status} ({ios_release}) {android['price']}")
             android_games.append(android)
             time.sleep(0.5)
 
-    log.info(f"Android FR total : {len(android_games)} jeux trouves")
+    log.info(f"Android FR total : {len(android_games)} jeux")
     return android_games
 
 # ── Merge ─────────────────────────────────────────────────────────────────────
@@ -594,10 +578,11 @@ def merge_games(existing: list[dict], *new_lists) -> list[dict]:
 
             if ex.get("headerImage") and not game.get("headerImage"):
                 game["headerImage"] = ex["headerImage"]
-            if ex.get("status") == "released":
-                game["status"] = "released"
             if ex.get("rating") and not game.get("rating"):
                 game["rating"] = ex["rating"]
+            # Ne jamais remettre released -> upcoming
+            if ex.get("status") == "released" and game.get("status") == "upcoming":
+                game["status"] = "released"
 
             all_games[eid] = game
 
@@ -616,20 +601,20 @@ def merge_games(existing: list[dict], *new_lists) -> list[dict]:
             for p in sec.get("platform", []):
                 if p not in primary["platform"]:
                     primary["platform"].append(p)
-            if not primary.get("icon")        and sec.get("icon"):        primary["icon"]        = sec["icon"]
-            if not primary.get("headerImage") and sec.get("headerImage"): primary["headerImage"] = sec["headerImage"]
-            if not primary.get("developer")   and sec.get("developer"):   primary["developer"]   = sec["developer"]
-            if not primary.get("rating")      and sec.get("rating"):      primary["rating"]      = sec["rating"]
-            if "android" in sec.get("platform", []) and sec.get("storeUrl"):
-                primary["storeUrlAndroid"] = sec["storeUrl"]
-            if "ios" in sec.get("platform", []) and sec.get("storeUrl"):
-                primary["storeUrlIos"] = sec["storeUrl"]
+            if not primary.get("icon")           and sec.get("icon"):           primary["icon"]           = sec["icon"]
+            if not primary.get("headerImage")    and sec.get("headerImage"):    primary["headerImage"]    = sec["headerImage"]
+            if not primary.get("developer")      and sec.get("developer"):      primary["developer"]      = sec["developer"]
+            if not primary.get("rating")         and sec.get("rating"):         primary["rating"]         = sec["rating"]
+            if not primary.get("storeUrlAndroid") and sec.get("storeUrlAndroid"): primary["storeUrlAndroid"] = sec["storeUrlAndroid"]
+            if not primary.get("storeUrlIos")    and sec.get("storeUrlIos"):    primary["storeUrlIos"]    = sec["storeUrlIos"]
         merged_final[primary["id"]] = primary
 
     # Pruning temporel
-    cutoff       = datetime.utcnow() - timedelta(days=90)
-    future_limit = datetime.utcnow() + timedelta(days=LOOKAHEAD_DAYS)
-    pruned = []
+    now          = datetime.utcnow()
+    cutoff       = now - timedelta(days=90)
+    future_limit = now + timedelta(days=LOOKAHEAD_DAYS)
+    pruned       = []
+
     for game in merged_final.values():
         try:
             dt = datetime.strptime(game["releaseDate"], "%Y-%m-%d")
@@ -640,6 +625,10 @@ def merge_games(existing: list[dict], *new_lists) -> list[dict]:
 
     pruned.sort(key=lambda g: g["releaseDate"])
     log.info(f"Merge final : {len(pruned)} jeux")
+
+    if len(pruned) > MAX_GAMES:
+        log.warning(f"ALERTE : {len(pruned)} jeux > seuil {MAX_GAMES}")
+
     return pruned
 
 # ── Stats ─────────────────────────────────────────────────────────────────────
@@ -648,58 +637,51 @@ def print_stats(merged: list[dict]):
     android_c  = sum(1 for g in merged if "android" in g.get("platform", []))
     both_c     = sum(1 for g in merged if len(g.get("platform", [])) > 1)
     upcoming_c = sum(1 for g in merged if g.get("status") == "upcoming")
+    released_c = sum(1 for g in merged if g.get("status") == "released")
     free_c     = sum(1 for g in merged if g.get("price") == "Free")
-    header_c   = sum(1 for g in merged if g.get("headerImage"))
-    rated_c    = sum(1 for g in merged if g.get("rating"))
-    fr_c       = sum(1 for g in merged if g.get("country") == "fr")
 
     log.info("=" * 40)
-    log.info("RESULTAT FINAL")
+    log.info("RÉSULTAT FINAL")
     log.info(f"  Total          : {len(merged)}")
     log.info(f"  iOS            : {ios_c}")
     log.info(f"  Android        : {android_c}")
     log.info(f"  Multi-platform : {both_c}")
+    log.info(f"  Released       : {released_c}")
     log.info(f"  Upcoming       : {upcoming_c}")
     log.info(f"  Gratuits       : {free_c}")
-    log.info(f"  Avec image     : {header_c}")
-    log.info(f"  Avec note      : {rated_c}")
-    log.info(f"  Dispo FR       : {fr_c}")
     log.info("=" * 40)
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     start = time.time()
-    log.info("Mobile Games Release Scraper v3")
+    log.info("Mobile Games Release Scraper v4")
     log.info(f"Fenetre : -{LOOKBACK_DAYS}j / +{LOOKAHEAD_DAYS}j")
-    log.info(f"Check disponibilite FR : {'OUI' if CHECK_FR else 'NON (passer CHECK_FR=true pour activer)'}")
 
     existing_data  = load_existing()
     existing_games = existing_data.get("games", [])
     backup_existing()
 
-    # Cache Android
     existing_android_ids = {
         g["id"] for g in existing_games
         if g.get("source") == "gplay" and in_window(g.get("releaseDate", ""))
     }
-    log.info(f"Cache Android : {len(existing_android_ids)} entrees")
+    log.info(f"Cache Android : {len(existing_android_ids)} entrées")
 
     ios_games     = fetch_ios_games()
     android_games = fetch_android_from_ios(ios_games, existing_android_ids)
 
-    # Réinjecter le cache Android existant
     cached_android = [
         g for g in existing_games
         if g.get("source") == "gplay" and g["id"] in existing_android_ids
     ]
-    log.info(f"Reinjection cache Android : {len(cached_android)} jeux")
+    log.info(f"Réinjection cache : {len(cached_android)} jeux Android")
 
     merged = merge_games(existing_games, ios_games, android_games, cached_android)
     print_stats(merged)
     save_data({"games": merged})
 
     elapsed = time.time() - start
-    log.info(f"Termine en {elapsed:.1f}s")
+    log.info(f"Terminé en {elapsed:.1f}s")
 
 if __name__ == "__main__":
     main()
