@@ -2,7 +2,6 @@ name: 🎮 Scrape Mobile Game Releases
 
 on:
   schedule:
-    # Tous les lundis à 06h00 UTC
     - cron: "0 6 * * 1"
   workflow_dispatch:
     inputs:
@@ -11,11 +10,6 @@ on:
         required: false
         default: "false"
         type: boolean
-      lookback_days:
-        description: "Nombre de jours en arrière (défaut: 60)"
-        required: false
-        default: "60"
-        type: string
 
 permissions:
   contents: write
@@ -29,13 +23,11 @@ jobs:
     steps:
       - name: 📥 Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: "3.12"
 
       - name: 📦 Install dependencies
         run: |
@@ -46,32 +38,29 @@ jobs:
         if: ${{ inputs.force_full_refresh == 'true' }}
         run: |
           echo '{"lastUpdated":"","games":[]}' > data/games.json
-          echo "Cache vidé pour full refresh"
+          echo "Cache vidé"
 
       - name: 🎮 Run scraper
         run: python scripts/scrape.py
         env:
           PYTHONUNBUFFERED: "1"
 
-      - name: ✅ Valider le JSON produit
+      - name: ✅ Valider le JSON
         run: |
           python3 -c "
           import json, sys
           with open('data/games.json') as f:
               d = json.load(f)
-          games = d.get('games', [])
+          games    = d.get('games', [])
+          upcoming = sum(1 for g in games if g.get('status') == 'upcoming')
+          released = sum(1 for g in games if g.get('status') == 'released')
           if not games:
-              print('WARN: Aucun jeu dans le JSON')
-              sys.exit(0)
-          required = {'id','title','platform','releaseDate'}
-          invalid = [g['id'] for g in games if not required.issubset(g.keys())]
-          if invalid:
-              print(f'ERROR: {len(invalid)} entrées invalides : {invalid[:5]}')
+              print('WARN: JSON vide')
               sys.exit(1)
-          print(f'JSON valide : {len(games)} jeux')
+          print(f'JSON valide : {len(games)} jeux ({released} released / {upcoming} upcoming)')
           "
 
-      - name: 📊 Résumé dans le job summary
+      - name: 📊 Résumé
         run: |
           python3 -c "
           import json
@@ -79,28 +68,22 @@ jobs:
           with open('data/games.json') as f:
               d = json.load(f)
           games    = d.get('games', [])
-          ios      = sum(1 for g in games if 'ios'     in g.get('platform',[]))
-          android  = sum(1 for g in games if 'android' in g.get('platform',[]))
+          ios      = sum(1 for g in games if 'ios'     in g.get('platform', []))
+          android  = sum(1 for g in games if 'android' in g.get('platform', []))
           upcoming = sum(1 for g in games if g.get('status') == 'upcoming')
-          free     = sum(1 for g in games if g.get('price') == 'Free')
-          rated    = sum(1 for g in games if g.get('rating'))
-          headers  = sum(1 for g in games if g.get('headerImage'))
+          released = sum(1 for g in games if g.get('status') == 'released')
           months   = sorted(set(g['releaseDate'][:7] for g in games))
 
           print('### 🎮 Résultat du scraping')
           print('')
           print('| Métrique | Valeur |')
           print('|----------|--------|')
-          print(f'| Total jeux | **{len(games)}** |')
+          print(f'| Total | **{len(games)}** |')
           print(f'| iOS | {ios} |')
           print(f'| Android | {android} |')
-          print(f'| Multi-plateforme | {sum(1 for g in games if len(g.get(\"platform\",[])) > 1)} |')
-          print(f'| 🔔 Upcoming | {upcoming} |')
-          print(f'| Gratuits | {free} |')
-          print(f'| Avec note | {rated} |')
-          print(f'| Avec image | {headers} |')
-          print(f'| Mois couverts | {\" · \".join(months)} |')
-          print(f'| Mis à jour | {d.get(\"lastUpdated\",\"\")} |')
+          print(f'| Released | {released} |')
+          print(f'| Upcoming | {upcoming} |')
+          print(f'| Mois | {\" · \".join(months)} |')
           " >> $GITHUB_STEP_SUMMARY
 
       - name: 💾 Commit & Push
@@ -109,21 +92,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/games.json data/games.backup.json || true
           if git diff --staged --quiet; then
-            echo "Aucun changement à commiter"
+            echo "Aucun changement"
           else
             COUNT=$(python3 -c "import json; print(len(json.load(open('data/games.json'))['games']))")
-            DATE=$(date +'%Y-%m-%d')
-            git commit -m "🎮 Update games — ${COUNT} jeux [${DATE}]"
+            git commit -m "🎮 Update games — ${COUNT} jeux [$(date +'%Y-%m-%d')]"
             git push
-            echo "Push effectué : ${COUNT} jeux"
           fi
 
-      - name: 🚨 Notifier en cas d'échec
+      - name: 🚨 Restaurer backup si échec
         if: failure()
         run: |
-          echo "### ❌ Scraping échoué" >> $GITHUB_STEP_SUMMARY
-          echo "Consulte les logs ci-dessus pour le détail." >> $GITHUB_STEP_SUMMARY
-          # Restaurer le backup si le JSON est corrompu
           if [ -f data/games.backup.json ]; then
             cp data/games.backup.json data/games.json
             echo "Backup restauré"
