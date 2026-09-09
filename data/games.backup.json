@@ -22326,7 +22326,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/puppy-maze/id6800315366?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/puppy-maze/id6800315366?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 3,
       "bundleId": "com.boldgames.puppymaze",
       "status": "released",
       "source": "itunes",
@@ -22573,7 +22573,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/motamo-mots-combos/id6805543558?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/motamo-mots-combos/id6805543558?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.motamo.app",
       "status": "released",
       "source": "itunes",
@@ -23100,6 +23100,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-09-07T12:06:19.298360Z",
+  "lastUpdated": "2026-09-07T13:58:15.705853Z",
   "totalGames": 1164
 }
