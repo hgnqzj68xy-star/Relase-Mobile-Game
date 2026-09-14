@@ -20532,7 +20532,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/okeylens-calcul-okey/id6804165165?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/okeylens-calcul-okey/id6804165165?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.mobile.okeylens",
       "status": "released",
       "source": "itunes",
@@ -22307,7 +22307,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.STUCKPIXEL.NOC",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.STUCKPIXEL.NOC"
@@ -22329,7 +22329,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.studiocodedragon.projectssglobal",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.studiocodedragon.projectssglobal"
@@ -22521,6 +22521,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-09-14T12:21:59.944281Z",
+  "lastUpdated": "2026-09-14T14:43:14.854178Z",
   "totalGames": 1130
 }
