@@ -1,337 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6756611869",
-      "title": "Ever Upgrade - Text Adventure",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Adventure",
-      "developer": "耀青 张",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/1a/57/8c1a5774-d305-03c4-3c4b-ebe0d4bc5c3a/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8c/1a/57/8c1a5774-d305-03c4-3c4b-ebe0d4bc5c3a/AppIcon-1x_U007epad-0-11-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ever-upgrade-text-adventure/id6756611869?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "comqia.qoou.loap",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6762023040",
-      "title": "Aerovice Frutiger World",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Simulation",
-      "developer": "Carlos Nunez",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/e2/3e/f6e23ef5-1a44-8edf-aae0-2139e3351088/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f6/e2/3e/f6e23ef5-1a44-8edf-aae0-2139e3351088/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/aerovice-frutiger-world/id6762023040?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.enastudiossv.aerovice",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.enastudiossv.aerovice"
-    },
-    {
-      "id": "ios_6761617057",
-      "title": "Balancer et attraper Brainzot",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Simulation",
-      "developer": "Malik Mujtaba Usama",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/c6/c2/20c6c27e-7110-613f-8ff6-a7f90938a880/AppIcon-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/c6/c2/20c6c27e-7110-613f-8ff6-a7f90938a880/AppIcon-1x_U007epad-0-1-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/balancer-et-attraper-brainzot/id6761617057?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.mmu.swing.jump.catch.brainzot",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6779048945",
-      "title": "Le Onze",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Sports",
-      "developer": "cisse ibrahim",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/16/83/1d168355-c508-d540-643b-7cc1d0ec3347/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1d/16/83/1d168355-c508-d540-643b-7cc1d0ec3347/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/le-onze/id6779048945?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.leonze.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6769339637",
-      "title": "Clatch",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Trivia",
-      "developer": "Louca Mendy",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/37/ab/e637ab26-0686-d0c4-5245-30628e2af8db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/37/ab/e637ab26-0686-d0c4-5245-30628e2af8db/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/clatch/id6769339637?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "fr.clatch.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=fr.clatch.app"
-    },
-    {
-      "id": "ios_6777384355",
-      "title": "Project: VOX",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Action",
-      "developer": "Vladyslav Ursatii",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/75/78/29757888-af34-61cf-6869-dd1497bcca31/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/75/78/29757888-af34-61cf-6869-dd1497bcca31/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/project-vox/id6777384355?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ONRIStudio.ProjectVOX",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.ONRIStudio.ProjectVOX"
-    },
-    {
-      "id": "ios_6778700932",
-      "title": "Cleaning GlowFix ASMR Makeover",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Simulation",
-      "developer": "Three Broke Sellers LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/8a/c1/d18ac1ea-f42c-a987-f64f-ef900a73eed0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/8a/c1/d18ac1ea-f42c-a987-f64f-ef900a73eed0/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cleaning-glowfix-asmr-makeover/id6778700932?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.tw.perfectcleaning.makeoverasmr",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6775759777",
-      "title": "PulseTiles",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Games",
-      "developer": "Noah Fischer193383766881",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/8b/ce/618bcea3-66b9-5778-3cef-a224056bc331/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/8b/ce/618bcea3-66b9-5778-3cef-a224056bc331/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/pulsetiles/id6775759777?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.pulsetiles",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6779453304",
-      "title": "Block Chase: Lucky Run",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Simulation",
-      "developer": "Ha Van Nguyen",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/90/fa/0c90fa9f-72ff-5417-9e89-b334b8dca343/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/90/fa/0c90fa9f-72ff-5417-9e89-b334b8dca343/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/block-chase-lucky-run/id6779453304?uo=4",
-      "price": "Free",
-      "rating": 4.5,
-      "bundleId": "com.block.luck.brain2026",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6778744843",
-      "title": "Golazo: Football Game",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Trivia",
-      "developer": "Variko Inc",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/0b/d6/460bd616-34b0-03ce-b5f7-b2e01b23b6f3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/0b/d6/460bd616-34b0-03ce-b5f7-b2e01b23b6f3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/golazo-football-game/id6778744843?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.golazoapp.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6778455068",
-      "title": "Path of Ink",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Action",
-      "developer": "John Lenon Souza Reis",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/6e/04/2b6e04cc-78f0-cba4-46ea-259214e40b30/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2b/6e/04/2b6e04cc-78f0-cba4-46ea-259214e40b30/AppIcon-0-0-1x_U007epad-0-1-sRGB-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/path-of-ink/id6778455068?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.johnreis.PathOfInk",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6780895008",
-      "title": "CHKR: 2 Inventory Organizer",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Adventure",
-      "developer": "Terry Powell",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/7d/6b/e87d6bda-68d6-4233-7152-613d529c800e/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e8/7d/6b/e87d6bda-68d6-4233-7152-613d529c800e/AppIcon-0-0-1x_U007ephone-0-1-85-220.jpeg/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/chkr-2-inventory-organizer/id6780895008?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.terrypowell.homeinventoryorganizer",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6773156032",
-      "title": "PATHLOCK: Jeu de Stratégie",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-19",
-      "genre": "Strategy",
-      "developer": "Bora Oksuzoglu",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/26/ec/ad26ec71-01bb-f36c-bd6d-f318042aa172/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ad/26/ec/ad26ec71-01bb-f36c-bd6d-f318042aa172/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/pathlock-jeu-de-strat%C3%A9gie/id6773156032?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.bovasoft.pathlock",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bovasoft.pathlock"
-    },
-    {
-      "id": "ios_6758066307",
-      "title": "CISAlertes",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-20",
-      "genre": "Simulation",
-      "developer": "Nicolas Bardy",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/13/f0/bb13f096-008b-7ca0-29b0-45745bfc6b9e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bb/13/f0/bb13f096-008b-7ca0-29b0-45745bfc6b9e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cisalertes/id6758066307?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "com.spfire34.cisalertes",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6779349401",
-      "title": "Crepescule",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-20",
-      "genre": "Arcade",
-      "developer": "Jeremy Deverdun",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/a0/9a/dfa09a7a-a6bb-02ee-f32d-9052509bf1e5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/df/a0/9a/dfa09a7a-a6bb-02ee-f32d-9052509bf1e5/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/crepescule/id6779349401?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "fr.crepescule.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6770087348",
-      "title": "Defi-Kilimandjaro",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-20",
-      "genre": "Word",
-      "developer": "arnaud gnago",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/20/19/e020190a-45c6-151c-87e4-d7c2024f1822/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e0/20/19/e020190a-45c6-151c-87e4-d7c2024f1822/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/defi-kilimandjaro/id6770087348?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ultimesgriots.kilimandjaro",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757216348",
-      "title": "Fa Barber Shop Hair Chop Salon",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-20",
-      "genre": "Role Playing",
-      "developer": "Haris Shabbir",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/a7/d4/6ea7d4e7-9e10-1d67-25cd-0049984a1165/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6e/a7/d4/6ea7d4e7-9e10-1d67-25cd-0049984a1165/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/fa-barber-shop-hair-chop-salon/id6757216348?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.hs.hairlarious.crazy.cuts",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6776288922",
       "title": "Soccer Clash 2026: Jeu de foot",
       "platform": [
@@ -21358,7 +21027,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/jammr-mimic-party-game/id6804267808?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/jammr-mimic-party-game/id6804267808?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.jammr.app",
       "status": "released",
       "source": "itunes",
@@ -21626,7 +21295,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/tu-g%C3%A8res-quiz-de-soir%C3%A9e/id6807160333?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/tu-g%C3%A8res-quiz-de-soir%C3%A9e/id6807160333?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "co.deeday.Kelki",
       "status": "released",
       "source": "itunes",
@@ -21646,7 +21315,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/super-soir%C3%A9e-jeux-de-soir%C3%A9e/id6796292012?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/super-soir%C3%A9e-jeux-de-soir%C3%A9e/id6796292012?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.gamerc.supersoiree",
       "status": "released",
       "source": "itunes",
@@ -21816,7 +21485,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/divine-throne-idle-rpg/id6761152684?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/divine-throne-idle-rpg/id6761152684?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.8,
       "bundleId": "com.luckystargame.jdxy",
       "status": "released",
       "source": "itunes",
@@ -21837,7 +21506,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/lumi-master/id6754979232?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/lumi-master/id6754979232?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.9,
       "bundleId": "com.bilibili.lumi",
       "status": "released",
       "source": "itunes",
@@ -21969,6 +21638,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-09-16T13:06:46.394069Z",
-  "totalGames": 1102
+  "lastUpdated": "2026-09-18T12:41:09.932910Z",
+  "totalGames": 1085
 }
