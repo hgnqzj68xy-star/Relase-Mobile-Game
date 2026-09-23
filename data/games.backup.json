@@ -23565,7 +23565,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "global.hyperrise.wl",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=global.hyperrise.wl"
@@ -23803,6 +23803,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-09-21T12:29:38.053474Z",
+  "lastUpdated": "2026-09-21T14:50:10.006529Z",
   "totalGames": 1186
 }
