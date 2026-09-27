@@ -1,278 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6760990504",
-      "title": "Merge City: Makeover Master",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Arcade",
-      "developer": "Hangzhou Mengku Technology Co., Ltd.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/22/ae/8e22ae9a-1894-38f8-c9ac-ca42e8b421d3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/22/ae/8e22ae9a-1894-38f8-c9ac-ca42e8b421d3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/merge-city-makeover-master/id6760990504?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.bigcool.puzzle.merge.city",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bigcool.puzzle.merge.city"
-    },
-    {
-      "id": "ios_6755466059",
-      "title": "Bubble Pop Jeu De 2 À 6 Ans",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Family",
-      "developer": "KidloLand Kids & Toddler Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/75/79/7075790c-dbaa-2b93-1e2b-c26632f99b98/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/70/75/79/7075790c-dbaa-2b93-1e2b-c26632f99b98/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bubble-pop-jeu-de-2-%C3%A0-6-ans/id6755466059?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.idzdigital.bubble.pop.balloon.kids.baby.games",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6781590450",
-      "title": "38-0: Football Draft",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Trivia",
-      "developer": "Robert Novakov",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/3f/0c/db3f0c70-d5b9-7717-6093-bfb3625f5f2f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/3f/0c/db3f0c70-d5b9-7717-6093-bfb3625f5f2f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/38-0-football-draft/id6781590450?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.thirtyeightandoh.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6783541896",
-      "title": "Pawnce: Attrape Chats & Chiens",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Adventure",
-      "developer": "Kerim Embel",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/c3/50/1fc35054-2aab-1c72-4a1c-56331b5e26ea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/c3/50/1fc35054-2aab-1c72-4a1c-56331b5e26ea/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/pawnce-attrape-chats-chiens/id6783541896?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "app.pawnce",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6782904687",
-      "title": "Cubimals",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Games",
-      "developer": "Victor AIRIAUD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/c9/95/d0c99577-b657-6b4f-a247-90e19421cbd0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d0/c9/95/d0c99577-b657-6b4f-a247-90e19421cbd0/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cubimals/id6782904687?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.victorairiaud.cubimals",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6759670054",
-      "title": "Burst My Bubble: Win Real Cash",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Casino",
-      "developer": "Ecstatic Dimensions",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/c2/aa/90c2aa7c-6e3d-0da4-1588-4d9c8c51f64d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/90/c2/aa/90c2aa7c-6e3d-0da4-1588-4d9c8c51f64d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/burst-my-bubble-win-real-cash/id6759670054?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ecstaticdimensions.burstmybubble.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6782109454",
-      "title": "Jinrō — Loup-Garou",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Strategy",
-      "developer": "Alix Armani",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/25/3a/40253a1e-8e17-c9b0-daf6-4d356259d727/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/25/3a/40253a1e-8e17-c9b0-daf6-4d356259d727/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/jinr%C5%8D-loup-garou/id6782109454?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.jinro.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6758348999",
-      "title": "The Big Con",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-26",
-      "genre": "Puzzle",
-      "developer": "Mighty Yell Studios Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/0b/04/c10b041c-85a5-3e54-8f8c-18c09100d6d3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c1/0b/04/c10b041c-85a5-3e54-8f8c-18c09100d6d3/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/the-big-con/id6758348999?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.mightyyell.thebigcon",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.mightyyell.thebigcon"
-    },
-    {
-      "id": "ios_6766049891",
-      "title": "Block Blast - New Puzzle Games",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-27",
-      "genre": "Puzzle",
-      "developer": "智豪 王",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/99/82/22998260-2e2c-0ac1-ccb1-9f31658a2bcc/AppIcon-0-1x_U007epad-0-1-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/22/99/82/22998260-2e2c-0ac1-ccb1-9f31658a2bcc/AppIcon-0-1x_U007epad-0-1-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/block-blast-new-puzzle-games/id6766049891?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.feraygame.blockdown",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761206610",
-      "title": "Synergism",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-27",
-      "genre": "Arcade",
-      "developer": "Platonic and Khafra Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/64/ec/aa64ec1d-dc05-454b-156f-66006eaea6df/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/64/ec/aa64ec1d-dc05-454b-156f-66006eaea6df/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/synergism/id6761206610?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "cc.pseudocorp.synergism",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6782569061",
-      "title": "World of ClaudeCraft",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-27",
-      "genre": "Role Playing",
-      "developer": "Idyllic",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/0d/3c/260d3c59-9f9b-6482-2154-3195cf1d58b4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/0d/3c/260d3c59-9f9b-6482-2154-3195cf1d58b4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/world-of-claudecraft/id6782569061?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.worldofclaudecraft",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757466568",
-      "title": "Block Blast - Puzzle Games Hot",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-27",
-      "genre": "Arcade",
-      "developer": "岳 邱",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/5f/75/e55f7574-41b2-2baf-121f-7782ab812065/AppIcon-0-1x_U007epad-0-1-85-220-0.jpeg/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e5/5f/75/e55f7574-41b2-2baf-121f-7782ab812065/AppIcon-0-1x_U007epad-0-1-85-220-0.jpeg/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/block-blast-puzzle-games-hot/id6757466568?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.XuanFangKuaiTian",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6782912480",
-      "title": "VéloPronos",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-06-27",
-      "genre": "Sports",
-      "developer": "Guillaume PIVOT",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/f0/42/59f04209-731c-4a45-ba23-1a3b4a30c9b0/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/f0/42/59f04209-731c-4a45-ba23-1a3b4a30c9b0/AppIcon-0-0-1x_U007emarketing-0-8-0-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/v%C3%A9lopronos/id6782912480?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.base6a1f0e7a3cd8ee2103802f51.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6781910195",
-      "title": "Concan",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-06-27",
-      "genre": "Card",
-      "developer": "Neonine Pty Ltd",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/34/fe/2034fe67-bebd-3247-9c79-d169042f12a4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/20/34/fe/2034fe67-bebd-3247-9c79-d169042f12a4/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/concan/id6781910195?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.concan.concan",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.concan.concan"
-    },
-    {
       "id": "ios_6782050826",
       "title": "Blackjack 21 Live – Real Game",
       "platform": [
@@ -21879,7 +21607,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/merge-kitchen-tasty-mystery/id6773803478?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/merge-kitchen-tasty-mystery/id6773803478?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4,
       "bundleId": "com.bigcool.puzzle.merge.kitchen",
       "status": "released",
       "source": "itunes",
@@ -21987,7 +21715,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/christmas-jigdrop-puzzle/id6809696486?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/christmas-jigdrop-puzzle/id6809696486?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.christmas.jigdrop.solitaire.puzzle.free.games",
       "status": "released",
       "source": "itunes",
@@ -22218,7 +21946,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/jump-animal-stole-an-egg/id6811772534?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/jump-animal-stole-an-egg/id6811772534?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.jump.steal.animal.egg2026",
       "status": "released",
       "source": "itunes",
@@ -23109,7 +22837,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/warhammer-40-000-boltgun-boom/id6767193770?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/warhammer-40-000-boltgun-boom/id6767193770?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 3.5,
       "bundleId": "com.nitrogames.boltgunboom",
       "status": "released",
       "source": "itunes",
@@ -23143,7 +22871,7 @@
         "ios",
         "android"
       ],
-      "releaseDate": "2026-09-24",
+      "releaseDate": "2026-09-21",
       "genre": "Music",
       "developer": "BILIBILI HK LIMITED",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/e7/1c/b1e71c16-312a-d0d7-ffec-6ef1ec1ce7ef/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
@@ -23151,9 +22879,9 @@
       "storeUrl": "https://apps.apple.com/fr/app/bang-dream-our-notes/id6757695187?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/bang-dream-our-notes/id6757695187?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.7,
       "bundleId": "com.bilibili.sirius",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.bilibili.sirius"
@@ -23171,10 +22899,10 @@
       "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/eb/d4/beebd49d-106e-be9b-9897-1edbab85095f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
       "storeUrl": "https://apps.apple.com/fr/app/kingdom-rush-6-genesis-td/id6759664029?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/kingdom-rush-6-genesis-td/id6759664029?uo=4",
-      "price": "Free",
-      "rating": null,
+      "price": "7.99€",
+      "rating": 3.8,
       "bundleId": "com.ironhidegames.kingdomrush6.genesis",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -23327,6 +23055,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-09-23T13:21:11.935038Z",
-  "totalGames": 1162
+  "lastUpdated": "2026-09-25T13:14:45.218294Z",
+  "totalGames": 1148
 }
