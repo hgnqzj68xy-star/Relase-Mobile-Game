@@ -1,206 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6771813323",
-      "title": "The Blue Chamber Mystery (F2P)",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-03",
-      "genre": "Adventure",
-      "developer": "Friendly Fox Games Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/e5/20/77e5209a-136d-d783-72fa-d917e9b092d7/AppIconPrimary-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/77/e5/20/77e5209a-136d-d783-72fa-d917e9b092d7/AppIconPrimary-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/the-blue-chamber-mystery-f2p/id6771813323?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "com.friendlyfoxgames.ll10f2p",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.friendlyfoxgames.ll10f2p"
-    },
-    {
-      "id": "ios_6785678035",
-      "title": "Cemantix.io",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-03",
-      "genre": "Word",
-      "developer": "Leandre Carpentier",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/d4/b7/a0d4b7ca-d06e-6a4d-2f9c-7b7389ffe751/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/d4/b7/a0d4b7ca-d06e-6a4d-2f9c-7b7389ffe751/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cemantix-io/id6785678035?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "io.cemantix.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6785743527",
-      "title": "Neon Pool Ball City-Billard 3D",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-03",
-      "genre": "Sports",
-      "developer": "Erden Aclan",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/d8/4d/19d84d4f-9c26-acf5-bbe9-915e7724e016/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/19/d8/4d/19d84d4f-9c26-acf5-bbe9-915e7724e016/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/neon-pool-ball-city-billard-3d/id6785743527?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.neonpool.poolcity",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6779563769",
-      "title": "Astra Squad",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-03",
-      "genre": "Adventure",
-      "developer": "MEGAGIGA GAMES BILISIM AS",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/c7/f2/eac7f249-3c02-4ba0-bf7e-9c1125bc8a1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ea/c7/f2/eac7f249-3c02-4ba0-bf7e-9c1125bc8a1a/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/astra-squad/id6779563769?uo=4",
-      "price": "Free",
-      "rating": 4.3,
-      "bundleId": "com.astra.squad",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.astra.squad"
-    },
-    {
-      "id": "ios_6785421373",
-      "title": "Idle Squad Tactics",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-03",
-      "genre": "Simulation",
-      "developer": "MAD PIXEL",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/31/6d/bd316d0c-3c64-198a-27ff-8e34fc67e596/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bd/31/6d/bd316d0c-3c64-198a-27ff-8e34fc67e596/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/idle-squad-tactics/id6785421373?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "idle.squad.tactics",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=idle.squad.tactics"
-    },
-    {
-      "id": "ios_6781656213",
-      "title": "Yarn Sort Master 3D",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-03",
-      "genre": "Puzzle",
-      "developer": "POSEIDON TECHNOLOGY LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/5d/54/305d5418-853d-0910-8b26-5a354eb137a5/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/5d/54/305d5418-853d-0910-8b26-5a354eb137a5/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/yarn-sort-master-3d/id6781656213?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.sp.yarn.sort.master3d.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757350661",
-      "title": "Police Chief",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-03",
-      "genre": "Strategy",
-      "developer": "VoyagerOne",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/4c/60/9f4c609e-73da-3cd9-0d4c-cc14f4791b9e/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9f/4c/60/9f4c609e-73da-3cd9-0d4c-cc14f4791b9e/AppIcon-0-0-1x_U007emarketing-0-5-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/police-chief/id6757350661?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "com.slg.policewar",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.slg.policewar"
-    },
-    {
-      "id": "ios_6783800721",
-      "title": "Cluck Road - Hop & Cash Out!",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-04",
-      "genre": "Arcade",
-      "developer": "NCC DIGITAL LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/41/4d/94414dfc-b1d2-6390-053c-b543f3107208/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/41/4d/94414dfc-b1d2-6390-053c-b543f3107208/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cluck-road-hop-cash-out/id6783800721?uo=4",
-      "price": "Free",
-      "rating": 4.2,
-      "bundleId": "uk.nccdigital.cluck-road",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6783216298",
-      "title": "Fortune Mill",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-04",
-      "genre": "Simulation",
-      "developer": "Lavaflamestudios LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0f/a1/910fa100-991f-c144-4c74-170abbf7ce36/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/91/0f/a1/910fa100-991f-c144-4c74-170abbf7ce36/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/fortune-mill/id6783216298?uo=4",
-      "price": "Free",
-      "rating": 3.5,
-      "bundleId": "com.lavaflame.ios.fortunemill",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761027516",
-      "title": "Grimoria : Jeu Cartes en Ligne",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-04",
-      "genre": "Card",
-      "developer": "Daniel Santer",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/6b/08/4f6b08c3-e3fe-a4a7-0902-c247ca36b2da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/6b/08/4f6b08c3-e3fe-a4a7-0902-c247ca36b2da/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/grimoria-jeu-cartes-en-ligne/id6761027516?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.emberveilgames.onlinecardgame",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.emberveilgames.onlinecardgame"
-    },
-    {
       "id": "ios_6769111625",
       "title": "MotFem",
       "platform": [
@@ -22490,7 +22290,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/quiet-grind-rpg-idle/id6795253167?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/quiet-grind-rpg-idle/id6795253167?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "nl.jasperblaauw.quietgrind",
       "status": "released",
       "source": "itunes",
@@ -22724,7 +22524,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/yaka-jeux-entre-amis/id6813928442?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/yaka-jeux-entre-amis/id6813928442?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "ch.mmmstudio.yaka",
       "status": "released",
       "source": "itunes",
@@ -22847,7 +22647,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/drop-duchy/id6748815540?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/drop-duchy/id6748815540?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4,
       "bundleId": "com.doghowl.DropDuchy",
       "status": "released",
       "source": "itunes",
@@ -22910,7 +22710,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/winter-burrow/id6757809616?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/winter-burrow/id6757809616?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 2.6,
       "bundleId": "com.noodlecake.winterburrow",
       "status": "released",
       "source": "itunes",
@@ -22959,6 +22759,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-09-30T14:36:25.778109Z",
-  "totalGames": 1138
+  "lastUpdated": "2026-10-02T14:26:15.905316Z",
+  "totalGames": 1128
 }
