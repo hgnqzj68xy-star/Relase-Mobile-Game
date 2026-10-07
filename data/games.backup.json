@@ -22797,7 +22797,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/duo-complice/id6810424771?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/duo-complice/id6810424771?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "fr.taslaref.duocomplice",
       "status": "released",
       "source": "itunes",
@@ -23116,6 +23116,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.tencent.mhadv"
     }
   ],
-  "lastUpdated": "2026-10-05T14:10:19.021337Z",
+  "lastUpdated": "2026-10-05T16:47:03.261823Z",
   "totalGames": 1142
 }
