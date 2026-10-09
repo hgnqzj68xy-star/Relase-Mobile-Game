@@ -1,324 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6771673346",
-      "title": "Dog Chaos Time - Pranks",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Simulation",
-      "developer": "Arbaz Ali",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/ac/36/d1ac36fc-58a4-181d-7200-ac6149ada427/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d1/ac/36/d1ac36fc-58a4-181d-7200-ac6149ada427/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/dog-chaos-time-pranks/id6771673346?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.aa.dog.life.pranks.sim",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6786195352",
-      "title": "Knock Fever",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Puzzle",
-      "developer": "Kite Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/ef/67/f0ef6787-81e0-3053-4da7-cfe632cf2077/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/ef/67/f0ef6787-81e0-3053-4da7-cfe632cf2077/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/knock-fever/id6786195352?uo=4",
-      "price": "Free",
-      "rating": 4.5,
-      "bundleId": "com.kite.knockfever",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.kite.knockfever"
-    },
-    {
-      "id": "ios_6787455810",
-      "title": "Subterfuge !",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Role Playing",
-      "developer": "Benjamin Brossier",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/12/d0/7912d001-7dfc-a1c1-a024-9d9bda5c34ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/79/12/d0/7912d001-7dfc-a1c1-a024-9d9bda5c34ab/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/subterfuge/id6787455810?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.valox.subterfuge",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6762259775",
-      "title": "O! Hole! – Jeu du Trou Noir",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Arcade",
-      "developer": "SayGames LTD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/3b/5c/6a3b5cb9-be4c-1409-50ec-b47da9c8b8b4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6a/3b/5c/6a3b5cb9-be4c-1409-50ec-b47da9c8b8b4/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/o-hole-jeu-du-trou-noir/id6762259775?uo=4",
-      "price": "Free",
-      "rating": 4.5,
-      "bundleId": "com.guluohhole.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.guluohhole.game"
-    },
-    {
-      "id": "ios_6774086347",
-      "title": "Namedrop: Petit Bac & Culture",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Trivia",
-      "developer": "Matteo QUINTANEIRO",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/f9/7d/52f97d42-13e6-fc4a-705a-b2100301ff8c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/52/f9/7d/52f97d42-13e6-fc4a-705a-b2100301ff8c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/namedrop-petit-bac-culture/id6774086347?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.tichow.namedrop",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.tichow.namedrop"
-    },
-    {
-      "id": "ios_6788327917",
-      "title": "Wrong Way - Quoridor Game",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Board",
-      "developer": "WECS LABS INC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/d7/97/f3d79721-5e91-36e0-aa67-4b5de7861741/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f3/d7/97/f3d79721-5e91-36e0-aa67-4b5de7861741/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/wrong-way-quoridor-game/id6788327917?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.wecslabs.wrongway",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.wecslabs.wrongway"
-    },
-    {
-      "id": "ios_6788643600",
-      "title": "Pixel Break: Bus Sort Puzzle",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Games",
-      "developer": "minthu minthu",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/0d/d7/970dd791-6204-b31f-2aa9-28fa6f2f1f3c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/0d/d7/970dd791-6204-b31f-2aa9-28fa6f2f1f3c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/pixel-break-bus-sort-puzzle/id6788643600?uo=4",
-      "price": "Free",
-      "rating": 4.8,
-      "bundleId": "com.pixelbreak.bussort",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.pixelbreak.bussort"
-    },
-    {
-      "id": "ios_6787536235",
-      "title": "Blackjack 21: Grille Cyber",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Card",
-      "developer": "JPW TECH LTD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/2c/8b/432c8bde-8433-db12-b352-b40b01639f14/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/43/2c/8b/432c8bde-8433-db12-b352-b40b01639f14/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/blackjack-21-grille-cyber/id6787536235?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "tech.jpw.blackjack",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6786617499",
-      "title": "SpinBoss",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Casino",
-      "developer": "Mirthful AB",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/2b/28/8e2b28cb-c8ff-f9a7-6454-549e6215ef58/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8e/2b/28/8e2b28cb-c8ff-f9a7-6454-549e6215ef58/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/spinboss/id6786617499?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.spinboss",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6768559296",
-      "title": "Space Base Idle Tower Defense",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Strategy",
-      "developer": "Evrika Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/ed/db/ebeddb46-0748-6c9e-ee31-f43885fd80b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/ed/db/ebeddb46-0748-6c9e-ee31-f43885fd80b5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/space-base-idle-tower-defense/id6768559296?uo=4",
-      "price": "Free",
-      "rating": 4.9,
-      "bundleId": "com.idle.space.base.tower.defense",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.idle.space.base.tower.defense"
-    },
-    {
-      "id": "ios_6782970806",
-      "title": "Garagey: AI Car Mods & Spotter",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Simulation",
-      "developer": "Aska Cheung",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/52/77/13527788-4425-b232-c832-4ad7b9cc13b4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/13/52/77/13527788-4425-b232-c832-4ad7b9cc13b4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/garagey-ai-car-mods-spotter/id6782970806?uo=4",
-      "price": "Free",
-      "rating": 4.5,
-      "bundleId": "com.aska.carcapture",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6774127018",
-      "title": "Disparition à La Défense",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Puzzle",
-      "developer": "Furet Company",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/38/a9/c038a9df-af01-a19f-3863-8971af28c481/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c0/38/a9/c038a9df-af01-a19f-3863-8971af28c481/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/disparition-%C3%A0-la-d%C3%A9fense/id6774127018?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.furetcompany.ladefense",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.furetcompany.ladefense"
-    },
-    {
-      "id": "ios_6787262206",
-      "title": "One Second Song",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Trivia",
-      "developer": "Mark Gregor",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/1f/77/b01f77ee-7ebb-0b2b-cdd0-ba02f5717c4a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b0/1f/77/b01f77ee-7ebb-0b2b-cdd0-ba02f5717c4a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/one-second-song/id6787262206?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.markgregor.onesecondsong",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6785099716",
-      "title": "Fast Food & Kebab Cooking Shop",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Adventure",
-      "developer": "Abdul Qayyum",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/cf/0a/f5cf0a08-cdde-dc3f-72a5-b299ecb6820a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/cf/0a/f5cf0a08-cdde-dc3f-72a5-b299ecb6820a/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/fast-food-kebab-cooking-shop/id6785099716?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.aag.fast.food.kebab.cooking.shop",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6783545948",
-      "title": "ChessRecall: Ouvertures Échecs",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Strategy",
-      "developer": "Ivan de Jesus Rodriguez Tovar",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/f2/c2/a8f2c2b6-ab26-bab5-368a-82d63d2e9588/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/f2/c2/a8f2c2b6-ab26-bab5-368a-82d63d2e9588/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/chessrecall-ouvertures-%C3%A9checs/id6783545948?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.vanSoftware.chessRecall",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6787869453",
-      "title": "Tidal Wisp - Cedar Whisper",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-10",
-      "genre": "Games",
-      "developer": "Lisa Willis",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/1c/1b/881c1b83-ff30-533d-1380-9c9684bc0a82/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/88/1c/1b/881c1b83-ff30-533d-1380-9c9684bc0a82/AppIcon-0-0-1x_U007ephone-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/tidal-wisp-cedar-whisper/id6787869453?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.savira.gamejoy",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6789348174",
       "title": "Akilon - Bilgi Yarışması",
       "platform": [
@@ -21709,7 +21391,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/evershift-daily/id6790502214?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/evershift-daily/id6790502214?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.astrohound.glasstower",
       "status": "released",
       "source": "itunes",
@@ -22158,7 +21840,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/simulation-moteur/id6817470371?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/simulation-moteur/id6817470371?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.grimvex.simmoteur",
       "status": "released",
       "source": "itunes",
@@ -22283,7 +21965,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/petanque-royale/id6758561573?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/petanque-royale/id6758561573?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.galejadestudio.petanque-royale",
       "status": "released",
       "source": "itunes",
@@ -22354,6 +22036,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.tencent.mhadv"
     }
   ],
-  "lastUpdated": "2026-10-07T15:03:52.466317Z",
-  "totalGames": 1104
+  "lastUpdated": "2026-10-09T14:57:35.191957Z",
+  "totalGames": 1088
 }
