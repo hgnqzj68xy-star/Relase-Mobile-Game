@@ -20694,7 +20694,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/voice-mimic-party/id6808716650?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/voice-mimic-party/id6808716650?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.sing.the.voice.choicer",
       "status": "released",
       "source": "itunes",
@@ -22208,7 +22208,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/globies/id6818083146?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/globies/id6818083146?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.delta-lane.globies",
       "status": "released",
       "source": "itunes",
@@ -22416,7 +22416,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.doubledaggerstudio.littlekittybigcity",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -22436,7 +22436,7 @@
       "price": "7.99€",
       "rating": null,
       "bundleId": "com.keplerinteractive.sifu",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -22457,7 +22457,7 @@
       "price": "9.99€",
       "rating": null,
       "bundleId": "com.poncle.vampirecrawlers",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.poncle.vampirecrawlers"
@@ -22571,6 +22571,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.davestudio.mika"
     }
   ],
-  "lastUpdated": "2026-10-12T14:59:20.425997Z",
+  "lastUpdated": "2026-10-12T17:20:39.739154Z",
   "totalGames": 1111
 }
