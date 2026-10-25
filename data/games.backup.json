@@ -1,354 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6761844920",
-      "title": "Townsmen | A Kingdom Rebuilt",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Strategy",
-      "developer": "HandyGames",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/a8/8f/00a88f3c-24a6-d1a3-d7a8-8328e8aa6b57/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/00/a8/8f/00a88f3c-24a6-d1a3-d7a8-8328e8aa6b57/AppIcon-0-0-1x_U007emarketing-0-5-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/townsmen-a-kingdom-rebuilt/id6761844920?uo=4",
-      "price": "Free",
-      "rating": 2.6,
-      "bundleId": "com.hg.townsmenkingdomrebuilt.trial",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6758077351",
-      "title": "combat de dinosaures 3D",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Adventure",
-      "developer": "Turbo Games LTD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/48/27ef4825-d0e7-d1a4-07fd-433420fbcdd5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/27/ef/48/27ef4825-d0e7-d1a4-07fd-433420fbcdd5/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/combat-de-dinosaures-3d/id6758077351?uo=4",
-      "price": "Free",
-      "rating": 1,
-      "bundleId": "com.tg.primal.dino.beast.battle.simulator",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6761818873",
-      "title": "Sultan's Game",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Games",
-      "developer": "GameTree Entertainment",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/f1/f0/2af1f063-1fad-f0b7-9f9a-0d7a2cfc26fe/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2a/f1/f0/2af1f063-1fad-f0b7-9f9a-0d7a2cfc26fe/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/sultans-game/id6761818873?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.gametree.sultan.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6783834802",
-      "title": "Objets Cachés: Broken Vow F2P",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Adventure",
-      "developer": "DO GAMES LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/2c/e5/942ce59c-048d-8f3e-731d-6c3e00d171aa/Iconf2p-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/94/2c/e5/942ce59c-048d-8f3e-731d-6c3e00d171aa/Iconf2p-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/objets-cach%C3%A9s-broken-vow-f2p/id6783834802?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "com.dominigames.me3.ios.free2play",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6787251224",
-      "title": "Sans masque",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Family",
-      "developer": "Maxime Paolo",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/61/15/47611540-9dad-beb2-4971-bb54ec9c2a8e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/47/61/15/47611540-9dad-beb2-4971-bb54ec9c2a8e/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/sans-masque/id6787251224?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.maximepaolo.sansmasque",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6790505636",
-      "title": "Block Legacy: Puzzle Blast",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Board",
-      "developer": "Stephen Glasson",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/2b/04/042b0455-46c0-7508-fef5-60f8214359e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/2b/04/042b0455-46c0-7508-fef5-60f8214359e4/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/block-legacy-puzzle-blast/id6790505636?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.gmail.stephenglasson.blocklegacy",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6777027695",
-      "title": "Badminton Clash",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Action",
-      "developer": "SO FUNNY NETWORK",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/00/73/6200733b-17b5-4594-f686-ef722190db20/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/62/00/73/6200733b-17b5-4594-f686-ef722190db20/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/badminton-clash/id6777027695?uo=4",
-      "price": "Free",
-      "rating": 1,
-      "bundleId": "com.sofunny.superbadminton.global",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.sofunny.superbadminton.global"
-    },
-    {
-      "id": "ios_6790657906",
-      "title": "HappyMood - PlayMode",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Games",
-      "developer": "Byte Nimble Inc",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/00/2b/fd002b05-2551-194a-0e5d-51d24a142297/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fd/00/2b/fd002b05-2551-194a-0e5d-51d24a142297/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/happymood-playmode/id6790657906?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "app.happymode.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6791423943",
-      "title": "Tower Defense 3DX",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Strategy",
-      "developer": "Yigit Inan Kiremitci",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/5e/b8/eb5eb8ba-90ea-f02b-a04a-51a650cd7166/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/5e/b8/eb5eb8ba-90ea-f02b-a04a-51a650cd7166/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/tower-defense-3dx/id6791423943?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "YK.Tower-Defense",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6772035345",
-      "title": "Realm of Spirits",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Role Playing",
-      "developer": "凡人問仙",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/c9/9a/e2c99a2a-44ec-18be-6614-93e7bad64005/AppIcon-1x_U007epad-0-11-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/c9/9a/e2c99a2a-44ec-18be-6614-93e7bad64005/AppIcon-1x_U007epad-0-11-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/realm-of-spirits/id6772035345?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.xmrg.tw.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6788658401",
-      "title": "Find Guys",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-24",
-      "genre": "Arcade",
-      "developer": "Feel Games Yazilim Oyun ve Bilisim Teknolojileri Anonim Sirketi",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/8f/38/858f386a-12a9-8d18-e534-4c42cf69f59d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/85/8f/38/858f386a-12a9-8d18-e534-4c42cf69f59d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/find-guys/id6788658401?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "gs.feel.FindGuys",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6788884134",
-      "title": "RepRealm: Fitness RPG",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-25",
-      "genre": "Games",
-      "developer": "Francois Sempe",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/f8/a6/a8f8a668-740c-2c0b-d45d-6c7edc3b0c3d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a8/f8/a6/a8f8a668-740c-2c0b-d45d-6c7edc3b0c3d/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/reprealm-fitness-rpg/id6788884134?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.chamallo.repquest",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6791145364",
-      "title": "Sky Shield: Missile Defense",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-25",
-      "genre": "Strategy",
-      "developer": "Andre Grillo",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/65/e2/2a65e254-588a-e910-61d6-125a95acc425/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2a/65/e2/2a65e254-588a-e910-61d6-125a95acc425/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/sky-shield-missile-defense/id6791145364?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.andregrillo.SkyShield",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6775278897",
-      "title": "Aeterna: Jeux Anciens",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-25",
-      "genre": "Board",
-      "developer": "Mohamed Ali BEN MANSOUR",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/11/22/9a112276-2d87-4d17-c52d-563d8ec87270/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/9a/11/22/9a112276-2d87-4d17-c52d-563d8ec87270/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/aeterna-jeux-anciens/id6775278897?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.daly.aeterna",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.daly.aeterna"
-    },
-    {
-      "id": "ios_6792537485",
-      "title": "PetDex",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-25",
-      "genre": "Games",
-      "developer": "Tanguy Cortinovis",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/e8/30/d8e83047-1662-789e-7f6c-b86c4792b259/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/e8/30/d8e83047-1662-789e-7f6c-b86c4792b259/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/petdex/id6792537485?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.cortinovis.petdex",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6792386170",
-      "title": "Roulette Grand Royale",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-25",
-      "genre": "Casino",
-      "developer": "SIGNAL INDUSTRIES LTD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/60/ef/7860ef97-5758-7ce2-7014-175195fe6910/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/60/ef/7860ef97-5758-7ce2-7014-175195fe6910/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/roulette-grand-royale/id6792386170?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "space.signalindustries.roulette",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6787716218",
-      "title": "Murdoku",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-25",
-      "genre": "Board",
-      "developer": "Eric Selva",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/22/39/5322392a-c638-8c7c-8207-ee405fd65147/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/53/22/39/5322392a-c638-8c7c-8207-ee405fd65147/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/murdoku/id6787716218?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "app.whodoku.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=app.whodoku.game"
-    },
-    {
-      "id": "ios_6791325617",
-      "title": "PicRun Game: Snap Race Win",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-25",
-      "genre": "Arcade",
-      "developer": "cagri uzun",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/34/1c/55341c4d-c1f8-2ea5-eadd-5b3db5003104/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/34/1c/55341c4d-c1f8-2ea5-eadd-5b3db5003104/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/picrun-game-snap-race-win/id6791325617?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.cagri.six",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6780375469",
       "title": "Les Petites Vérités",
       "platform": [
@@ -20976,7 +20628,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/tierguess-jeu-entre-amis/id6808947741?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/tierguess-jeu-entre-amis/id6808947741?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.tierguess.app",
       "status": "released",
       "source": "itunes",
@@ -21222,7 +20874,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/1-sur-8-milliards-simu-de-vie/id6821576483?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/1-sur-8-milliards-simu-de-vie/id6821576483?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 2,
       "bundleId": "games.hayo.whilewelive",
       "status": "released",
       "source": "itunes",
@@ -22028,7 +21680,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/ring-tangle-rotate-puzzle/id6795122424?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/ring-tangle-rotate-puzzle/id6795122424?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.7,
       "bundleId": "com.puzzlegames.idlematch",
       "status": "released",
       "source": "itunes",
@@ -22049,7 +21701,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/parcelandco/id6819826902?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/parcelandco/id6819826902?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.parcelandco.game",
       "status": "released",
       "source": "itunes",
@@ -22396,7 +22048,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.proximabeta.kingswar",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.proximabeta.kingswar"
@@ -22407,7 +22059,7 @@
       "platform": [
         "ios"
       ],
-      "releaseDate": "2026-10-23",
+      "releaseDate": "2026-10-21",
       "genre": "Role Playing",
       "developer": "Ryoko Navi Online Co., Limited",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/ae/1d/40ae1de6-2577-dc88-16ef-c739302c6810/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
@@ -22417,7 +22069,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.wzcqmhbels.ios",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -22592,6 +22244,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.quickmagic.kuroko.eu"
     }
   ],
-  "lastUpdated": "2026-10-21T13:25:19.229664Z",
-  "totalGames": 1105
+  "lastUpdated": "2026-10-23T13:04:04.971102Z",
+  "totalGames": 1087
 }
