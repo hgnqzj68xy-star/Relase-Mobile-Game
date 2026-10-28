@@ -20892,7 +20892,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/pliko/id6782852141?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/pliko/id6782852141?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.pliko.pliko",
       "status": "released",
       "source": "itunes",
@@ -23244,7 +23244,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/qinqo-la-bd-interactive/id6819287525?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/qinqo-la-bd-interactive/id6819287525?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "fr.uxav.qinqo",
       "status": "released",
       "source": "itunes",
@@ -23325,7 +23325,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/indie-days/id6819695212?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/indie-days/id6819695212?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.kintsugy.indiedays",
       "status": "released",
       "source": "itunes",
@@ -23652,6 +23652,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.quickmagic.kuroko.eu"
     }
   ],
-  "lastUpdated": "2026-10-26T12:37:27.835350Z",
+  "lastUpdated": "2026-10-26T14:50:40.096570Z",
   "totalGames": 1153
 }
