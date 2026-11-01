@@ -1,299 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6785919923",
-      "title": "Hero Clash Legends",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Strategy",
-      "developer": "Mohsin Afzal",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/2c/dc/8e2cdc5e-98f5-1599-d966-f46c747e274d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/2c/dc/8e2cdc5e-98f5-1599-d966-f46c747e274d/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/hero-clash-legends/id6785919923?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.tr.power.combat.hero.legends",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6769677292",
-      "title": "Wild Monsters Hate You Game",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Games",
-      "developer": "Hamza Rahman",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/f3/81/26f3812c-3914-4907-7444-13817604f4be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/26/f3/81/26f3812c-3914-4907-7444-13817604f4be/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/wild-monsters-hate-you-game/id6769677292?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.run.escape.forest.survival.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6760307397",
-      "title": "Phygitals: Rip TCG Packs",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Sports",
-      "developer": "Phygitals Inc",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/fe/6c/33fe6ccc-e501-ca65-252c-ee0e75ab6c09/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/33/fe/6c/33fe6ccc-e501-ca65-252c-ee0e75ab6c09/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/phygitals-rip-tcg-packs/id6760307397?uo=4",
-      "price": "Free",
-      "rating": 4.9,
-      "bundleId": "com.phygitals.mobile",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6788073725",
-      "title": "HexaDoku",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Board",
-      "developer": "Serkan Ozyilmaz",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/62/e6/b662e6e8-c0b0-b99f-e3f1-14b95327cf06/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/62/e6/b662e6e8-c0b0-b99f-e3f1-14b95327cf06/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/hexadoku/id6788073725?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.goodjobgames.hexnumbers",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757413794",
-      "title": "Dynasty Warriors：Overlords",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Role Playing",
-      "developer": "NEOCRAFT LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/d0/36/59d03655-4e76-464b-3e40-b26134bdd0ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/d0/36/59d03655-4e76-464b-3e40-b26134bdd0ba/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/dynasty-warriors-overlords/id6757413794?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.emagroups.zs",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.emagroups.zs"
-    },
-    {
-      "id": "ios_6792864651",
-      "title": "Pet Pick: Animal Puzzle",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Puzzle",
-      "developer": "Kite Games",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/c8/87/f7c8879e-8aa2-9c27-c821-639f84b5351b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f7/c8/87/f7c8879e-8aa2-9c27-c821-639f84b5351b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/pet-pick-animal-puzzle/id6792864651?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.pksw.petpick",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.pksw.petpick"
-    },
-    {
-      "id": "ios_6790463236",
-      "title": "Before Games",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Family",
-      "developer": "DRICE DAMIEN ROLAND",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/f6/6b/f6f66be8-1f74-d308-16f1-be0a8e5df60f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f6/f6/6b/f6f66be8-1f74-d308-16f1-be0a8e5df60f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/before-games/id6790463236?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.beforeapp.before",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6794362308",
-      "title": "iBuzz",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Trivia",
-      "developer": "Emmanuel FAIVRE",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/ea/eb/1feaeb4c-e809-2fc3-cb66-1ceaf44a95c6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/ea/eb/1feaeb4c-e809-2fc3-cb66-1ceaf44a95c6/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ibuzz/id6794362308?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "fr.ibuzz.ibuzz-mobile",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6792704941",
-      "title": "Cinder Vault Escape Room",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Puzzle",
-      "developer": "sven jens",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/62/99/0a629927-0402-b69d-ca88-6da5b7038c17/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0a/62/99/0a629927-0402-b69d-ca88-6da5b7038c17/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cinder-vault-escape-room/id6792704941?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.cindervault.app",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.cindervault.app"
-    },
-    {
-      "id": "ios_6762871746",
-      "title": "Survie dans l'Ouest sauvage de",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Strategy",
-      "developer": "Fahad Zahid",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/5c/30/be5c30fa-0809-63ea-8cb4-26f3fde7cc50/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/be/5c/30/be5c30fa-0809-63ea-8cb4-26f3fde7cc50/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/survie-dans-louest-sauvage-de/id6762871746?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.fz.dust.west.shadow.cowboy.games",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6670331425",
-      "title": "Eclesiar",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Role Playing",
-      "developer": "JOAO ANDRE SILVA CALDEIRA",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/bc/fb/60bcfb07-c5a2-a48c-02e3-97d6b71dcb1f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/60/bc/fb/60bcfb07-c5a2-a48c-02e3-97d6b71dcb1f/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/eclesiar/id6670331425?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.eclesiar.com",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.eclesiar.com"
-    },
-    {
-      "id": "ios_6756299226",
-      "title": "Cluckmech Oasis",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Strategy",
-      "developer": "Erabit Studios",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/b4/c3/b3b4c314-6908-3318-ff05-fd769298dd1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b3/b4/c3/b3b4c314-6908-3318-ff05-fd769298dd1f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/cluckmech-oasis/id6756299226?uo=4",
-      "price": "Free",
-      "rating": 3,
-      "bundleId": "com.BlackLightStudio.CluckmechOasisEN",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6792360844",
-      "title": "Yaniv : Jeu de Cartes",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Card",
-      "developer": "Sylvestre Bouchot",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/63/13/a06313f3-f334-7a02-ef0c-6da8cdc4ae81/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a0/63/13/a06313f3-f334-7a02-ef0c-6da8cdc4ae81/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/yaniv-jeu-de-cartes/id6792360844?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.sbouchot.Yaniv",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6757268572",
-      "title": "Wrestling 3D: Fighting Game",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-07-31",
-      "genre": "Action",
-      "developer": "Sajawal Saeed",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/c1/29/a8c12994-6ad6-084c-226d-b3e560402296/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a8/c1/29/a8c12994-6ad6-084c-226d-b3e560402296/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/wrestling-3d-fighting-game/id6757268572?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.ss.wrestling2026.fightingarena",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6791994827",
-      "title": "Bone Tide: Horde Survival",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-01",
-      "genre": "Action",
-      "developer": "Software Mansion",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/8e/d5/8d8ed54f-306f-5dc1-5b26-61b7bc8fb4ce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/8e/d5/8d8ed54f-306f-5dc1-5b26-61b7bc8fb4ce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/bone-tide-horde-survival/id6791994827?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.konradreczko.bonetide",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6758725105",
       "title": "Emerald Flower",
       "platform": [
@@ -20904,7 +20611,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/one-tap-tower/id6812797189?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/one-tap-tower/id6812797189?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.lumivogames.onetaptower",
       "status": "released",
       "source": "itunes",
@@ -21667,7 +21374,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/farm-evolution/id6793130627?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/farm-evolution/id6793130627?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.farm.evolution",
       "status": "released",
       "source": "itunes",
@@ -22642,7 +22349,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/phridge/id6819862328?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/phridge/id6819862328?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.verylazypixels.fridge",
       "status": "released",
       "source": "itunes",
@@ -23127,7 +22834,7 @@
         "ios",
         "android"
       ],
-      "releaseDate": "2026-10-29",
+      "releaseDate": "2026-10-28",
       "genre": "Action",
       "developer": "Level Infinite",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e3/3b/9b/e33b9b3d-032c-5c74-4d3c-d45bdeb906d5/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
@@ -23135,9 +22842,9 @@
       "storeUrl": "https://apps.apple.com/fr/app/monster-hunter-outlanders/id6444520814?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/monster-hunter-outlanders/id6444520814?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.9,
       "bundleId": "com.tencent.mhadv",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.tencent.mhadv"
@@ -23149,7 +22856,7 @@
         "ios",
         "android"
       ],
-      "releaseDate": "2026-10-29",
+      "releaseDate": "2026-10-27",
       "genre": "Action",
       "developer": "Netmarble Corporation",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/46/4d/1f464d8e-58e6-2b11-adf1-1e966f1d501d/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
@@ -23157,9 +22864,9 @@
       "storeUrl": "https://apps.apple.com/fr/app/vampir/id6738163891?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/vampir/id6738163891?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 2.6,
       "bundleId": "com.netmarble.thered",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.netmarble.thered"
@@ -23170,7 +22877,7 @@
       "platform": [
         "ios"
       ],
-      "releaseDate": "2026-10-29",
+      "releaseDate": "2026-10-28",
       "genre": "Action",
       "developer": "Hello Games",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/03/f5/1f/03f51f50-cd65-5641-4527-e0795db76285/AppIcon-0-0-1x_U007epad-0-1-85-220.png/100x100bb.jpg",
@@ -23178,9 +22885,9 @@
       "storeUrl": "https://apps.apple.com/fr/app/no-mans-sky/id1615755735?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/no-mans-sky/id1615755735?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.6,
       "bundleId": "uk.co.hellogames.nms",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -23315,6 +23022,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.quickmagic.kuroko.eu"
     }
   ],
-  "lastUpdated": "2026-10-28T14:51:16.208360Z",
-  "totalGames": 1136
+  "lastUpdated": "2026-10-30T14:49:10.705623Z",
+  "totalGames": 1121
 }
