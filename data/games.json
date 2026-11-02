@@ -23817,7 +23817,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.TheFarmerWasReplaced.TheFarmerWasReplaced",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.TheFarmerWasReplaced.TheFarmerWasReplaced"
@@ -23839,7 +23839,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.yesgames.aeternaloop",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.yesgames.aeternaloop"
@@ -24033,6 +24033,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-11-02T15:18:04.041888Z",
+  "lastUpdated": "2026-11-02T17:47:57.215251Z",
   "totalGames": 1167
 }
