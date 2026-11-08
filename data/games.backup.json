@@ -1,265 +1,6 @@
 {
   "games": [
     {
-      "id": "ios_6777735588",
-      "title": "Clash of Myths Glory",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Games",
-      "developer": "WRECK HEAVEN PROD",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/ee/35/39ee3512-35ff-2fb9-9872-ef60551587ba/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/ee/35/39ee3512-35ff-2fb9-9872-ef60551587ba/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/clash-of-myths-glory/id6777735588?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.WreckHeavenProd.ClashOfMyths",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.WreckHeavenProd.ClashOfMyths"
-    },
-    {
-      "id": "ios_6787985938",
-      "title": "Compteur Mus",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Card",
-      "developer": "IBAN GAETAN KAROL DOYHAMBOURE",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/57/93/b95793b5-f78f-2d99-a924-d08d96fa6833/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/57/93/b95793b5-f78f-2d99-a924-d08d96fa6833/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/compteur-mus/id6787985938?uo=4",
-      "price": "Free",
-      "rating": 4.9,
-      "bundleId": "com.iban.compteurmus",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6790234413",
-      "title": "Target Smash - Physics Puzzle",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Arcade",
-      "developer": "Supercent, Inc.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/44/1a/63441af5-c486-11f8-d11b-9427fccf412b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/44/1a/63441af5-c486-11f8-d11b-9427fccf412b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/target-smash-physics-puzzle/id6790234413?uo=4",
-      "storeUrlIos": "https://apps.apple.com/fr/app/target-smash-physics-puzzle/id6790234413?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "com.peb.targetsmash",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.peb.targetsmash"
-    },
-    {
-      "id": "ios_6796654664",
-      "title": "Airplane Manager Tycoon Empire",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Arcade",
-      "developer": "HORUS ENTERTAINMENT PTE. LTD.",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/0f/df/f50fdf84-6549-9e11-8807-d1901bbff456/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/0f/df/f50fdf84-6549-9e11-8807-d1901bbff456/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/airplane-manager-tycoon-empire/id6796654664?uo=4",
-      "storeUrlIos": "https://apps.apple.com/fr/app/airplane-manager-tycoon-empire/id6796654664?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "com.horusent.airplane.manager.tycoon",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6795396087",
-      "title": "Color Rush Puzzle",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Arcade",
-      "developer": "Hong Kong Weisida Technology Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/81/22/4b81221b-e053-2fa6-10c1-0684b5a5c07b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4b/81/22/4b81221b-e053-2fa6-10c1-0684b5a5c07b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/color-rush-puzzle/id6795396087?uo=4",
-      "price": "Free",
-      "rating": 5,
-      "bundleId": "com.arrowrushup.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6787821707",
-      "title": "Card Pop : Tri par Catégorie",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Arcade",
-      "developer": "Sonat Technology Limited",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/76/27/1d762799-503f-dbfb-c7ca-e5babc0b5c07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1d/76/27/1d762799-503f-dbfb-c7ca-e5babc0b5c07/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/card-pop-tri-par-cat%C3%A9gorie/id6787821707?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.card.pop.sort.category.solitaire.puzzle",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.card.pop.sort.category.solitaire.puzzle"
-    },
-    {
-      "id": "ios_6785868009",
-      "title": "Draw to Dig: Hungry EPO",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Strategy",
-      "developer": "Saiman Idress",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/fe/78/92fe7818-ac63-3a2f-5314-dbcfdb746d86/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/92/fe/78/92fe7818-ac63-3a2f-5314-dbcfdb746d86/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/draw-to-dig-hungry-epo/id6785868009?uo=4",
-      "storeUrlIos": "https://apps.apple.com/fr/app/draw-to-dig-hungry-epo/id6785868009?uo=4",
-      "price": "Free",
-      "rating": 4.4,
-      "bundleId": "com.si.drawtodig",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6788106832",
-      "title": "Unread: Phone Detective",
-      "platform": [
-        "ios",
-        "android"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Adventure",
-      "developer": "J&B Creations LLC",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/d2/74/02d274e4-e079-8b99-2a7e-6cfd704ad56d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/02/d2/74/02d274e4-e079-8b99-2a7e-6cfd704ad56d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/unread-phone-detective/id6788106832?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.jbcreations.unread",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr",
-      "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.jbcreations.unread"
-    },
-    {
-      "id": "ios_6785442752",
-      "title": "Love Makeover: Fashion Queen",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Arcade",
-      "developer": "洵 何",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/29/8c/bc298cc0-9a33-dfa4-0365-641472842bbc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/bc/29/8c/bc298cc0-9a33-dfa4-0365-641472842bbc/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/love-makeover-fashion-queen/id6785442752?uo=4",
-      "storeUrlIos": "https://apps.apple.com/fr/app/love-makeover-fashion-queen/id6785442752?uo=4",
-      "price": "Free",
-      "rating": 4.6,
-      "bundleId": "com.love.makeover.dressup.dating.crush.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6787910841",
-      "title": "Woman Life Simulator Game 3D",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Simulation",
-      "developer": "Saad Bin Shafqat",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/f6/99/4df699fd-9681-9322-7a52-1734c5d43b54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4d/f6/99/4df699fd-9681-9322-7a52-1734c5d43b54/AppIcon-1x_U007emarketing-0-8-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/woman-life-simulator-game-3d/id6787910841?uo=4",
-      "price": "Free",
-      "rating": 1,
-      "bundleId": "com.sbs.woman.life.simulator.game",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6791060095",
-      "title": "Primitive Loot Go",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-07",
-      "genre": "Role Playing",
-      "developer": "SF NET",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/7c/42/d47c422a-da16-4bd5-c0bf-45bdf5523741/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/7c/42/d47c422a-da16-4bd5-c0bf-45bdf5523741/AppIcon-0-0-1x_U007emarketing-0-9-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/primitive-loot-go/id6791060095?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.primitivelg.ios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6768860167",
-      "title": "Ticket Hero : Idle RPG",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-08",
-      "genre": "Role Playing",
-      "developer": "Billionairegames",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/9a/74/a79a74aa-68eb-010c-5c45-6db4a04a7c4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/9a/74/a79a74aa-68eb-010c-5c45-6db4a04a7c4e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/ticket-hero-idle-rpg/id6768860167?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.billionairegames.ticketheroios",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
-      "id": "ios_6778761356",
-      "title": "Rise of Dragon Guardians",
-      "platform": [
-        "ios"
-      ],
-      "releaseDate": "2026-08-08",
-      "genre": "Card",
-      "developer": "XING SHI DAI FINANCE & ECONOMY INFORMATION LIMITED",
-      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/f7/d9/08f7d94d-a66c-0adf-a895-9f8e8754d826/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.jpg",
-      "headerImage": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/08/f7/d9/08f7d94d-a66c-0adf-a895-9f8e8754d826/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/1024x1024bb.jpg",
-      "storeUrl": "https://apps.apple.com/fr/app/rise-of-dragon-guardians/id6778761356?uo=4",
-      "price": "Free",
-      "rating": null,
-      "bundleId": "com.eternal.xjgod",
-      "status": "released",
-      "source": "itunes",
-      "country": "fr"
-    },
-    {
       "id": "ios_6787091510",
       "title": "Diamond Earny",
       "platform": [
@@ -21150,7 +20891,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/bus-parade/id6817165497?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/bus-parade/id6817165497?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.bus.parade.traffic.jam.puzzle.game",
       "status": "released",
       "source": "itunes",
@@ -21898,7 +21639,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/dressmaker-design-sew/id6822875734?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/dressmaker-design-sew/id6822875734?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 1.5,
       "bundleId": "com.Ank.dress.make.up",
       "status": "released",
       "source": "itunes",
@@ -22122,7 +21863,7 @@
       "platform": [
         "ios"
       ],
-      "releaseDate": "2026-10-29",
+      "releaseDate": "2026-11-05",
       "genre": "Action",
       "developer": "EYOU TECHNOLOGY LIMITED",
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/5a/e1/fe/5ae1feb4-f36e-0916-b528-9fb06a7c02fb/AppIcon-1x_U007emarketing-0-11-0-85-220-0.png/100x100bb.jpg",
@@ -22132,7 +21873,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.engame.t1sl",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -22358,7 +22099,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/football-boss-club-chairman/id6810774278?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/football-boss-club-chairman/id6810774278?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.akinaksoy.football-boss",
       "status": "released",
       "source": "itunes",
@@ -22746,7 +22487,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/spin-burst/id6826636962?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/spin-burst/id6826636962?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.saint.rotatris",
       "status": "released",
       "source": "itunes",
@@ -22971,7 +22712,7 @@
       "storeUrl": "https://apps.apple.com/fr/app/the-farmer-was-replaced/id6790322035?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/the-farmer-was-replaced/id6790322035?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.8,
       "bundleId": "com.TheFarmerWasReplaced.TheFarmerWasReplaced",
       "status": "released",
       "source": "itunes",
@@ -23036,9 +22777,9 @@
       "storeUrl": "https://apps.apple.com/fr/app/nba-2k27-%C3%A9dition-arcade/id6760640090?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/nba-2k27-%C3%A9dition-arcade/id6760640090?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 4.8,
       "bundleId": "com.2ksports.nba2k27arcade",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -23056,9 +22797,9 @@
       "storeUrl": "https://apps.apple.com/fr/app/crossy-road-rush/id6742085939?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/crossy-road-rush/id6742085939?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.hipsterwhale.crossyroadrush",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -23076,9 +22817,9 @@
       "storeUrl": "https://apps.apple.com/fr/app/food-stylist-design-game/id6749934429?uo=4",
       "storeUrlIos": "https://apps.apple.com/fr/app/food-stylist-design-game/id6749934429?uo=4",
       "price": "Free",
-      "rating": null,
+      "rating": 5,
       "bundleId": "com.zeste.foodstylistplus",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -23189,6 +22930,6 @@
       "country": "fr"
     }
   ],
-  "lastUpdated": "2026-11-04T15:57:31.745980Z",
-  "totalGames": 1124
+  "lastUpdated": "2026-11-06T15:39:00.271440Z",
+  "totalGames": 1111
 }
