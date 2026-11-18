@@ -23893,7 +23893,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.nordcurrent.cruisechefs",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr",
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.nordcurrent.cruisechefs"
@@ -23914,7 +23914,7 @@
       "price": "Free",
       "rating": null,
       "bundleId": "com.btpgaming.mythrip",
-      "status": "upcoming",
+      "status": "released",
       "source": "itunes",
       "country": "fr"
     },
@@ -24023,6 +24023,6 @@
       "storeUrlAndroid": "https://play.google.com/store/apps/details?id=com.playstack.dicevaders"
     }
   ],
-  "lastUpdated": "2026-11-16T15:21:37.456653Z",
+  "lastUpdated": "2026-11-16T17:56:23.964034Z",
   "totalGames": 1155
 }
